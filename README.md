@@ -6,11 +6,11 @@
 </h3>
 
 <h6 align="center">
-  <a href="https://github.com/eldritch-theme/eldritch#-palette">Palette</a>
+  <a href="https://github.com/eldritch-theme/eldritch?tab=readme-ov-file#-palette">Palette</a>
   ·
-  <a href="https://github.com/eldritch-theme/eldritch#-ports">Ports</a>
+  <a href="https://github.com/eldritch-theme/eldritch?tab=readme-ov-file#-ports">Ports</a>
   ·
-  <a href="https://github.com/eldritch-theme/eldritch#-contributing">Contributing</a>
+  <a href="https://github.com/eldritch-theme/eldritch?tab=readme-ov-file#contributing">Contributing</a>
 </h6>
 
 <p>
