@@ -197,7 +197,7 @@ This repo serves as a repo for all the links to Eldritch theme ports as well as 
 </details>
 
 <details>
-<summary>🌐Browsers</summary>
+<summary>🌐 Browsers</summary>
 &nbsp;
 <table>
 <tr>
@@ -207,6 +207,21 @@ This repo serves as a repo for all the links to Eldritch theme ports as well as 
 <tr>
 <td><a href="https://vivaldi.com">Vivaldi</a></td>
 <td><a href="https://github.com/eldritch-theme/eldritch-vivaldi">eldritch-vivaldi</a></td>
+</tr>
+</table>
+</details>
+
+<details>
+<summary>🐚 Shell & CLI Applications</summary>
+&nbsp;
+<table>
+<tr>
+<th>Application</th>
+<th>Theme Repository</th>
+</tr>
+<tr>
+<td><a href="https://github.com/sindresorhus/pure">Pure Prompt</a></td>
+<td><a href="https://github.com/eldritch-theme/eldritch-pure-prompt">eldritch-pure-prompt</a></td>
 </tr>
 </table>
 </details>
