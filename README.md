@@ -232,3 +232,9 @@ This repo serves as a repo for all the links to Eldritch theme ports as well as 
 3. Be sure to checkout the [SPEC.md](https://github.com/eldritch-theme/eldritch/blob/master/SPEC.md) for more info on color usage (WIP)
 4. You can choose to either host the repo on your own account or you can request to be a contributor to the [eldritch-theme](https://github.com/eldritch-theme) and I will approve you so you can maintain the repo along with other under the organization account
 5. Create a pull request to update README.md in this repo to link to the newly created repo
+
+#### Credits
+- [GMK Terror Below](https://cannonkeys.com/products/gmk-terror-below) for the inspiration in colors
+- [Dracula Theme](https://draculatheme.com/) for the inspiration in supplementary colors and structuring. (I used this theme personally for years.)
+- [Moonlight VSCode Theme](https://github.com/atomiks/moonlight-vscode-theme) for color inspiration
+- [Koalight Neovim Theme](https://github.com/Koalhack/koalight.nvim) for color inspiration (a port of the Moonlight VSCode theme for NeoVim)
