@@ -176,7 +176,7 @@ This repo serves as a repo for all the links to Eldritch theme ports as well as 
 </tr>
 <tr>
 <td><a href="https://neovim.io">NeoVim</a></td>
-<td><a href="https://github.com/eldritch-theme/eldritch-nvim">eldritch-nvim</a> (WIP)</td>
+<td><a href="https://github.com/eldritch-theme/eldritch-nvim">eldritch-nvim</a>)</td>
 </tr>
 </table>
 </details>
