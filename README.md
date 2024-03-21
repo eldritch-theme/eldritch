@@ -225,6 +225,10 @@ This repo serves as a repo for all the links to Eldritch theme ports as well as 
 <td><a href="https://github.com/junegunn/fzf">FZF</a></td>
 <td><a href="https://github.com/eldritch-theme/eldritch-fzf">eldritch-fzf</a></td>
 </tr>
+<tr>
+<td><a href="https://github.com/sharkdp/bat">Bat (A cat clone with syntax highlighting and git integration)</a></td>
+<td><a href="https://github.com/eldritch-theme/eldritch-bat">eldritch-bat</a></td>
+</tr>
 </table>
 </details>
 
