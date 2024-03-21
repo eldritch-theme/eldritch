@@ -244,6 +244,11 @@ This repo serves as a repo for all the links to Eldritch theme ports as well as 
 <td><a href="https://github.com/eldritch-theme/eldritch-lsd">eldritch-lsd</a></td>
 <td>A rewrite of GNU ls with lots of added features like colors, icons, tree-view, more formatting options etc.</td>
 </tr>
+<tr>
+<td><a href="https://github.com/aristocratos/btop">btop</a></td>
+<td><a href="https://github.com/eldritch-theme/eldritch-btop">eldritch-btop</a></td>
+<td>Resource monitor that shows usage and stats for processor, memory, disks, network and processes</td>
+</tr>
 </table>
 </details>
 
