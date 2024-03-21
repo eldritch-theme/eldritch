@@ -221,11 +221,19 @@ This repo serves as a repo for all the links to Eldritch theme ports as well as 
 <td><a href="https://github.com/sindresorhus/pure">Pure Prompt</a></td>
 <td><a href="https://github.com/eldritch-theme/eldritch-pure-prompt">eldritch-pure-prompt</a></td>
 </tr>
+<tr>
+<td><a href="https://github.com/junegunn/fzf">FZF</a></td>
+<td><a href="https://github.com/eldritch-theme/eldritch-fzf">eldritch-fzf</a></td>
+</tr>
 </table>
 </details>
 
 ### Contributing
 1. Clone [template repo](https://github.com/eldritch-theme/eldritch-repo-template)
+```
+git clone https://github.com/eldritch-theme/eldritch-repo-template your-port-name
+cd your-port-name && rm -rf .git
+```
 2. Add anything you need, replacing things in README.md as needed
 3. Be sure to checkout the [SPEC.md](https://github.com/eldritch-theme/eldritch/blob/master/SPEC.md) for more info on color usage (WIP)
 4. You can choose to either host the repo on your own account or you can request to be a contributor to the [eldritch-theme](https://github.com/eldritch-theme) and I will approve you so you can maintain the repo along with other under the organization account
