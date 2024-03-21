@@ -195,6 +195,11 @@ This repo serves as a repo for all the links to Eldritch theme ports as well as 
 <td><a href="https://github.com/eldritch-theme/eldritch-wezterm">eldritch-wezterm</a></td>
 <td>WezTerm is a powerful cross-platform terminal emulator and multiplexer written by @wez and implemented in Rust</td>
 </tr>
+<tr>
+<td><a href="https://sw.kovidgoyal.net/kitty/">Kitty</a></td>
+<td><a href="https://github.com/eldritch-theme/eldritch-kitty">eldritch-kitty</a></td>
+<td>The fast, feature-rich, GPU based terminal emulator</td>
+</tr>
 </table>
 </details>
 

@@ -48,13 +48,13 @@
 - AnsiBrightRed
   - #f9515d
 - AnsiBrightGreen
-  - #37f499
+  - #69F8B3
 - AnsiBrightYellow
   - #e9f941
 - AnsiBrightBlue
   - #9071f4
 - AnsiBrightMagenta
-  - #f265b5
+  - #FD92CE
 - AnsiBrightCyan
   - #66e4fd
 - AnsiBrightWhite
