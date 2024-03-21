@@ -171,10 +171,12 @@ This repo serves as a repo for all the links to Eldritch theme ports as well as 
 <tr>
 <td><a href="https://code.visualstudio.com">Visual Studio Code</a></td>
 <td><a href="https://github.com/eldritch-theme/eldritch-vscode">eldritch-vscode</a></td>
+<td>A highly popular Electron based IDE by Microsoft</td>
 </tr>
 <tr>
 <td><a href="https://neovim.io">NeoVim</a></td>
 <td><a href="https://github.com/eldritch-theme/eldritch-nvim">eldritch-nvim</a></td>
+<td>NeoVim is a hyperextensible Vim-based text editor</td>
 </tr>
 </table>
 </details>
@@ -186,10 +188,12 @@ This repo serves as a repo for all the links to Eldritch theme ports as well as 
 <tr>
 <th>Application</th>
 <th>Theme Repository</th>
+<th>Description</th>
 </tr>
 <tr>
 <td><a href="https://wezfurlong.org/wezterm/index.html">Wezterm</a></td>
 <td><a href="https://github.com/eldritch-theme/eldritch-wezterm">eldritch-wezterm</a></td>
+<td>WezTerm is a powerful cross-platform terminal emulator and multiplexer written by @wez and implemented in Rust</td>
 </tr>
 </table>
 </details>
@@ -201,10 +205,12 @@ This repo serves as a repo for all the links to Eldritch theme ports as well as 
 <tr>
 <th>Application</th>
 <th>Theme Repository</th>
+<th>Description</th>
 </tr>
 <tr>
 <td><a href="https://vivaldi.com">Vivaldi</a></td>
 <td><a href="https://github.com/eldritch-theme/eldritch-vivaldi">eldritch-vivaldi</a></td>
+<td>A Chromium based browser focused on security and high levels of customization.</td>
 </tr>
 </table>
 </details>
@@ -216,18 +222,27 @@ This repo serves as a repo for all the links to Eldritch theme ports as well as 
 <tr>
 <th>Application</th>
 <th>Theme Repository</th>
+<th>Description</th>
 </tr>
 <tr>
 <td><a href="https://github.com/sindresorhus/pure">Pure Prompt</a></td>
 <td><a href="https://github.com/eldritch-theme/eldritch-pure-prompt">eldritch-pure-prompt</a></td>
+<td>Pure ZSH prompt</td>
 </tr>
 <tr>
 <td><a href="https://github.com/junegunn/fzf">FZF</a></td>
 <td><a href="https://github.com/eldritch-theme/eldritch-fzf">eldritch-fzf</a></td>
+<td>Fuzzy Finder</td>
 </tr>
 <tr>
-<td><a href="https://github.com/sharkdp/bat">Bat (A cat clone with syntax highlighting and git integration)</a></td>
+<td><a href="https://github.com/sharkdp/bat">Bat</a></td>
 <td><a href="https://github.com/eldritch-theme/eldritch-bat">eldritch-bat</a></td>
+<td>A cat clone with syntax highlighting and git integration</td>
+</tr>
+<tr>
+<td><a href="https://github.com/lsd-rs/lsd">LSD</a></td>
+<td><a href="https://github.com/eldritch-theme/eldritch-bat">eldritch-bat</a></td>
+<td>A rewrite of GNU ls with lots of added features like colors, icons, tree-view, more formatting options etc.</td>
 </tr>
 </table>
 </details>
