@@ -241,7 +241,7 @@ This repo serves as a repo for all the links to Eldritch theme ports as well as 
 </tr>
 <tr>
 <td><a href="https://github.com/lsd-rs/lsd">LSD</a></td>
-<td><a href="https://github.com/eldritch-theme/eldritch-bat">eldritch-bat</a></td>
+<td><a href="https://github.com/eldritch-theme/eldritch-lsd">eldritch-lsd</a></td>
 <td>A rewrite of GNU ls with lots of added features like colors, icons, tree-view, more formatting options etc.</td>
 </tr>
 </table>
