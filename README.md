@@ -220,6 +220,24 @@ This repo serves as a repo for all the links to Eldritch theme ports as well as 
 </table>
 </details>
 
+
+<details>
+<summary>🗒️ Note Taking</summary>
+&nbsp;
+<table>
+<tr>
+<th>Application</th>
+<th>Theme Repository</th>
+<th>Description</th>
+</tr>
+<tr>
+<td><a href="https://obsidian.md">Obsidian</a></td>
+<td><a href="https://github.com/eldritch-theme/eldritch-obsidian">eldritch-obsidian</a></td>
+<td>Obsidian is the private and flexible writing app that adapts to the way you think.</td>
+</tr>
+</table>
+</details>
+
 <details>
 <summary>🐚 Shell & CLI Applications</summary>
 &nbsp;
