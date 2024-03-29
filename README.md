@@ -275,6 +275,9 @@ This repo serves as a repo for all the links to Eldritch theme ports as well as 
 </table>
 </details>
 
+### Wallpapers
+ - Wallpapers can be found under the [wallpaper](https://github.com/eldritch-theme/eldritch/tree/master/wallpaper) directory
+
 ### Contributing
 1. Clone [template repo](https://github.com/eldritch-theme/eldritch-repo-template)
 ```
