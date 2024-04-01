@@ -271,6 +271,11 @@ This repo serves as a repo for all the links to Eldritch theme ports as well as 
 <td><a href="https://github.com/eldritch-theme/eldritch-btop">eldritch-btop</a></td>
 <td>Resource monitor that shows usage and stats for processor, memory, disks, network and processes</td>
 </tr>
+<tr>
+<td><a href="https://github.com/dylanaraps/neofetch">neofetch</a></td>
+<td><a href="https://github.com/eldritch-theme/eldritch-neofetch">eldritch-neofetch</a></td>
+<td>Neofetch displays information about your operating system, software and hardware in an aesthetic and visually pleasing way.</td>
+</tr>
 </table>
 </details>
 
