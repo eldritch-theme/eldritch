@@ -59,3 +59,8 @@
   - #66e4fd
 - AnsiBrightWhite
   - #FFFFFF
+
+
+*** TODO ***
+- Highlight patterns
+- Shades of main palette and use cases for them
