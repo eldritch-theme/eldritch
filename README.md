@@ -282,7 +282,7 @@ This repo serves as a repo for all the links to Eldritch theme ports as well as 
 ### Wallpapers
 
 - Wallpapers can be found under the [wallpaper](https://github.com/eldritch-theme/eldritch/tree/master/wallpaper) directory
-- If you're using [WallpaperEngine](https://www.wallpaperengine.io/en) we have a theme for that too [here]([https://github.com/eldritch-theme/wallpaperengine](https://steamcommunity.com/sharedfiles/filedetails/?id=3209391257))!
+- If you're using [WallpaperEngine](https://www.wallpaperengine.io/en) we have a theme for that too [here](https://steamcommunity.com/sharedfiles/filedetails/?id=3209391257)!
   - Only supports 3440x1440 but if you'd like a different resolution let me know and I can work on it
 
 ### Contributing
