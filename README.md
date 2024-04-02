@@ -279,6 +279,23 @@ This repo serves as a repo for all the links to Eldritch theme ports as well as 
 </table>
 </details>
 
+<details>
+<summary>💬 Communication</summary>
+&nbsp;
+<table>
+<tr>
+<th>Application</th>
+<th>Theme Repository</th>
+<th>Description</th>
+</tr>
+<tr>
+<td><a href="https://slack.com">Slack</a></td>
+<td><a href="https://github.com/eldritch-theme/slack">slack</a></td>
+<td>Slack is a messaging app for business that connects people to the information they need.</td>
+</tr>
+</table>
+</details>
+
 ### Wallpapers
 
 - Wallpapers can be found under the [wallpaper](https://github.com/eldritch-theme/eldritch/tree/master/wallpaper) directory
