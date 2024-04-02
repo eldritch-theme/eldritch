@@ -170,7 +170,7 @@ This repo serves as a repo for all the links to Eldritch theme ports as well as 
 </tr>
 <tr>
 <td><a href="https://code.visualstudio.com">Visual Studio Code</a></td>
-<td><a href="https://github.com/eldritch-theme/eldritch-vscode">eldritch-vscode</a></td>
+<td><a href="https://github.com/eldritch-theme/eldritch">vscode</a></td>
 <td>A highly popular Electron based IDE by Microsoft</td>
 </tr>
 <tr>
@@ -192,12 +192,12 @@ This repo serves as a repo for all the links to Eldritch theme ports as well as 
 </tr>
 <tr>
 <td><a href="https://wezfurlong.org/wezterm/index.html">Wezterm</a></td>
-<td><a href="https://github.com/eldritch-theme/eldritch-wezterm">eldritch-wezterm</a></td>
+<td><a href="https://github.com/eldritch-theme/eldritch">wezterm</a></td>
 <td>WezTerm is a powerful cross-platform terminal emulator and multiplexer written by @wez and implemented in Rust</td>
 </tr>
 <tr>
 <td><a href="https://sw.kovidgoyal.net/kitty/">Kitty</a></td>
-<td><a href="https://github.com/eldritch-theme/eldritch-kitty">eldritch-kitty</a></td>
+<td><a href="https://github.com/eldritch-theme/kitty">kitty</a></td>
 <td>The fast, feature-rich, GPU based terminal emulator</td>
 </tr>
 </table>
@@ -214,7 +214,7 @@ This repo serves as a repo for all the links to Eldritch theme ports as well as 
 </tr>
 <tr>
 <td><a href="https://vivaldi.com">Vivaldi</a></td>
-<td><a href="https://github.com/eldritch-theme/eldritch-vivaldi">eldritch-vivaldi</a></td>
+<td><a href="https://github.com/eldritch-theme/vivaldi">vivaldi</a></td>
 <td>A Chromium based browser focused on security and high levels of customization.</td>
 </tr>
 </table>
@@ -231,7 +231,7 @@ This repo serves as a repo for all the links to Eldritch theme ports as well as 
 </tr>
 <tr>
 <td><a href="https://obsidian.md">Obsidian</a></td>
-<td><a href="https://github.com/eldritch-theme/eldritch-obsidian">eldritch-obsidian</a></td>
+<td><a href="https://github.com/eldritch-theme/obsidian">obsidian</a></td>
 <td>Obsidian is the private and flexible writing app that adapts to the way you think.</td>
 </tr>
 </table>
@@ -248,32 +248,32 @@ This repo serves as a repo for all the links to Eldritch theme ports as well as 
 </tr>
 <tr>
 <td><a href="https://github.com/sindresorhus/pure">Pure Prompt</a></td>
-<td><a href="https://github.com/eldritch-theme/eldritch-pure-prompt">eldritch-pure-prompt</a></td>
+<td><a href="https://github.com/eldritch-theme/pure-prompt">pure-prompt</a></td>
 <td>Pure ZSH prompt</td>
 </tr>
 <tr>
 <td><a href="https://github.com/junegunn/fzf">FZF</a></td>
-<td><a href="https://github.com/eldritch-theme/eldritch-fzf">eldritch-fzf</a></td>
+<td><a href="https://github.com/eldritch-theme/fzf">fzf</a></td>
 <td>Fuzzy Finder</td>
 </tr>
 <tr>
 <td><a href="https://github.com/sharkdp/bat">Bat</a></td>
-<td><a href="https://github.com/eldritch-theme/eldritch-bat">eldritch-bat</a></td>
+<td><a href="https://github.com/eldritch-theme/bat">bat</a></td>
 <td>A cat clone with syntax highlighting and git integration</td>
 </tr>
 <tr>
 <td><a href="https://github.com/lsd-rs/lsd">LSD</a></td>
-<td><a href="https://github.com/eldritch-theme/eldritch-lsd">eldritch-lsd</a></td>
+<td><a href="https://github.com/eldritch-theme/lsd">lsd</a></td>
 <td>A rewrite of GNU ls with lots of added features like colors, icons, tree-view, more formatting options etc.</td>
 </tr>
 <tr>
 <td><a href="https://github.com/aristocratos/btop">btop</a></td>
-<td><a href="https://github.com/eldritch-theme/eldritch-btop">eldritch-btop</a></td>
+<td><a href="https://github.com/eldritch-theme/btop">btop</a></td>
 <td>Resource monitor that shows usage and stats for processor, memory, disks, network and processes</td>
 </tr>
 <tr>
 <td><a href="https://github.com/dylanaraps/neofetch">neofetch</a></td>
-<td><a href="https://github.com/eldritch-theme/eldritch-neofetch">eldritch-neofetch</a></td>
+<td><a href="https://github.com/eldritch-theme/neofetch">neofetch</a></td>
 <td>Neofetch displays information about your operating system, software and hardware in an aesthetic and visually pleasing way.</td>
 </tr>
 </table>
@@ -282,6 +282,7 @@ This repo serves as a repo for all the links to Eldritch theme ports as well as 
 ### Wallpapers
 
 - Wallpapers can be found under the [wallpaper](https://github.com/eldritch-theme/eldritch/tree/master/wallpaper) directory
+- If you're using [WallpaperEngine](https://www.wallpaperengine.io/en) we have a theme for that too [here](https://github.com/eldritch-theme/wallpaperengine)!
 
 ### Contributing
 
