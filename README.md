@@ -170,7 +170,7 @@ This repo serves as a repo for all the links to Eldritch theme ports as well as 
 </tr>
 <tr>
 <td><a href="https://code.visualstudio.com">Visual Studio Code</a></td>
-<td><a href="https://github.com/eldritch-theme/eldritch">vscode</a></td>
+<td><a href="https://github.com/eldritch-theme/vscode">vscode</a></td>
 <td>A highly popular Electron based IDE by Microsoft</td>
 </tr>
 <tr>
@@ -192,13 +192,18 @@ This repo serves as a repo for all the links to Eldritch theme ports as well as 
 </tr>
 <tr>
 <td><a href="https://wezfurlong.org/wezterm/index.html">Wezterm</a></td>
-<td><a href="https://github.com/eldritch-theme/eldritch">wezterm</a></td>
+<td><a href="https://github.com/eldritch-theme/wezterm">wezterm</a></td>
 <td>WezTerm is a powerful cross-platform terminal emulator and multiplexer written by @wez and implemented in Rust</td>
 </tr>
 <tr>
 <td><a href="https://sw.kovidgoyal.net/kitty/">Kitty</a></td>
 <td><a href="https://github.com/eldritch-theme/kitty">kitty</a></td>
 <td>The fast, feature-rich, GPU based terminal emulator</td>
+</tr>
+<tr>
+<td><a href="https://warp.dev">Warp</a></td>
+<td><a href="https://github.com/eldritch-theme/warp">warp</a></td>
+<td>Warp is the terminal reimagined with AI and collaborative tools for better productivity</td>
 </tr>
 </table>
 </details>
