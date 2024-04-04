@@ -301,6 +301,23 @@ This repo serves as a repo for all the links to Eldritch theme ports as well as 
 </table>
 </details>
 
+<details>
+<summary>🎧 Music</summary>
+&nbsp;
+<table>
+<tr>
+<th>Application</th>
+<th>Theme Repository</th>
+<th>Description</th>
+</tr>
+<tr>
+<td><a href="https://spicetify.app">Spicetify</a></td>
+<td><a href="https://github.com/eldritch-theme/spicetify">spicetify</a></td>
+<td>Powerful CLI tool to take control of the Spotify client.</td>
+</tr>
+</table>
+</details>
+
 ### Wallpapers
 
 - Wallpapers can be found under the [wallpaper](https://github.com/eldritch-theme/eldritch/tree/master/wallpaper) directory
