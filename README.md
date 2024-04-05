@@ -235,7 +235,7 @@ This repo serves as a repository for all the links to Eldritch theme ports as we
       <td>No shady privacy policies or back doors for advertisers. Just a lightning fast browser that doesn’t sell you out.</td>
     </tr>
   </table>
-  🙊 Style Scripts
+  🙊 Monkey Style Scripts
   <table>
     <tr>
       <th>Site</th>
