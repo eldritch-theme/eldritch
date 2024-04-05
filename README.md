@@ -161,163 +161,178 @@ This repo serves as a repository for all the links to Eldritch theme ports as we
 </table>
 
 ### 🧵 Ports
-
 <details>
-<summary>🗒️ IDEs</summary>
-&nbsp;
-<table>
-<tr>
-<th>Application</th>
-<th>Theme Repository</th>
-</tr>
-<tr>
-<td><a href="https://code.visualstudio.com">Visual Studio Code</a></td>
-<td><a href="https://github.com/eldritch-theme/vscode">vscode</a></td>
-<td>A highly popular Electron based IDE by Microsoft</td>
-</tr>
-<tr>
-<td><a href="https://neovim.io">NeoVim</a></td>
-<td><a href="https://github.com/eldritch-theme/eldritch.nvim">eldritch.nvim</a></td>
-<td>NeoVim is a hyperextensible Vim-based text editor</td>
-</tr>
-</table>
+  <summary>🗒️ IDEs</summary>
+  &nbsp;
+  <table>
+    <tr>
+      <th>Application</th>
+      <th>Theme Repository</th>
+    </tr>
+    <tr>
+      <td><a href="https://code.visualstudio.com">Visual Studio Code</a></td>
+      <td><a href="https://github.com/eldritch-theme/vscode">vscode</a></td>
+      <td>A highly popular Electron based IDE by Microsoft</td>
+    </tr>
+    <tr>
+      <td><a href="https://neovim.io">NeoVim</a></td>
+      <td><a href="https://github.com/eldritch-theme/eldritch.nvim">eldritch.nvim</a></td>
+      <td>NeoVim is a hyperextensible Vim-based text editor</td>
+    </tr>
+  </table>
 </details>
 
 <details>
-<summary>🖥️ Terminals</summary>
-&nbsp;
-<table>
-<tr>
-<th>Application</th>
-<th>Theme Repository</th>
-<th>Description</th>
-</tr>
-<tr>
-<td><a href="https://wezfurlong.org/wezterm/index.html">Wezterm</a></td>
-<td><a href="https://github.com/eldritch-theme/wezterm">wezterm</a></td>
-<td>WezTerm is a powerful cross-platform terminal emulator and multiplexer written by @wez and implemented in Rust</td>
-</tr>
-<tr>
-<td><a href="https://sw.kovidgoyal.net/kitty/">Kitty</a></td>
-<td><a href="https://github.com/eldritch-theme/kitty">kitty</a></td>
-<td>The fast, feature-rich, GPU based terminal emulator</td>
-</tr>
-<tr>
-<td><a href="https://warp.dev">Warp</a></td>
-<td><a href="https://github.com/eldritch-theme/warp">warp</a></td>
-<td>Warp is the terminal reimagined with AI and collaborative tools for better productivity</td>
-</tr>
-</table>
+  <summary>🖥️ Terminals</summary>
+  &nbsp;
+  <table>
+    <tr>
+      <th>Application</th>
+      <th>Theme Repository</th>
+      <th>Description</th>
+    </tr>
+    <tr>
+      <td><a href="https://wezfurlong.org/wezterm/index.html">Wezterm</a></td>
+      <td><a href="https://github.com/eldritch-theme/wezterm">wezterm</a></td>
+      <td>WezTerm is a powerful cross-platform terminal emulator and multiplexer written by @wez and implemented in Rust
+      </td>
+    </tr>
+    <tr>
+      <td><a href="https://sw.kovidgoyal.net/kitty/">Kitty</a></td>
+      <td><a href="https://github.com/eldritch-theme/kitty">kitty</a></td>
+      <td>The fast, feature-rich, GPU based terminal emulator</td>
+    </tr>
+    <tr>
+      <td><a href="https://warp.dev">Warp</a></td>
+      <td><a href="https://github.com/eldritch-theme/warp">warp</a></td>
+      <td>Warp is the terminal reimagined with AI and collaborative tools for better productivity</td>
+    </tr>
+  </table>
 </details>
 
 <details>
-<summary>🌐 Browsers</summary>
-&nbsp;
-<table>
-<tr>
-<th>Application</th>
-<th>Theme Repository</th>
-<th>Description</th>
-</tr>
-<tr>
-<td><a href="https://vivaldi.com">Vivaldi</a></td>
-<td><a href="https://github.com/eldritch-theme/vivaldi">vivaldi</a></td>
-<td>A Chromium based browser focused on security and high levels of customization.</td>
-</tr>
-</table>
+  <summary>🌐 Browsers</summary>
+  &nbsp;
+  <table>
+    <tr>
+      <th>Application</th>
+      <th>Theme Repository</th>
+      <th>Description</th>
+    </tr>
+    <tr>
+      <td><a href="https://vivaldi.com">Vivaldi</a></td>
+      <td><a href="https://github.com/eldritch-theme/vivaldi">vivaldi</a></td>
+      <td>A Chromium based browser focused on security and high levels of customization.</td>
+    </tr>
+  </table>
+  🙊 Style Scripts
+  <table>
+    <tr>
+      <th>Site</th>
+      <th>Theme Repository</th>
+      <th>Description</th>
+    </tr>
+    <tr>
+      <td><a href="https://duckduckgo.com">DuckDuckGo</a></td>
+      <td><a href="https://github.com/eldritch-theme/duckduckgo">duckduckgo</a></td>
+      <td>A search engine focused on privacy</td>
+    </tr>
+  </table>
 </details>
 
 <details>
-<summary>🗒️ Note Taking</summary>
-&nbsp;
-<table>
-<tr>
-<th>Application</th>
-<th>Theme Repository</th>
-<th>Description</th>
-</tr>
-<tr>
-<td><a href="https://obsidian.md">Obsidian</a></td>
-<td><a href="https://github.com/eldritch-theme/obsidian">obsidian</a></td>
-<td>Obsidian is the private and flexible writing app that adapts to the way you think.</td>
-</tr>
-</table>
+  <summary>🗒️ Note Taking</summary>
+  &nbsp;
+  <table>
+    <tr>
+      <th>Application</th>
+      <th>Theme Repository</th>
+      <th>Description</th>
+    </tr>
+    <tr>
+      <td><a href="https://obsidian.md">Obsidian</a></td>
+      <td><a href="https://github.com/eldritch-theme/obsidian">obsidian</a></td>
+      <td>Obsidian is the private and flexible writing app that adapts to the way you think.</td>
+    </tr>
+  </table>
 </details>
 
 <details>
-<summary>🐚 Shell & CLI Applications</summary>
-&nbsp;
-<table>
-<tr>
-<th>Application</th>
-<th>Theme Repository</th>
-<th>Description</th>
-</tr>
-<tr>
-<td><a href="https://github.com/sindresorhus/pure">Pure Prompt</a></td>
-<td><a href="https://github.com/eldritch-theme/pure-prompt">pure-prompt</a></td>
-<td>Pure ZSH prompt</td>
-</tr>
-<tr>
-<td><a href="https://github.com/junegunn/fzf">FZF</a></td>
-<td><a href="https://github.com/eldritch-theme/fzf">fzf</a></td>
-<td>Fuzzy Finder</td>
-</tr>
-<tr>
-<td><a href="https://github.com/sharkdp/bat">Bat</a></td>
-<td><a href="https://github.com/eldritch-theme/bat">bat</a></td>
-<td>A cat clone with syntax highlighting and git integration</td>
-</tr>
-<tr>
-<td><a href="https://github.com/lsd-rs/lsd">LSD</a></td>
-<td><a href="https://github.com/eldritch-theme/lsd">lsd</a></td>
-<td>A rewrite of GNU ls with lots of added features like colors, icons, tree-view, more formatting options etc.</td>
-</tr>
-<tr>
-<td><a href="https://github.com/aristocratos/btop">btop</a></td>
-<td><a href="https://github.com/eldritch-theme/btop">btop</a></td>
-<td>Resource monitor that shows usage and stats for processor, memory, disks, network and processes</td>
-</tr>
-<tr>
-<td><a href="https://github.com/dylanaraps/neofetch">neofetch</a></td>
-<td><a href="https://github.com/eldritch-theme/neofetch">neofetch</a></td>
-<td>Neofetch displays information about your operating system, software and hardware in an aesthetic and visually pleasing way.</td>
-</tr>
-</table>
+  <summary>🐚 Shell & CLI Applications</summary>
+  &nbsp;
+  <table>
+    <tr>
+      <th>Application</th>
+      <th>Theme Repository</th>
+      <th>Description</th>
+    </tr>
+    <tr>
+      <td><a href="https://github.com/sindresorhus/pure">Pure Prompt</a></td>
+      <td><a href="https://github.com/eldritch-theme/pure-prompt">pure-prompt</a></td>
+      <td>Pure ZSH prompt</td>
+    </tr>
+    <tr>
+      <td><a href="https://github.com/junegunn/fzf">FZF</a></td>
+      <td><a href="https://github.com/eldritch-theme/fzf">fzf</a></td>
+      <td>Fuzzy Finder</td>
+    </tr>
+    <tr>
+      <td><a href="https://github.com/sharkdp/bat">Bat</a></td>
+      <td><a href="https://github.com/eldritch-theme/bat">bat</a></td>
+      <td>A cat clone with syntax highlighting and git integration</td>
+    </tr>
+    <tr>
+      <td><a href="https://github.com/lsd-rs/lsd">LSD</a></td>
+      <td><a href="https://github.com/eldritch-theme/lsd">lsd</a></td>
+      <td>A rewrite of GNU ls with lots of added features like colors, icons, tree-view, more formatting options etc.
+      </td>
+    </tr>
+    <tr>
+      <td><a href="https://github.com/aristocratos/btop">btop</a></td>
+      <td><a href="https://github.com/eldritch-theme/btop">btop</a></td>
+      <td>Resource monitor that shows usage and stats for processor, memory, disks, network and processes</td>
+    </tr>
+    <tr>
+      <td><a href="https://github.com/dylanaraps/neofetch">neofetch</a></td>
+      <td><a href="https://github.com/eldritch-theme/neofetch">neofetch</a></td>
+      <td>Neofetch displays information about your operating system, software and hardware in an aesthetic and visually
+        pleasing way.</td>
+    </tr>
+  </table>
 </details>
 
 <details>
-<summary>💬 Communication</summary>
-&nbsp;
-<table>
-<tr>
-<th>Application</th>
-<th>Theme Repository</th>
-<th>Description</th>
-</tr>
-<tr>
-<td><a href="https://slack.com">Slack</a></td>
-<td><a href="https://github.com/eldritch-theme/slack">slack</a></td>
-<td>Slack is a messaging app for business that connects people to the information they need.</td>
-</tr>
-</table>
+  <summary>💬 Communication</summary>
+  &nbsp;
+  <table>
+    <tr>
+      <th>Application</th>
+      <th>Theme Repository</th>
+      <th>Description</th>
+    </tr>
+    <tr>
+      <td><a href="https://slack.com">Slack</a></td>
+      <td><a href="https://github.com/eldritch-theme/slack">slack</a></td>
+      <td>Slack is a messaging app for business that connects people to the information they need.</td>
+    </tr>
+  </table>
 </details>
 
 <details>
-<summary>🎧 Music</summary>
-&nbsp;
-<table>
-<tr>
-<th>Application</th>
-<th>Theme Repository</th>
-<th>Description</th>
-</tr>
-<tr>
-<td><a href="https://spicetify.app">Spicetify</a></td>
-<td><a href="https://github.com/eldritch-theme/spicetify">spicetify</a></td>
-<td>Powerful CLI tool to take control of the Spotify client.</td>
-</tr>
-</table>
+  <summary>🎧 Music</summary>
+  &nbsp;
+  <table>
+    <tr>
+      <th>Application</th>
+      <th>Theme Repository</th>
+      <th>Description</th>
+    </tr>
+    <tr>
+      <td><a href="https://spicetify.app">Spicetify</a></td>
+      <td><a href="https://github.com/eldritch-theme/spicetify">spicetify</a></td>
+      <td>Powerful CLI tool to take control of the Spotify client.</td>
+    </tr>
+  </table>
 </details>
 
 ### Wallpapers
