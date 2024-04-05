@@ -350,6 +350,23 @@ This repo serves as a repository for all the links to Eldritch theme ports as we
   </table>
 </details>
 
+<details>
+  <summary>🤷 Misc</summary>
+  &nbsp;
+  <table>
+    <tr>
+      <th>Application</th>
+      <th>Theme Repository</th>
+      <th>Description</th>
+    </tr>
+    <tr>
+      <td><a href="https://github.com/anuraghazra/github-readme-stats">GitHub Readme Stats</a></td>
+      <td><a href="https://github.com/eldritch-theme/github-readme-stats">github-readme-stats</a></td>
+      <td>GitHub stat badges for your profile README.</td>
+    </tr>
+  </table>
+</details>
+
 ### Wallpapers
 
 - Wallpapers can be found under the [wallpaper](https://github.com/eldritch-theme/eldritch/tree/master/wallpaper) directory.
