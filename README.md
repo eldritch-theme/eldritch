@@ -361,6 +361,6 @@ cd your-port-name && rm -rf .git
 ```
 
 2. Add anything you need, replacing things in README.md as needed.
-3. Be sure to checkout the [SPEC.md](https://github.com/eldritch-theme/eldritch/blob/master/SPEC.md) for more info on color usage. (WIP)
+3. Be sure to checkout the [SPEC.md](https://github.com/eldritch-theme/eldritch/blob/master/SPEC.md) for more info on color usage.
 4. You can choose to either host the repo on your own account or you can request to be a contributor to the [eldritch-theme](https://github.com/eldritch-theme) and I will approve you so you can maintain the repo along with other under the organization account.
 5. Create a pull request to update README.md in this repo to link to the newly created repo.
