@@ -18,6 +18,11 @@
 <p>
 Eldritch is a community-driven dark theme inspired by Lovecraftian horror. With tones from the dark abyss and an emphasis on green and blue, it caters to those who appreciate the darker side of life.
 </p>
+<p align="center">
+<a href="https://github.com/eldritch-theme/eldritch/stargazers"><img alt="Stargazers" src="https://img.shields.io/github/stars/eldritch-theme/eldritch?style=for-the-badge&logo=starship&color=04d1f9&logoColor=37f499&labelColor=323449"></a>
+<a href="https://github.com/eldritch-theme/eldritch/issues"><img alt="Issues" src="https://img.shields.io/github/issues/eldritch-theme/eldritch?style=for-the-badge&logo=gitbook&color=7081d0&logoColor=37f499&labelColor=323449"></a>   <br/>
+<a href="https://discord.gg/ZJHEEHUAju"><img alt="Discord" src="https://img.shields.io/discord/1225850201084788868?style=for-the-badge&logo=discord&color=37f499&logoColor=37f499&labelColor=323449"></a>
+</p>
 
 <p>
 This repo serves as a repository for all the links to Eldritch theme ports as well as the general documentation and contribution guidelines. The theme is available for a variety of applications and is constantly being updated, expanded, and improved.
