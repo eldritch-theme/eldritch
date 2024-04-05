@@ -315,6 +315,11 @@ This repo serves as a repository for all the links to Eldritch theme ports as we
       <td><a href="https://github.com/eldritch-theme/slack">slack</a></td>
       <td>Slack is a messaging app for business that connects people to the information they need.</td>
     </tr>
+    <tr>
+      <td><a href="https://betterdiscord.app">BetterDiscord</a></td>
+      <td><a href="https://github.com/eldritch-theme/betterdiscord">betterdiscord</a></td>
+      <td>BetterDiscord extends the functionality of DiscordApp by enhancing it with new features.</td>
+    </tr>
   </table>
 </details>
 
