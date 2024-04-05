@@ -10,6 +10,8 @@
   ·
   <a href="https://github.com/eldritch-theme/eldritch?tab=readme-ov-file#-ports">Ports</a>
   ·
+  <a href="https://github.com/eldritch-theme/eldritch?tab=readme-ov-file#wallpapers">Wallpapers</a>
+  ·
   <a href="https://github.com/eldritch-theme/eldritch?tab=readme-ov-file#contributing">Contributing</a>
 </h6>
 
