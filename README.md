@@ -229,6 +229,11 @@ This repo serves as a repository for all the links to Eldritch theme ports as we
       <td><a href="https://github.com/eldritch-theme/vivaldi">vivaldi</a></td>
       <td>A Chromium based browser focused on security and high levels of customization.</td>
     </tr>
+    <tr>
+      <td><a href="https://www.mozilla.org/en-US/firefox/">Firefox</a></td>
+      <td><a href="https://github.com/eldritch-theme/firefox">firefox</a></td>
+      <td>No shady privacy policies or back doors for advertisers. Just a lightning fast browser that doesn’t sell you out.</td>
+    </tr>
   </table>
   🙊 Style Scripts
   <table>
