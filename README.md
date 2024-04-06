@@ -197,6 +197,12 @@ This repo serves as a repository for all the links to Eldritch theme ports as we
       <th>Theme Repository</th>
       <th>Description</th>
     </tr>
+		<tr>
+      <td><a href="https://github.com/microsoft/terminal">Windows Terminal</a></td>
+      <td><a href="https://github.com/eldritch-theme/windows-terminal">windows-terminal</a></td>
+      <td>The Windows Terminal is a modern, fast, efficient, powerful, and productive terminal application for users of command-line tools and shells
+    </td>
+    </tr>
     <tr>
       <td><a href="https://wezfurlong.org/wezterm/index.html">Wezterm</a></td>
       <td><a href="https://github.com/eldritch-theme/wezterm">wezterm</a></td>
