@@ -21,7 +21,7 @@ Eldritch is a community-driven dark theme inspired by Lovecraftian horror. With 
 
 <p align="center">
 <a href="https://github.com/eldritch-theme/eldritch/stargazers"><img alt="Stargazers" src="https://img.shields.io/github/stars/eldritch-theme?style=for-the-badge&logo=starship&color=04d1f9&logoColor=37f499&labelColor=323449"></a>
-<a href="https://github.com/search?o=desc&q=org%3Aeldritch-theme&s=created&type=Issues"><img alt="Issues" src="https://img.shields.io/github/issues-search?query=org:eldritch-theme&style=for-the-badge&logo=gitbook&color=7081d0&logoColor=37f499&labelColor=323449&label=Issues"></a>   <br/>
+<a href="https://github.com/search?o=desc&q=org%3Aeldritch-theme&s=created&type=Issues"><img alt="Issues" src="https://img.shields.io/github/issues-search?query=org:eldritch-theme%20is:open&style=for-the-badge&logo=gitbook&color=7081d0&logoColor=37f499&labelColor=323449&label=Issues"></a>   <br/>
 <a href="https://discord.gg/ZJHEEHUAju"><img alt="Discord" src="https://img.shields.io/discord/1225850201084788868?style=for-the-badge&logo=discord&color=37f499&logoColor=37f499&labelColor=323449"></a>
 </p>
 
