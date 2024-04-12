@@ -289,6 +289,11 @@ This repo serves as a repository for all the links to Eldritch theme ports as we
       <td>Pure ZSH prompt</td>
     </tr>
     <tr>
+      <td><a href="https://spaceship-prompt.sh">Spaceship Prompt</a></td>
+      <td><a href="https://github.com/eldritch-theme/spaceship">spaceship</a></td>
+      <td>Minimalistic, powerful and extremely customizable Zsh prompt</td>
+    </tr>
+    <tr>
       <td><a href="https://github.com/junegunn/fzf">FZF</a></td>
       <td><a href="https://github.com/eldritch-theme/fzf">fzf</a></td>
       <td>Fuzzy Finder</td>
