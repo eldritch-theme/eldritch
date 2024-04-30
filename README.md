@@ -167,6 +167,7 @@ This repo serves as a repository for all the links to Eldritch theme ports as we
 </table>
 
 ### 🧵 Ports
+
 <details>
   <summary>🗒️ IDEs</summary>
   &nbsp;
@@ -318,7 +319,12 @@ This repo serves as a repository for all the links to Eldritch theme ports as we
       <td><a href="https://github.com/dylanaraps/neofetch">neofetch</a></td>
       <td><a href="https://github.com/eldritch-theme/neofetch">neofetch</a></td>
       <td>Neofetch displays information about your operating system, software and hardware in an aesthetic and visually
-        pleasing way.</td>
+        pleasing way.<strong>This repo has been archived. Recommend using fastfetch</strong></td>
+    </tr>
+    <tr>
+      <td><a href="https://github.com/fastfetch-cli/fastfetch">fastfetch</a></td>
+      <td><a href="https://github.com/eldritch-theme/fastfetch">fastfetch</a></td>
+      <td>Fastfetch is a neofetch-like tool for fetching system information and displaying them in a pretty way. It is written mainly in C, with performance and customizability in mind.</td>
     </tr>
   </table>
 </details>
