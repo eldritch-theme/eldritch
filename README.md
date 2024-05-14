@@ -220,6 +220,11 @@ This repo serves as a repository for all the links to Eldritch theme ports as we
       <td><a href="https://github.com/eldritch-theme/warp">warp</a></td>
       <td>Warp is the terminal reimagined with AI and collaborative tools for better productivity</td>
     </tr>
+    <tr>
+      <td><a href="https://iterm2.com">iTerm2</a></td>
+      <td><a href="https://github.com/eldritch-theme/iterm2">iTerm2</a></td>
+      <td>iTerm2 is a replacement for Terminal and the successor to iTerm. It works on Macs with macOS 10.14 or newer. iTerm2 brings the terminal into the modern age with features you never knew you always wanted.</td>
+    </tr>
   </table>
 </details>
 
