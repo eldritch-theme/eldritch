@@ -290,6 +290,10 @@ This repo serves as a repository for all the links to Eldritch theme ports as we
       <th>Description</th>
     </tr>
     <tr>
+      <td><a href="https://fishshell.com">Fish Shell</a></td>
+      <td><a href="https://github.com/eldritch-theme/fish">fish</a></td>
+      <td>The user-friendly command line shell.</td>
+    <tr>
       <td><a href="https://github.com/sindresorhus/pure">Pure Prompt</a></td>
       <td><a href="https://github.com/eldritch-theme/pure-prompt">pure-prompt</a></td>
       <td>Pure ZSH prompt</td>
