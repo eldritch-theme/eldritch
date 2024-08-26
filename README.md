@@ -227,7 +227,7 @@ This repo serves as a repository for all the links to Eldritch theme ports as we
     </tr>
     <tr>
       <td><a href="https://github.com/alacritty/alacritty">Alacritty</a></td>
-      <td><a href="https://github.com/6gk/alacritty">Alacritty</a></td>
+      <td><a href="https://github.com/eldritch-theme/alacritty">Alacritty</a></td>
       <td>Alacritty - A fast, cross-platform, OpenGL terminal emulator.</td>
     </tr>
   </table>
