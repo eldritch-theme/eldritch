@@ -225,6 +225,11 @@ This repo serves as a repository for all the links to Eldritch theme ports as we
       <td><a href="https://github.com/eldritch-theme/iterm2">iTerm2</a></td>
       <td>iTerm2 is a replacement for Terminal and the successor to iTerm. It works on Macs with macOS 10.14 or newer. iTerm2 brings the terminal into the modern age with features you never knew you always wanted.</td>
     </tr>
+    <tr>
+      <td><a href="https://github.com/alacritty/alacritty">Alacritty</a></td>
+      <td><a href="https://github.com/6gk/alacritty">Alacritty</a></td>
+      <td>Alacritty - A fast, cross-platform, OpenGL terminal emulator.</td>
+    </tr>
   </table>
 </details>
 
