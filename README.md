@@ -396,8 +396,14 @@ This repo serves as a repository for all the links to Eldritch theme ports as we
       <td><a href="https://github.com/eldritch-theme/github-readme-stats">github-readme-stats</a></td>
       <td>GitHub stat badges for your profile README.</td>
     </tr>
+	  <tr>
+			<td><a href="https://hyprpanel.com">Hyprpanel</a></td>
+      <td><a href="https://github.com/DWarez/eldritch-hyprpanel">DWarez/eldritch-hyprpanel</a></td>
+      <td>Hyprpanel theme</td>
+	  </tr>
   </table>
 </details>
+
 
 ### Wallpapers
 
