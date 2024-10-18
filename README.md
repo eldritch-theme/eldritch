@@ -344,6 +344,22 @@ This repo serves as a repository for all the links to Eldritch theme ports as we
 </details>
 
 <details>
+  <summary>🥾 Boot Managers / Loaders</summary>
+  &nbsp;
+  <table>
+    <tr>
+      <th>Application</th>
+      <th>Theme Repository</th>
+    </tr>
+    <tr>
+      <td><a href="https://sourceforge.net/projects/refind/">rEFInd</a></td>
+      <td><a href="https://github.com/eldritch-theme/refind">refind</a></td>
+      <td>rEFInd is a popular boot manager for UEFI and EFI based machines. It is a fork of the no longer maintained, <a href="http://refit.sourceforge.net/">rEFIt</a> boot manager.</td>
+    </tr>
+  </table>
+</details>
+
+<details>
   <summary>💬 Communication</summary>
   &nbsp;
   <table>
