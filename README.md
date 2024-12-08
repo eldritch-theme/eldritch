@@ -252,6 +252,11 @@ This repo serves as a repository for all the links to Eldritch theme ports as we
       <td><a href="https://github.com/eldritch-theme/firefox">firefox</a></td>
       <td>No shady privacy policies or back doors for advertisers. Just a lightning fast browser that doesn’t sell you out.</td>
     </tr>
+    <tr>
+      <td><a href="https://zen-browser.app/">Zen</a></td>
+      <td><a href="https://github.com/eldritch-theme/zen">zen</a></td>
+      <td>Firefox based browser with a focus on privacy and customization.</td>
+    </tr>
   </table>
   🙊 Monkey Style Scripts
   <table>
