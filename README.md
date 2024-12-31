@@ -1,8 +1,8 @@
 <h3 align="center">
-	<img src="assets/logo/logo.png" width="150" alt="Logo"/><br/>
-	<img src="assets/misc/transparent.png" height="30" width="0px"/>
-	Eldritch Theme
-	<img src="assets/misc/transparent.png" height="30" width="0px"/>
+ <img src="assets/logo/logo.png" width="150" alt="Logo"/><br/>
+ <img src="assets/misc/transparent.png" height="30" width="0px"/>
+ Eldritch Theme
+ <img src="assets/misc/transparent.png" height="30" width="0px"/>
 </h3>
 
 <h6 align="center">
@@ -198,7 +198,7 @@ This repo serves as a repository for all the links to Eldritch theme ports as we
       <th>Theme Repository</th>
       <th>Description</th>
     </tr>
-		<tr>
+  <tr>
       <td><a href="https://github.com/microsoft/terminal">Windows Terminal</a></td>
       <td><a href="https://github.com/eldritch-theme/windows-terminal">windows-terminal</a></td>
       <td>The Windows Terminal is a modern, fast, efficient, powerful, and productive terminal application for users of command-line tools and shells
@@ -214,6 +214,11 @@ This repo serves as a repository for all the links to Eldritch theme ports as we
       <td><a href="https://sw.kovidgoyal.net/kitty/">Kitty</a></td>
       <td><a href="https://github.com/eldritch-theme/kitty">kitty</a></td>
       <td>The fast, feature-rich, GPU based terminal emulator</td>
+    </tr>
+    <tr>
+      <td><a href="https://ghostty.org/">Ghostty</a></td>
+      <td><a href="https://github.com/eldritch-theme/ghostty">ghostty</a></td>
+      <td>Ghostty is a fast, feature-rich, and cross-platform terminal emulator that uses platform-native UI and GPU acceleration.</td>
     </tr>
     <tr>
       <td><a href="https://warp.dev">Warp</a></td>
@@ -417,14 +422,13 @@ This repo serves as a repository for all the links to Eldritch theme ports as we
       <td><a href="https://github.com/eldritch-theme/github-readme-stats">github-readme-stats</a></td>
       <td>GitHub stat badges for your profile README.</td>
     </tr>
-	  <tr>
-			<td><a href="https://hyprpanel.com">Hyprpanel</a></td>
+   <tr>
+   <td><a href="https://hyprpanel.com">Hyprpanel</a></td>
       <td><a href="https://github.com/DWarez/eldritch-hyprpanel">DWarez/eldritch-hyprpanel</a></td>
       <td>Hyprpanel theme</td>
-	  </tr>
+   </tr>
   </table>
 </details>
-
 
 ### Wallpapers
 
