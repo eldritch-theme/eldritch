@@ -427,6 +427,11 @@ This repo serves as a repository for all the links to Eldritch theme ports as we
       <td><a href="https://github.com/DWarez/eldritch-hyprpanel">DWarez/eldritch-hyprpanel</a></td>
       <td>Hyprpanel theme</td>
    </tr>
+   <tr>
+   <td><a href="https://github.com/abenz1267/walker">Walker</a></td>
+      <td><a href="https://github.com/eldritch-theme/walker">walker</a></td>
+      <td>Walker is a highly extendable application launcher that doesn't hold back on features and usability. Fast. Unclutters your brain. Improves your workflow.</td>
+   </tr>
   </table>
 </details>
 
