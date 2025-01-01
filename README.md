@@ -405,6 +405,11 @@ This repo serves as a repository for all the links to Eldritch theme ports as we
       <td><a href="https://github.com/eldritch-theme/spicetify">spicetify</a></td>
       <td>Powerful CLI tool to take control of the Spotify client.</td>
     </tr>
+    <tr>
+      <td><a href="http://kagi.com">Kagi</a></td>
+      <td><a href="https://github.com/eldritch-theme/kagi">kagi</a></td>
+      <td>Kagi is a paid service because we want to show you high quality, unbiased search results that are in your best interest.</td>
+    </tr>
   </table>
 </details>
 
