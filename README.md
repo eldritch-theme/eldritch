@@ -235,6 +235,11 @@ This repo serves as a repository for all the links to Eldritch theme ports as we
       <td><a href="https://github.com/eldritch-theme/alacritty">Alacritty</a></td>
       <td>Alacritty - A fast, cross-platform, OpenGL terminal emulator.</td>
     </tr>
+    <tr>
+      <td><a href="https://termux.dev">Termux</a></td>
+      <td><a href="https://github.com/system32149/eldritch-termux">eldritch-termux</a></td>
+      <td>Termux is a terminal emulator and GNU/Linux environment application for Android OS.</td>
+     </tr>
   </table>
 </details>
 
