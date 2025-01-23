@@ -268,7 +268,7 @@ This repo serves as a repository for all the links to Eldritch theme ports as we
       <td>Firefox based browser with a focus on privacy and customization.</td>
     </tr>
   </table>
-  🙊 Monkey Style Scripts
+  🙊 UserJS scripts & Browser Extensions
   <table>
     <tr>
       <th>Site</th>
@@ -279,6 +279,11 @@ This repo serves as a repository for all the links to Eldritch theme ports as we
       <td><a href="https://duckduckgo.com">DuckDuckGo</a></td>
       <td><a href="https://github.com/eldritch-theme/duckduckgo">duckduckgo</a></td>
       <td>A search engine focused on privacy</td>
+    </tr>
+    <tr>
+      <td><a href="https://github.com/tridactyl/tridactyl">Tridactyl</a></td>
+      <td><a href="https://github.com/eldritch-theme/tridactyl">tridactyl</a></td>
+      <td>Replace Firefox's default control mechanism with one modelled on the one true editor, Vim.</td>
     </tr>
   </table>
 </details>
