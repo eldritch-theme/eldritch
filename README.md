@@ -398,6 +398,11 @@ This repo serves as a repository for all the links to Eldritch theme ports as we
       <td><a href="https://github.com/eldritch-theme/betterdiscord">betterdiscord</a></td>
       <td>BetterDiscord extends the functionality of DiscordApp by enhancing it with new features.</td>
     </tr>
+    <tr>
+      <td><a href="https://www.thunderbird.net/en-US/">Thunderbird</a></td>
+      <td><a href="https://github.com/eldritch-theme/thunderbird">thunderbird</a></td>
+      <td>Meet Thunderbird, the email and productivity app that maximizes your freedoms. </td>
+    </tr>
   </table>
 </details>
 
