@@ -360,6 +360,11 @@ This repo serves as a repository for all the links to Eldritch theme ports as we
       <td><a href="https://github.com/eldritch-theme/fastfetch">fastfetch</a></td>
       <td>Fastfetch is a neofetch-like tool for fetching system information and displaying them in a pretty way. It is written mainly in C, with performance and customizability in mind.</td>
     </tr>
+    <tr>
+      <td><a href="https://github.com/starship/starship">starship</a></td>
+      <td><a href="https://github.com/2xandrade/eldritch-spaceship">starship</a></td>
+      <td>The minimal, blazing-fast, and infinitely customizable prompt for any shell!</td>
+    </tr>
   </table>
 </details>
 
