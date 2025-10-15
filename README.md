@@ -365,6 +365,11 @@ This repo serves as a repository for all the links to Eldritch theme ports as we
       <td><a href="https://github.com/2xandrade/eldritch-spaceship">starship</a></td>
       <td>The minimal, blazing-fast, and infinitely customizable prompt for any shell!</td>
     </tr>
+    <tr>
+      <td><a href="https://github.com/noctalia-dev/noctalia-shell">noctalia-shell</a></td>
+      <td><a href="https://github.com/eldritch-theme/noctalia">noctalia</a></td>
+      <td>A beautiful, minimal desktop shell for Wayland that actually gets out of your way. Built on Quickshell with a warm lavender aesthetic that you can easily customize to match your vibe.</td>
+    </tr>
   </table>
 </details>
 
