@@ -186,6 +186,11 @@ This repo serves as a repository for all the links to Eldritch theme ports as we
       <td><a href="https://github.com/eldritch-theme/eldritch.nvim">eldritch.nvim</a></td>
       <td>NeoVim is a hyperextensible Vim-based text editor</td>
     </tr>
+    <tr>
+      <td><a href="https://www.gnu.org/software/emacs/">Emacs</a></td>
+      <td><a href="https://github.com/Saboti/eldritch.emacs">eldritch.emacs</a></td>
+      <td>An extensible, customizable, free/libre text editor — and more.</td>
+    </tr>
   </table>
 </details>
 
