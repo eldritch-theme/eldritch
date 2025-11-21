@@ -10,8 +10,6 @@
   ·
   <a href="https://github.com/eldritch-theme/eldritch?tab=readme-ov-file#-ports">Ports</a>
   ·
-  <a href="https://github.com/eldritch-theme/eldritch?tab=readme-ov-file#wallpapers">Wallpapers</a>
-  ·
   <a href="https://github.com/eldritch-theme/eldritch?tab=readme-ov-file#contributing">Contributing</a>
 </h6>
 
@@ -467,14 +465,12 @@ This repo serves as a repository for all the links to Eldritch theme ports as we
       <td><a href="https://github.com/eldritch-theme/walker">walker</a></td>
       <td>Walker is a highly extendable application launcher that doesn't hold back on features and usability. Fast. Unclutters your brain. Improves your workflow.</td>
    </tr>
+   <td>Wallpapers</td>
+      <td><a href="https://github.com/eldritch-theme/wallpapers">wallpapers</a></td>
+      <td>Eldritch wallpapers</td>
+   </tr>
   </table>
 </details>
-
-### Wallpapers
-
-- Wallpapers can be found under the [wallpaper](https://github.com/eldritch-theme/eldritch/tree/master/wallpaper) directory.
-- If you're using [Wallpaper Engine](https://www.wallpaperengine.io/en) we have a theme for that too [here](https://steamcommunity.com/sharedfiles/filedetails/?id=3209391257)!
-  - Only supports 3440x1440 but if you'd like a different resolution let me know and I can work on it.
 
 ### Contributing
 
