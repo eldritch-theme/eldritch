@@ -177,7 +177,7 @@ This repo serves as a repository for all the links to Eldritch theme ports as we
     </tr>
     <tr>
       <td><a href="https://omarchy.org/">Omarchy</a></td>
-      <td><a href="https://github.com/eldritch-theme/omarchy">vscode</a></td>
+      <td><a href="https://github.com/eldritch-theme/omarchy">omarchy</a></td>
       <td>Beautiful, Modern & Opinionated Linux by DHH</td>
     </tr>
   </table>
