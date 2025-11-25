@@ -167,12 +167,30 @@ This repo serves as a repository for all the links to Eldritch theme ports as we
 ### 🧵 Ports
 
 <details>
+  <summary>🌲 Environments</summary>
+  &nbsp;
+  <table>
+    <tr>
+      <th>Environment</th>
+      <th>Theme Repository</th>
+      <th>Description</th>
+    </tr>
+    <tr>
+      <td><a href="https://omarchy.org/">Omarchy</a></td>
+      <td><a href="https://github.com/eldritch-theme/omarchy">vscode</a></td>
+      <td>Beautiful, Modern & Opinionated Linux by DHH</td>
+    </tr>
+  </table>
+</details>
+
+<details>
   <summary>🗒️ IDEs</summary>
   &nbsp;
   <table>
     <tr>
       <th>Application</th>
       <th>Theme Repository</th>
+      <th>Description</th>
     </tr>
     <tr>
       <td><a href="https://code.visualstudio.com">Visual Studio Code</a></td>
