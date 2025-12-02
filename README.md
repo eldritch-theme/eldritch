@@ -407,6 +407,11 @@ This repo serves as a repository for all the links to Eldritch theme ports as we
       <td><a href="https://github.com/eldritch-theme/refind">refind</a></td>
       <td>rEFInd is a popular boot manager for UEFI and EFI based machines. It is a fork of the no longer maintained, <a href="http://refit.sourceforge.net/">rEFIt</a> boot manager.</td>
     </tr>
+    <tr>
+      <td><a href="https://www.gnu.org/software/grub/">Grub</a></td>
+      <td><a href="https://github.com/eldritch-theme/grub">grub</a></td>
+      <td>GNU GRUB is a Multiboot boot loader. It was derived from GRUB, the GRand Unified Bootloader, which was originally designed and implemented by Erich Stefan Boleyn. </td>
+    </tr>
   </table>
 </details>
 
