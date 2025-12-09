@@ -355,6 +355,11 @@ This repo serves as a repository for all the links to Eldritch theme ports as we
       <td>Fuzzy Finder</td>
     </tr>
     <tr>
+      <td><a href="https://github.com/karlstav/cava">Cava</a></td>
+      <td><a href="https://github.com/eldritch-theme/cava">cava</a></td>
+      <td>Cross-platform Audio Visualizer</td>
+    </tr>
+    <tr>
       <td><a href="https://github.com/sharkdp/bat">Bat</a></td>
       <td><a href="https://github.com/eldritch-theme/bat">bat</a></td>
       <td>A cat clone with syntax highlighting and git integration</td>
