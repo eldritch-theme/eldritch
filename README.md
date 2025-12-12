@@ -261,6 +261,11 @@ This repo serves as a repository for all the links to Eldritch theme ports as we
       <td><a href="https://github.com/system32149/eldritch-termux">eldritch-termux</a></td>
       <td>Termux is a terminal emulator and GNU/Linux environment application for Android OS.</td>
      </tr>
+    <tr>
+      <td><a href="https://gitlab.gnome.org/chergert/ptyxis">Ptyxis</a></td>
+      <td><a href="https://github.com/possum-enjoyer/ptyxis">eldritch-ptyxis</a></td>
+      <td>Ptyxis is GTK4 terminal emulator and the default terminal for the fedora workstation</td>
+    </tr>
   </table>
 </details>
 
