@@ -263,7 +263,7 @@ This repo serves as a repository for all the links to Eldritch theme ports as we
      </tr>
     <tr>
       <td><a href="https://gitlab.gnome.org/chergert/ptyxis">Ptyxis</a></td>
-      <td><a href="https://github.com/eldritch-theme/ptyxis">eldritch-ptyxis</a></td>
+      <td><a href="https://github.com/eldritch-theme/ptyxis">ptyxis</a></td>
       <td>Ptyxis is GTK4 terminal emulator and the default terminal for the fedora workstation</td>
     </tr>
   </table>
