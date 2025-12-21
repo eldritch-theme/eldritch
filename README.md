@@ -406,6 +406,11 @@ This repo serves as a repository for all the links to Eldritch theme ports as we
       <td><a href="https://github.com/eldritch-theme/noctalia">noctalia</a></td>
       <td>A beautiful, minimal desktop shell for Wayland that actually gets out of your way. Built on Quickshell with a warm lavender aesthetic that you can easily customize to match your vibe.</td>
     </tr>
+    <tr>
+      <td><a href="https://github.com/sst/opencode">opencode</a></td>
+      <td><a href="https://github.com/eldritch-theme/opencode">opencode</a></td>
+      <td>The open source AI coding agent.</td>
+    </tr>
   </table>
 </details>
 
