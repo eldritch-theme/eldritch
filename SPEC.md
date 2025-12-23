@@ -1,427 +1,450 @@
 ### Eldritch Color Specification
 
-#### 1. Prelude
-##### 1.1 Color Palette
-##### 1.1.1 Standard Colors
-- Background:
-  - #212337
-- Current Line:
-  - #292e42
-- Foreground:
-  - #ebfafa
-- Comment:
-  - #7081d0
-- Cyan:
-  - #04d1f9
-- Green:
-  - #37f499
-- Orange:
-  - #f7c67f
-- Pink:
-  - #f265b5
-- Purple:
-  - #a48cf2
-- Red:
-  - #f16c75
-- Yellow:
-  - #f1fc79
+#### 1. Color Palette
 
-##### 1.1.2 Extended Colors
-- **Background Variants:**
-  - bg_dark: #171928
-  - bg_dark1: #0f101a
-  - bg_highlight: #292e42
-  - terminal_black: #414868
+##### 1.1 Base Colors (Default Palette)
 
-- **Foreground Variants:**
-  - fg_dark: #ABB4DA
-  - fg_gutter: #3b4261
-  - fg_gutter_light: #7081d0
+**Background Colors:**
+- `bg`: #212337 - Main background
+- `bg_dark`: #171928 - Darker background variant (popups, statusline)
+- `bg_highlight`: #292e42 - Highlighted background (current line)
+- `terminal_black`: #414868 - Terminal black color
 
-- **Blue/Cyan Variants:**
-  - cyan: #04d1f9
-  - bright_cyan: #39DDFD
-  - dark_cyan: #10A1BD
-  - blue: #04d1f9 (alias for cyan)
-  - blue0: #3b4261 (darkest blue tone)
-  - blue1: #39DDFD (alias for bright_cyan)
-  - blue2: #10A1BD (alias for dark_cyan)
-  - blue5: #04d1f9 (for operators/delimiters)
-  - blue6: #39DDFD (for regex)
-  - blue7: #3b4261 (for subtle backgrounds)
-  - dark3: #6473B7
-  - dark5: #5866A2
+**Foreground Colors:**
+- `fg`: #ebfafa - Main foreground text
+- `fg_dark`: #ABB4DA - Dimmed foreground
+- `fg_gutter`: #3b4261 - Gutter foreground (line numbers)
+- `fg_gutter_light`: #7081d0 - Lighter gutter variant
 
-- **Green Variants:**
-  - green: #37f499
-  - bright_green: #00FA82
-  - dark_green: #33C57F
-  - green1: #00FA82 (alias for bright_green)
-  - green2: #33C57F (alias for dark_green)
-  - teal: #00FA82 (alias for bright_green)
+**Primary Colors:**
+- `cyan`: #04d1f9 - Primary cyan
+- `bright_cyan`: #39DDFD - Bright cyan variant
+- `dark_cyan`: #10A1BD - Dark cyan variant
+- `green`: #37f499 - Primary green
+- `bright_green`: #00FA82 - Bright green variant
+- `dark_green`: #33C57F - Dark green variant
+- `magenta`: #a48cf2 - Primary magenta/purple
+- `purple`: #a48cf2 - Alias for magenta
+- `magenta2`: #bf4f8e - Secondary magenta
+- `magenta3`: #722f55 - Tertiary magenta
+- `pink`: #f265b5 - Pink color
+- `orange`: #f7c67f - Orange color
+- `yellow`: #f1fc79 - Primary yellow
+- `dark_yellow`: #c0c95f - Dark yellow variant
+- `red`: #f16c75 - Primary red
+- `bright_red`: #f0313e - Bright red variant
 
-- **Purple/Magenta Variants:**
-  - purple: #a48cf2
-  - magenta: #a48cf2
-  - bright_purple: #ad8cff
-  - magenta2: #bf4f8e
-  - magenta3: #722f55
-  - visual: #76639e
-  - bg_visual: #76639e
+**UI Colors:**
+- `visual`: #76639e - Visual selection
+- `bg_visual`: #76639e - Visual selection background
+- `comment`: #7081d0 - Comments and secondary text
+- `dark3`: #6473B7 - Dark blue tone 3
+- `dark5`: #5866A2 - Dark blue tone 5
+- `none`: NONE - Transparent
 
-- **Red Variants:**
-  - red: #f16c75
-  - bright_red: #f0313e
-  - red1: #f0313e (alias for bright_red)
+##### 1.2 Computed Colors
 
-- **Yellow Variants:**
-  - yellow: #f1fc79
-  - dark_yellow: #c0c95f
+These colors are dynamically generated based on the base palette:
 
-- **Pink:**
-  - pink: #f265b5
+- `black`: Darkened version of `bg` (80% darker, min #000000)
+- `border`: Same as `black`
+- `border_highlight`: Darkened version of `comment` (80% darker)
+- `bg_popup`: Same as `bg_dark`
+- `bg_statusline`: Same as `bg_dark`
+- `bg_sidebar`: Configurable (transparent/dark/normal)
+- `bg_float`: Configurable (transparent/dark/normal)
+- `bg_search`: Same as `comment`
+- `fg_sidebar`: Same as `fg_dark`
+- `fg_float`: Same as `fg`
 
-#### 2. Git Colors
-- **Git Status:**
-  - add: #37f499 (green)
-  - change: #7081d0 (comment blue)
-  - delete: #f16c75 (red)
+**Semantic Colors:**
+- `error`: Same as `red` (#f16c75)
+- `warning`: Same as `yellow` (#f1fc79)
+- `info`: Same as `comment` (#7081d0)
+- `hint`: Same as `dark_green` (#33C57F)
+- `todo`: Same as `green` (#37f499)
 
-- **GitSigns:**
-  - add: #37f499 (green)
-  - change: #7081d0 (comment blue)
-  - delete: #f16c75 (red)
+##### 1.3 Git Colors
 
-#### 2.1 UI Color Mappings
-- **Diagnostics:**
-  - error: Uses red (#f16c75)
-  - warning: Uses yellow (#f1fc79)
-  - info: Uses cyan (#04d1f9)
-  - hint: Uses dark_green (#33C57F)
-  - todo: Uses bright_green (#00FA82)
+- `git.add`: #37f499 (green)
+- `git.change`: #7081d0 (comment)
+- `git.delete`: #f16c75 (red)
+- `git.ignore`: #6473B7 (dark3)
 
-- **Diff:**
-  - add: Green-based background
-  - change: Blue-based background
-  - delete: Red-based background
-  - text: Bright cyan-based background
+- `gitSigns.add`: #37f499 (green)
+- `gitSigns.change`: #7081d0 (comment)
+- `gitSigns.delete`: #f16c75 (red)
 
-- **Search:**
-  - bg_search: Purple-based (#76639e for visual selections)
-  - Current search: Orange background (#f7c67f)
+##### 1.4 Diff Colors
 
-- **UI Elements:**
-  - border: Defined for window separators
-  - bg_popup: Background for popup menus
-  - bg_float: Background for floating windows
-  - bg_sidebar: Background for sidebars
-  - bg_statusline: Background for status line
-  - fg_sidebar: Foreground for sidebar text
-  - fg_float: Foreground for floating window text
+- `diff.add`: Darkened green (15% darker)
+- `diff.delete`: Darkened red (15% darker)
+- `diff.change`: Darkened yellow (15% darker)
+- `diff.text`: Same as `cyan` (#04d1f9)
 
-#### 3. Syntax Highlighting
+- `delta.add`: Darkened green (45% darker)
+- `delta.delete`: Darkened red (45% darker)
 
-##### 3.1 Core Syntax Elements
-- **Comments:**
-  - `@comment` → Comment (#7081d0)
-  - `@comment.error` → Error diagnostics
-  - `@comment.hint` → Hint diagnostics
-  - `@comment.info` → Info diagnostics
-  - `@comment.note` → Note diagnostics
-  - `@comment.todo` → TODO comments
-  - `@comment.warning` → Warning diagnostics
+#### 2. Highlight Group Mappings
 
-- **Constants & Literals:**
-  - `@constant` → Constant (links to Constant, uses red #f16c75)
-  - `@constant.builtin` → Built-in constants (links to Special)
-  - `@constant.macro` → Macro constants (links to Define)
-  - `@boolean` → Boolean values (links to Boolean)
-  - `@number` → Numbers (links to Number)
-  - `@number.float` → Floating point numbers (links to Float)
-  - `@character` → Character literals (links to Character, uses orange #f7c67f)
-  - `@character.printf` → Printf format characters (links to SpecialChar)
-  - `@character.special` → Special characters (links to SpecialChar)
+##### 2.1 Base Vim Highlights
 
-- **Strings:**
-  - `@string` → String (yellow #f1fc79)
-  - `@string.documentation` → Documentation strings (yellow)
-  - `@string.escape` → Escape sequences (magenta #a48cf2)
-  - `@string.regexp` → Regular expressions (cyan #04d1f9)
+**Editor UI:**
+- `Normal`: fg → Main foreground, bg → Main background
+- `NormalFloat`: fg → Main foreground, bg → Main background
+- `SignColumn`: bg → Main background
+- `Cursor`: Reversed colors
+- `CursorLineNr`: fg → Green, bold
+- `CursorLine`: bg → Selection color
+- `ColorColumn`: bg → Selection color
+- `LineNr`: fg → Comment color
+- `VertSplit` / `WinSeparator`: fg → Black
+- `Folded`: fg → Comment color
 
-##### 3.2 Functions & Methods
-- `@function` → Functions (links to Function, uses pink #f265b5)
-- `@function.builtin` → Built-in functions (links to Special)
-- `@function.call` → Function calls (links to @function)
-- `@function.macro` → Macro functions (links to Macro)
-- `@function.method` → Methods (links to Function, uses pink #f265b5)
-- `@function.method.call` → Method calls (links to @function.method)
+**Menus & Popups:**
+- `Pmenu`: fg → White, bg → Menu color
+- `PmenuSel`: fg → White, bg → Selection color
+- `PmenuSbar`: bg → Main background
+- `PmenuThumb`: bg → Selection color
+- `FloatBorder`: fg → Green
 
-##### 3.3 Variables & Parameters
-- `@variable` → Variables (cyan #04d1f9)
-- `@variable.builtin` → Built-in variables (red #f16c75)
-- `@variable.member` → Object members/fields (purple #a48cf2)
-- `@variable.parameter` → Function parameters (purple #a48cf2)
-- `@variable.parameter.builtin` → Built-in parameters (blended purple)
+**Comments & Strings:**
+- `Comment`: fg → Comment color (italic configurable)
+- `String`: fg → Yellow
+- `Character`: fg → Pink
+- `Number`: fg → Orange
+- `Boolean`: fg → Cyan
+- `Float`: fg → Orange
 
-##### 3.4 Keywords & Operators
-- `@keyword` → General keywords (green #37f499, styleable)
-- `@keyword.conditional` → Conditional keywords like if, else (links to Conditional)
-- `@keyword.coroutine` → Coroutine/async keywords (links to @keyword)
-- `@keyword.debug` → Debug keywords (links to Debug)
-- `@keyword.directive` → Preprocessor directives (links to PreProc)
-- `@keyword.directive.define` → Define directives (links to Define)
-- `@keyword.exception` → Exception keywords like try, catch (links to Exception)
-- `@keyword.function` → Function definition keywords like func, def (magenta #a48cf2, styleable)
-- `@keyword.import` → Import/include statements (links to Include)
-- `@keyword.operator` → Operator keywords (links to @operator)
-- `@keyword.repeat` → Loop keywords like for, while (links to Repeat)
-- `@keyword.return` → Return keywords (links to @keyword)
-- `@keyword.storage` → Storage class keywords like static, const (links to StorageClass)
-- `@operator` → Operators like +, -, *, -> (cyan #04d1f9)
+**Keywords & Functions:**
+- `Keyword`: fg → Cyan
+- `Function`: fg → Yellow
+- `Operator`: fg → Green
+- `Identifier`: fg → Cyan
+- `Statement`: fg → Green
+- `Conditional`: fg → Purple
+- `Repeat`: fg → Purple
+- `Exception`: fg → Green
 
-##### 3.5 Types & Classes
-- `@type` → Type names (links to Type, uses cyan #04d1f9)
-- `@type.builtin` → Built-in types (blended cyan #04d1f9 at 80% opacity)
-- `@type.definition` → Type definitions (links to Typedef)
-- `@type.qualifier` → Type qualifiers like const, volatile (links to @keyword)
-- `@constructor` → Constructor calls (magenta #a48cf2)
-- `@constructor.tsx` → TSX/React component constructors (cyan #04d1f9)
+**Types & Preprocessor:**
+- `Type`: fg → Orange
+- `StorageClass`: fg → Purple
+- `Structure`: fg → Yellow
+- `PreProc`: fg → Yellow
+- `Include`: fg → Green
+- `Define`: fg → Green
+- `Macro`: fg → Green
 
-##### 3.6 Modules & Imports
-- `@module` → Module/package names (links to Include, uses orange #f7c67f)
-- `@module.builtin` → Built-in modules (red #f16c75)
-- `@namespace.builtin` → Built-in namespaces (links to @variable.builtin)
+**Special Elements:**
+- `Special`: fg → Pink, italic
+- `SpecialComment`: fg → Comment, italic
+- `Title`: fg → Cyan
+- `Label`: fg → Cyan
+- `Todo`: fg → Green, bold, italic
+- `Error`: fg → Bright red
+- `Underlined`: fg → Cyan, underlined
 
-##### 3.7 Properties & Labels
-- `@property` → Object properties and struct fields (purple #a48cf2)
-- `@label` → Labels for goto statements (cyan #04d1f9)
-- `@annotation` → Java-style annotations (links to PreProc)
-- `@attribute` → Rust/C++ attributes and decorators (links to PreProc)
+**Search & Selection:**
+- `Search`: fg → Black, bg → Orange
+- `IncSearch`: fg → Orange, bg → Comment
+- `Visual`: bg → Visual color
+- `VisualNOS`: fg → Visual color
 
-##### 3.8 Punctuation
-- `@punctuation.bracket` → Brackets and parens (fg_dark #ABB4DA)
-- `@punctuation.delimiter` → Delimiters like `.` (cyan #04d1f9)
-- `@punctuation.special` → Special punctuation (cyan #04d1f9)
-- `@punctuation.special.markdown` → Markdown special punctuation (orange #f7c67f)
+**Status & Messages:**
+- `StatusLine`: fg → White, bg → Black
+- `StatusLineNC`: fg → Comment
+- `ErrorMsg`: fg → Bright red
+- `WarningMsg`: fg → Yellow
+- `Question`: fg → Green
 
-##### 3.9 Markup & Documentation
-- `@markup` → Markup text
-- `@markup.emphasis` → Italic/emphasized text
-- `@markup.strong` → Bold text
-- `@markup.italic` → Italic text
-- `@markup.underline` → Underlined text
-- `@markup.strikethrough` → Strikethrough text
-- `@markup.heading` → Headings (Title)
-- `@markup.heading.1.markdown` through `@markup.heading.6.markdown` → Rainbow heading levels
-- `@markup.link` → Links (cyan #04d1f9)
-- `@markup.link.label` → Link labels
-- `@markup.link.label.symbol` → Link symbols
-- `@markup.link.url` → URLs (Underlined)
-- `@markup.list` → List markers (cyan #04d1f9)
-- `@markup.list.checked` → Checked list items (purple #a48cf2)
-- `@markup.list.unchecked` → Unchecked list items (cyan #04d1f9)
-- `@markup.list.markdown` → Markdown list markers (orange #f7c67f, bold)
-- `@markup.raw` → Raw/code text (String)
-- `@markup.raw.markdown_inline` → Inline code (cyan on terminal_black)
-- `@markup.math` → Math expressions
-- `@markup.environment` → LaTeX environments
-- `@markup.environment.name` → Environment names
+**Diff:**
+- `DiffAdd`: fg → Background, bg → Pink
+- `DiffChange`: fg → Orange
+- `DiffDelete`: fg → Red
+- `DiffText`: fg → Comment
 
-##### 3.10 Tags (HTML/XML/JSX)
-- `@tag` → HTML/XML tag names (links to Label)
-- `@tag.attribute` → Tag attributes (links to @property)
-- `@tag.delimiter` → Tag angle brackets < > (links to Delimiter)
-- `@tag.delimiter.tsx` → TSX tag delimiters (blended cyan at 70% opacity)
-- `@tag.tsx` → TSX/JSX tag names (red #f16c75)
-- `@tag.javascript` → JavaScript JSX tag names (red #f16c75)
+**Misc:**
+- `Directory`: fg → Cyan
+- `NonText`: fg → Nontext color
+- `MatchParen`: fg → Foreground, underlined
+- `Conceal`: fg → Comment
 
-##### 3.11 Diff
-- `@diff.plus` → Added lines (DiffAdd)
-- `@diff.minus` → Deleted lines (DiffDelete)
-- `@diff.delta` → Changed lines (DiffChange)
+##### 2.2 TreeSitter Highlights
 
-#### 4. LSP Semantic Tokens
+**Basic Elements:**
+- `@error`: fg → Bright red
+- `@punctuation.delimiter`: fg → Foreground
+- `@punctuation.bracket`: fg → Foreground
+- `@markup.list`: fg → Cyan
 
-##### 4.1 Basic Types
-- `@lsp.type.boolean` → Boolean values
-- `@lsp.type.number` → Numbers
-- `@lsp.type.string` → Strings
-- `@lsp.type.comment` → Comments
-- `@lsp.type.keyword` → Keywords
-- `@lsp.type.operator` → Operators
-- `@lsp.type.const` → Constants
+**Constants:**
+- `@constant`: fg → Bright cyan
+- `@constant.builtin`: fg → Bright cyan
+- `@constant.macro`: fg → Cyan
+- `@markup.link.label.symbol`: fg → Bright cyan
 
-##### 4.2 Functions & Methods
-- `@lsp.type.function` → Functions
-- `@lsp.type.method` → Methods
-- `@lsp.type.macro` → Macros
-- `@lsp.type.macro.library.rust` → Rust library macros (orange #f7c67f)
-- `@lsp.type.macro.rust` → Rust macros (orange #f7c67f)
-- `@lsp.typemod.macro.defaultLibrary.rust` → Rust default library macros (orange)
-- `@lsp.typemod.macro.library.rust` → Rust library macros (orange)
+**Strings:**
+- `@string`: fg → Yellow
+- `@string.regexp`: fg → Yellow
+- `@string.escape`: fg → Cyan
+- `@string.special.symbol`: fg → Green
+- `@character`: fg → Pink
+- `@number`: fg → Green
+- `@boolean`: fg → Green
+- `@number.float`: fg → Pink
 
-##### 4.3 Variables & Parameters
-- `@lsp.type.variable` → Variables
-- `@lsp.type.parameter` → Parameters
-- `@lsp.type.property` → Properties
-- `@lsp.type.generic` → Generic types
-- `@lsp.typemod.variable.callable` → Callable variables (functions)
-- `@lsp.typemod.variable.defaultLibrary` → Built-in variables
-- `@lsp.typemod.variable.injected` → Injected variables
-- `@lsp.typemod.variable.static` → Static variables (constants)
+**Functions:**
+- `@function`: fg → Purple
+- `@function.builtin`: fg → Cyan
+- `@function.macro`: fg → Purple
+- `@function.method`: fg → Purple
 
-##### 4.4 Types & Classes
-- `@lsp.type.class` → Classes
-- `@lsp.type.struct` → Structs
-- `@lsp.type.enum` → Enums
-- `@lsp.type.interface` → Interfaces (blended cyan)
-- `@lsp.type.typeParameter` → Type parameters
-- `@lsp.type.typeAlias` → Type aliases
-- `@lsp.type.builtinType` → Built-in types
-- `@lsp.typemod.type.defaultLibrary` → Built-in library types (blended cyan)
-- `@lsp.typemod.typeAlias.defaultLibrary` → Built-in type aliases (blended cyan)
+**Variables:**
+- `@variable`: fg → Red
+- `@variable.builtin`: fg → Green
+- `@variable.parameter`: fg → Orange
+- `@variable.parameter.reference`: fg → Orange
+- `@variable.member`: fg → Orange
+- `@property`: fg → Bright green
 
-##### 4.5 Modules & Namespaces
-- `@lsp.type.namespace` → Namespaces
-- `@lsp.type.module` → Modules
-- `@lsp.type.namespace.python` → Python namespaces (variables)
+**Keywords:**
+- `@keyword`: fg → Green
+- `@keyword.function`: fg → Cyan
+- `@keyword.function.ruby`: fg → Purple
+- `@keyword.operator`: fg → Purple
+- `@keyword.conditional`: fg → Purple
+- `@keyword.repeat`: fg → Purple
+- `@keyword.exception`: fg → Green
+- `@keyword.include`: fg → Purple
 
-##### 4.6 Special Members
-- `@lsp.type.enumMember` → Enum members
-- `@lsp.type.decorator` → Decorators
-- `@lsp.type.deriveHelper` → Derive helpers
-- `@lsp.type.selfKeyword` → Self keyword
-- `@lsp.type.selfTypeKeyword` → Self type keyword
+**Types:**
+- `@type`: fg → Bright purple
+- `@type.builtin`: fg → Cyan, italic
+- `@type.qualifier`: fg → Purple
+- `@type.def`: fg → Yellow
+- `@constructor`: fg → Cyan
 
-##### 4.7 String & Escape Sequences
-- `@lsp.type.escapeSequence` → Escape sequences
-- `@lsp.type.formatSpecifier` → Format specifiers
+**Other:**
+- `@annotation`: fg → Yellow
+- `@attribute`: fg → Cyan
+- `@module`: fg → Orange
+- `@operator`: fg → Purple
+- `@label`: fg → Cyan
+- `@structure`: fg → Green
 
-##### 4.8 Special Features
-- `@lsp.type.lifetime` → Rust lifetimes
-- `@lsp.type.unresolvedReference` → Unresolved references (error undercurl)
+**Markup:**
+- `@markup`: fg → Orange
+- `@markup.strong`: fg → Orange, bold
+- `@markup.emphasis`: fg → Yellow, italic
+- `@markup.underline`: fg → Orange
+- `@markup.heading`: fg → Purple, bold
+- `@markup.raw`: fg → Yellow
+- `@markup.link.url`: fg → Yellow, italic
+- `@markup.link`: fg → Orange, bold
 
-##### 4.9 Type Modifiers
-- `@lsp.typemod.class.defaultLibrary` → Built-in classes
-- `@lsp.typemod.enum.defaultLibrary` → Built-in enums
-- `@lsp.typemod.enumMember.defaultLibrary` → Built-in enum members
-- `@lsp.typemod.function.defaultLibrary` → Built-in functions
-- `@lsp.typemod.method.defaultLibrary` → Built-in methods
-- `@lsp.typemod.struct.defaultLibrary` → Built-in structs
-- `@lsp.typemod.keyword.async` → Async keywords
-- `@lsp.typemod.keyword.injected` → Injected keywords
-- `@lsp.typemod.operator.injected` → Injected operators
-- `@lsp.typemod.string.injected` → Injected strings
+**Tags:**
+- `@tag`: fg → Cyan
+- `@tag.attribute`: fg → Pink
+- `@tag.delimiter`: fg → Cyan
 
-#### 5. Base Vim Highlight Groups
+**Semantic:**
+- `@class`: fg → Cyan
+- `@struct`: fg → Cyan
+- `@enum`: fg → Cyan
+- `@enumMember`: fg → Green
+- `@event`: fg → Cyan
+- `@interface`: fg → Cyan
+- `@modifier`: fg → Cyan
+- `@regexp`: fg → Yellow
+- `@typeParameter`: fg → Cyan
+- `@decorator`: fg → Cyan
 
-##### 5.1 Editor UI
-- `Normal` → Normal text (fg #ebfafa, bg #212337 or transparent)
-- `NormalNC` → Normal text in non-current windows (dimmed if configured)
-- `NormalFloat` → Floating window text
-- `NormalSB` → Sidebar text
-- `Cursor` → Character under cursor (inverted)
-- `CursorLine` → Current line highlight (bg_highlight #292e42)
-- `CursorColumn` → Current column highlight
-- `CursorLineNr` → Current line number (green #37f499, bold)
-- `LineNr` → Line numbers (purple #a48cf2)
-- `LineNrAbove` → Line numbers above cursor (fg_gutter #3b4261)
-- `LineNrBelow` → Line numbers below cursor (fg_gutter #3b4261)
-- `SignColumn` → Sign column for marks and diagnostics
-- `FoldColumn` → Fold indicator column
-- `Folded` → Folded text (blue on fg_gutter)
-- `ColorColumn` → Color column marker
-- `VertSplit` / `WinSeparator` → Window separators (border color, bold)
+##### 2.3 Plugin-Specific Highlights
 
-##### 5.2 Menus & Popups
-- `Pmenu` → Popup menu normal item (bg_popup background)
-- `PmenuSel` → Popup menu selected item
-- `PmenuMatch` → Matched text in popup menu (blue1 #39DDFD)
-- `PmenuMatchSel` → Matched text in selected item
-- `PmenuSbar` → Popup menu scrollbar
-- `PmenuThumb` → Popup menu scrollbar thumb
-- `WildMenu` → Command-line completion menu
-- `FloatBorder` → Floating window border (green #37f499)
-- `FloatTitle` → Floating window title (cyan #04d1f9)
+**Git Signs:**
+- `GitSignsAdd`: fg → Bright cyan
+- `GitSignsChange`: fg → Cyan
+- `GitSignsDelete`: fg → Bright red
+- `GitSignsAddLn`: fg → Black, bg → Bright cyan
+- `GitSignsChangeLn`: fg → Black, bg → Cyan
+- `GitSignsDeleteLn`: fg → Black, bg → Bright red
+- `GitSignsCurrentLineBlame`: fg → White
 
-##### 5.3 Search & Selection
-- `Search` → Last search pattern highlight (bg_search, purple-based)
-- `IncSearch` → Incremental search (orange #f7c67f on black, inverted)
-- `CurSearch` → Current search match (same as IncSearch)
-- `Visual` → Visual mode selection (bg_visual #76639e)
-- `VisualNOS` → Visual selection when not owning selection
+**Telescope:**
+- `TelescopePromptBorder`: fg → Cyan
+- `TelescopeResultsBorder`: fg → Green
+- `TelescopePreviewBorder`: fg → Green
+- `TelescopeSelection`: fg → White, bg → Selection
+- `TelescopeMultiSelection`: fg → Green, bg → Selection
+- `TelescopeNormal`: fg → Foreground, bg → Background (or transparent)
+- `TelescopeMatching`: fg → Pink
+- `TelescopePromptPrefix`: fg → Green
+- `TelescopeResultsDiffDelete`: fg → Red
+- `TelescopeResultsDiffChange`: fg → Cyan
+- `TelescopeResultsDiffAdd`: fg → Pink
 
-##### 5.4 Messages & Status
-- `StatusLine` → Status line of current window
-- `StatusLineNC` → Status line of non-current windows
-- `ModeMsg` → Mode message (fg_dark, bold)
-- `MsgArea` → Message area (fg_dark)
-- `MoreMsg` → "more-prompt" (blue)
-- `Question` → Hit-enter prompt (blue)
-- `ErrorMsg` → Error messages (error color)
-- `WarningMsg` → Warning messages (warning color)
+**Flash:**
+- `FlashLabel`: bg → Red, fg → Bright white
 
-##### 5.5 Tabs & Buffers
-- `TabLine` → Tab pages line, inactive tabs
-- `TabLineFill` → Tab line filler
-- `TabLineSel` → Active tab (black on blue)
-- `WinBar` → Window bar (same as StatusLine)
-- `WinBarNC` → Window bar in inactive windows
+**Oil-Git:**
+- `OilGitAdded`: fg → Green
+- `OilGitModified`: fg → Yellow
+- `OilGitRenamed`: fg → Purple
+- `OilGitUntracked`: fg → Cyan
+- `OilGitIgnored`: fg → Comment
 
-##### 5.6 Programming Elements
-- `Comment` → Comments (comment #7081d0, styleable)
-- `Constant` → Constants (red #f16c75)
-- `String` → String literals (yellow #f1fc79)
-- `Character` → Character constants (orange #f7c67f)
-- `Number` → Numbers (links to @number)
-- `Boolean` → Boolean values (links to @boolean)
-- `Float` → Floating point numbers (links to @number.float)
-- `Identifier` → Variable names (magenta #a48cf2, styleable)
-- `Function` → Function names (pink #f265b5, styleable)
-- `Statement` → Statements (magenta #a48cf2)
-- `Keyword` → Keywords (dark_cyan #10A1BD, styleable)
-- `Operator` → Operators (cyan #04d1f9)
-- `PreProc` → Preprocessor (dark_cyan #10A1BD)
-- `Type` → Type names (cyan #04d1f9)
-- `Special` → Special symbols (cyan #04d1f9)
-- `Delimiter` → Delimiter characters (links to Special)
-- `Debug` → Debug statements (orange #f7c67f)
-- `Error` → Erroneous constructs (error color)
-- `Todo` → TODO notes (yellow on bg, inverted)
-- `Underlined` → Underlined text
-- `Bold` → Bold text
-- `Italic` → Italic text
+**NvimTree:**
+- `NvimTreeNormal`: fg → Foreground, bg → Menu
+- `NvimTreeVertSplit`: fg → Background, bg → Background
+- `NvimTreeRootFolder`: fg → Foreground, bold
+- `NvimTreeGitDirty`: fg → Yellow
+- `NvimTreeGitNew`: fg → Bright cyan
+- `NvimTreeImageFile`: fg → Purple
+- `NvimTreeFolderIcon`: fg → Green
+- `NvimTreeIndentMarker`: fg → Nontext
+- `NvimTreeEmptyFolderName`: fg → Comment
+- `NvimTreeFolderName`: fg → Foreground
+- `NvimTreeSpecialFile`: fg → Purple, underlined
+- `NvimTreeOpenedFolderName`: fg → Foreground
+- `NvimTreeCursorLine`: bg → Selection
 
-##### 5.7 Spelling
-- `SpellBad` → Misspelled word (error undercurl)
-- `SpellCap` → Word needing capitalization (warning undercurl)
-- `SpellLocal` → Word from another region (info undercurl)
-- `SpellRare` → Rare word (hint undercurl)
+**NeoTree:**
+- `NeoTreeNormal`: fg → Foreground, bg → Menu
+- `NeoTreeNormalNC`: fg → Foreground, bg → Menu
+- `NeoTreeDirectoryName`: fg → Foreground
+- `NeoTreeGitUnstaged`: fg → Bright magenta
+- `NeoTreeGitModified`: fg → Bright magenta
+- `NeoTreeGitUntracked`: fg → Bright cyan
+- `NeoTreeDirectoryIcon`: fg → Green
+- `NeoTreeIndentMarker`: fg → Nontext
+- `NeoTreeDotfile`: fg → Comment
 
-##### 5.8 Diff Mode
-- `DiffAdd` → Added lines (green-based background)
-- `DiffChange` → Changed lines (blue-based background)
-- `DiffDelete` → Deleted lines (red-based background)
-- `DiffText` → Changed text within changed line (bright cyan background)
+**Bufferline:**
+- `BufferLineIndicatorSelected`: fg → Green
+- `BufferLineFill`: bg → Background
+- `BufferLineBufferSelected`: bg → Background
+- `BufferLineSeparator`: fg → Black
 
-##### 5.9 Miscellaneous
-- `Directory` → Directory names (blue)
-- `EndOfBuffer` → Filler lines (~) after buffer end
-- `NonText` → Meta characters and special chars (dark3 #6473B7)
-- `SpecialKey` → Unprintable characters (dark3 #6473B7)
-- `Whitespace` → Whitespace characters when visible (fg_gutter #3b4261)
-- `Conceal` → Concealed text (dark5 #5866A2)
-- `MatchParen` → Matching bracket/paren (orange #f7c67f, bold)
-- `Substitute` → :substitute replacement highlighting (red on black)
-- `QuickFixLine` → Current quickfix item (bg_visual, bold)
-- `Title` → Titles in output (cyan #04d1f9, bold)
+**LSP Diagnostics:**
+- `DiagnosticError`: fg → Red
+- `DiagnosticWarn`: fg → Yellow
+- `DiagnosticInfo`: fg → Cyan
+- `DiagnosticHint`: fg → Cyan
+- `DiagnosticSign*`: Same as Diagnostic* variants
+- `DiagnosticFloating*`: Same as Diagnostic* variants
+- `DiagnosticVirtualText*`: Same as Diagnostic* variants
+- `LspReferenceText`: fg → Orange
+- `LspReferenceRead`: fg → Orange
+- `LspReferenceWrite`: fg → Orange
+- `LspCodeLens`: fg → Cyan
+- `LspInlayHint`: fg → #969696, bg → #2f3146
 
-#### 6. Usage Notes
-- All color aliases (e.g., blue, blue1, green1, teal) are provided for compatibility with different highlight group requirements
-- The `none` color value is set to "NONE" for transparent backgrounds
-- Visual mode uses the `visual` color (#76639e) for selections
-- The color palette is optimized for a dark theme with high contrast and readability
-- Colors are defined in hex format for maximum compatibility across terminals and GUI applications
-- Style options (bold, italic) can be customized through configuration for keywords, functions, variables, and comments
-- LSP semantic tokens provide enhanced syntax highlighting when language servers are available
-- Rust macros receive special treatment with orange coloring to distinguish them from regular functions
+**LSP Saga:**
+- All borders: fg → Green
+- `LspSagaBorderTitle`: fg → Cyan
+- `CodeActionNumber`: fg → Cyan
+
+**Completion (Cmp):**
+- `CmpItemAbbrDeprecated`: fg → White, bg → Background
+- `CmpItemAbbrMatch`: fg → Cyan, bg → Background
+- `CmpItemAbbr`: fg → White, bg → Background
+- `CmpItemKind`: fg → White, bg → Background
+- Various `CmpItemKind*` link to corresponding treesitter groups
+
+**Dashboard:**
+- `DashboardShortCut`: fg → Cyan
+- `DashboardHeader`: fg → Green
+- `DashboardCenter`: fg → Foreground
+- `DashboardFooter`: fg → Green, italic
+- `DashboardKey`: fg → Orange
+- `DashboardDesc`: fg → Cyan
+- `DashboardIcon`: fg → Cyan, bold
+
+**Alpha:**
+- `AlphaHeader`: fg → Green
+- `AlphaButtons`: fg → Cyan
+- `AlphaShortcut`: fg → Orange
+- `AlphaFooter`: fg → Green, italic
+
+**DAP UI:**
+- `DapUIPlayPause`: fg → Bright cyan
+- `DapUIRestart`: fg → Pink
+- `DapUIStop`: fg → Red
+- `DapUIStepOver`: fg → Cyan
+- `DapUIStepInto`: fg → Cyan
+- `DapUIStepOut`: fg → Cyan
+- `DapUIStepBack`: fg → Cyan
+- `DapUIType`: fg → Bright blue
+- `DapUIScope`: fg → Bright purple
+- `DapUIModifiedValue`: fg → Bright purple, bold
+- `DapUIDecoration`: fg → Bright purple
+- `DapUIThread`: fg → Bright cyan
+- `DapUIStoppedThread`: fg → Bright purple
+- `DapUISource`: fg → Bright blue
+- `DapUILineNumber`: fg → Bright purple
+- `DapUIFloatBorder`: fg → Green
+- `DapUIWatchesEmpty`: fg → Purple
+- `DapUIWatchesValue`: fg → Bright cyan
+- `DapUIWatchesError`: fg → Purple
+- `DapUIBreakpointsPath`: fg → Bright purple
+- `DapUIBreakpointsInfo`: fg → Bright cyan
+- `DapUIBreakpointsCurrentLine`: fg → Bright cyan, bold
+- `DapUIWinSelect`: fg → Bright purple, bold
+
+**Notify:**
+- `NotifyInfoIcon`: fg → Pink
+- `NotifyInfoTitle`: fg → Pink
+- `NotifyInfoBorder`: fg → Green
+- `NotifyErrorIcon`: fg → Red
+- `NotifyErrorTitle`: fg → Red
+- `NotifyErrorBorder`: fg → #DD6E6B
+- `NotifyWarnIcon`: fg → Orange
+- `NotifyWarnTitle`: fg → Orange
+- `NotifyWarnBorder`: fg → Yellow
+
+**Other:**
+- `IndentBlanklineContextChar`: fg → Bright red, nocombine
+- `MiniIndentscopeSymbol`: fg → #B5629B
+- `MiniIndentscopeSymbolOff`: fg → #B5629B
+- Rainbow delimiters: Various foreground colors cycling through palette
+
+#### 3. Missing Color Definitions
+
+The following colors are referenced in `groups.lua` but are **not defined** in `colors.lua` base palettes. These need to be computed or added:
+
+- `bright_blue` - Used in DAP UI
+- `bright_magenta` - Used in NeoTree git status
+- `bright_purple` - Used in @type and DAP UI
+- `bright_white` - Used in FlashLabel
+- `menu` - Used in NvimTree, NeoTree, and debug highlights
+- `nontext` - Used for NonText, SpecialKey, indent markers
+- `selection` - Used for CursorLine, ColorColumn, and various selections
+- `white` - Used in StatusLine, Terminal, and menus
+
+#### 4. Implementation Notes
+
+- **Transparency**: Set `bg` to "NONE" for transparent background mode
+- **Sidebar Styles**: Can be "transparent", "dark", or "normal"
+- **Float Styles**: Can be "transparent", "dark", or "normal"
+- **Style Options**: Comments, keywords, functions, and variables support italic/bold configuration
+- **Computed Colors**: Many colors are dynamically darkened/lightened using util functions
+- **LSP Semantic Tokens**: Most link to corresponding TreeSitter or base highlight groups
+- **Plugin Support**: Extensive plugin integrations included
+
+#### 5. Color Usage Summary
+
+**Most Common Foreground Colors:**
+1. Green (#37f499) - Keywords, operators, statements, borders
+2. Cyan (#04d1f9) - Keywords, identifiers, labels, tags
+3. Yellow (#f1fc79) - Strings, functions, preprocessor
+4. Purple (#a48cf2) - Conditionals, repeats, functions
+5. Pink (#f265b5) - Characters, special elements, attributes
+6. Orange (#f7c67f) - Numbers, types, modules
+7. Red (#f16c75) - Variables, errors, deletions
+8. Comment (#7081d0) - Comments, secondary UI elements
+
+**Typical Background Uses:**
+- Main background: #212337
+- Highlight/selection: #292e42 or #76639e
+- Dark UI: #171928
+- Gutter: #3b4261
