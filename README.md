@@ -512,6 +512,10 @@ This repo serves as a repository for all the links to Eldritch theme ports as we
       <td><a href="https://github.com/eldritch-theme/wallpapers">wallpapers</a></td>
       <td>Eldritch wallpapers</td>
    </tr>
+   <td>base16 and base24</td>
+      <td><a href="https://github.com/tinted-theming/schemes">tinted-theming/schemes</a></td>
+      <td>N/A (look to link to repo to left)</td>
+   </tr>
   </table>
 </details>
 
