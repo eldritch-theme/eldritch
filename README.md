@@ -212,6 +212,11 @@ This repo serves as a repository for all the links to Eldritch theme ports as we
       <td><a href="https://github.com/A-kly/eldritch-helix">eldritch-helix</a></td>
       <td> A post-modern modal text editor.</td>
     </tr>
+    <tr>
+      <td><a href="https://zed.dev/">Helix</a></td>
+      <td><a href="https://github.com/edheltzel/eldritch-zed">eldritch-zed</a></td>
+      <td>Zed is a minimal code editor crafted for speed and collaboration with humans and AI.</td>
+    </tr>
   </table>
 </details>
 
