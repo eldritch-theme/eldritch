@@ -317,6 +317,11 @@ This repo serves as a repository for all the links to Eldritch theme ports as we
       <td>A search engine focused on privacy</td>
     </tr>
     <tr>
+      <td><a href="http://kagi.com">Kagi</a></td>
+      <td><a href="https://github.com/eldritch-theme/kagi">kagi</a></td>
+      <td>Kagi is a paid service because we want to show you high quality, unbiased search results that are in your best interest.</td>
+    </tr>
+    <tr>
       <td><a href="https://github.com/tridactyl/tridactyl">Tridactyl</a></td>
       <td><a href="https://github.com/eldritch-theme/tridactyl">tridactyl</a></td>
       <td>Replace Firefox's default control mechanism with one modelled on the one true editor, Vim.</td>
@@ -481,11 +486,6 @@ This repo serves as a repository for all the links to Eldritch theme ports as we
       <td><a href="https://github.com/eldritch-theme/spicetify">spicetify</a></td>
       <td>Powerful CLI tool to take control of the Spotify client.</td>
     </tr>
-    <tr>
-      <td><a href="http://kagi.com">Kagi</a></td>
-      <td><a href="https://github.com/eldritch-theme/kagi">kagi</a></td>
-      <td>Kagi is a paid service because we want to show you high quality, unbiased search results that are in your best interest.</td>
-    </tr>
   </table>
 </details>
 
@@ -533,7 +533,7 @@ git clone https://github.com/eldritch-theme/eldritch-repo-template your-port-nam
 cd your-port-name && rm -rf .git
 ```
 
-2. Add anything you need, replacing things in README.md as needed.
-3. Be sure to checkout the [SPEC.md](https://github.com/eldritch-theme/eldritch/blob/master/SPEC.md) for more info on color usage.
-4. You can choose to either host the repo on your own account or you can request to be a contributor to the [eldritch-theme](https://github.com/eldritch-theme) and I will approve you so you can maintain the repo along with other under the organization account.
-5. Create a pull request to update README.md in this repo to link to the newly created repo.
+1. Add anything you need, replacing things in README.md as needed.
+2. Be sure to checkout the [SPEC.md](https://github.com/eldritch-theme/eldritch/blob/master/SPEC.md) for more info on color usage.
+3. You can choose to either host the repo on your own account or you can request to be a contributor to the [eldritch-theme](https://github.com/eldritch-theme) and I will approve you so you can maintain the repo along with other under the organization account.
+4. Create a pull request to update README.md in this repo to link to the newly created repo.
