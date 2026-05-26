@@ -69,14 +69,14 @@ deploy_palette "abyss" \
 
 # Dusk palette
 deploy_palette "dusk" \
-  background  "#f5f0eb" \
-  currentline "#e8e4de" \
+  background  "#f0f3f4" \
+  currentline "#e2e6e8" \
   foreground  "#1e2029" \
-  comment     "#7081d0" \
-  cyan        "#04d1f9" \
-  green       "#37f499" \
-  orange      "#f7c67f" \
-  pink        "#f265b5" \
-  purple      "#a48cf2" \
-  red         "#f16c75" \
-  yellow      "#f1fc79"
+  comment     "#5b73dc" \
+  cyan        "#0ad6ff" \
+  green       "#38ff9f" \
+  orange      "#ffaf4d" \
+  pink        "#fb5bb6" \
+  purple      "#8a69f7" \
+  red         "#fb5b66" \
+  yellow      "#fff952"
