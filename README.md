@@ -228,80 +228,80 @@ The theme is available for a variety of applications and is constantly being upd
   </tr>
   <tr>
     <td><img src="assets/palette/dusk/circles/background.svg" width="12"/></td>
-    <td>Pale Parchment</td>
-    <td><code>#f5f0eb</code></td>
-    <td><code>rgb(245, 240, 235)</code></td>
-    <td><code>hsl(30°, 33.33%, 94.12%)</code></td>
+    <td>Pale Shore</td>
+    <td><code>#f0f3f4</code></td>
+    <td><code>rgb(240, 243, 244)</code></td>
+    <td><code>hsl(195.0°, 15.4%, 94.9%)</code></td>
   </tr>
   <tr>
     <td><img src="assets/palette/dusk/circles/currentline.svg" width="12"/></td>
-    <td>Weathered Stone</td>
-    <td><code>#e8e4de</code></td>
-    <td><code>rgb(232, 228, 222)</code></td>
-    <td><code>hsl(35.94°, 17.85%, 89.02%)</code></td>
+    <td>Coastal Mist</td>
+    <td><code>#e2e6e8</code></td>
+    <td><code>rgb(226, 230, 232)</code></td>
+    <td><code>hsl(200.0°, 11.5%, 89.8%)</code></td>
   </tr>
   <tr>
     <td><img src="assets/palette/dusk/circles/foreground.svg" width="12"/></td>
     <td>Abyssal Ink</td>
     <td><code>#1e2029</code></td>
     <td><code>rgb(30, 32, 41)</code></td>
-    <td><code>hsl(229.03°, 15.52%, 13.92%)</code></td>
+    <td><code>hsl(229.1°, 15.5%, 13.9%)</code></td>
   </tr>
   <tr>
     <td><img src="assets/palette/dusk/circles/comment.svg" width="12"/></td>
     <td>Faded Rune</td>
-    <td><code>#7081d0</code></td>
-    <td><code>rgb(112, 129, 208)</code></td>
-    <td><code>hsl(229.38°, 50.53%, 62.75%)</code></td>
+    <td><code>#5b73dc</code></td>
+    <td><code>rgb(91, 115, 220)</code></td>
+    <td><code>hsl(228.8°, 64.8%, 61.0%)</code></td>
   </tr>
   <tr>
     <td><img src="assets/palette/dusk/circles/cyan.svg" width="12"/></td>
     <td>Twilight Teal</td>
-    <td><code>#04d1f9</code></td>
-    <td><code>rgb(4, 209, 249)</code></td>
-    <td><code>hsl(189.8°, 96.84%, 49.61%)</code></td>
+    <td><code>#0ad6ff</code></td>
+    <td><code>rgb(10, 214, 255)</code></td>
+    <td><code>hsl(190.0°, 100.0%, 52.0%)</code></td>
   </tr>
   <tr>
     <td><img src="assets/palette/dusk/circles/green.svg" width="12"/></td>
     <td>Dusk Moss</td>
-    <td><code>#37f499</code></td>
-    <td><code>rgb(55, 244, 153)</code></td>
-    <td><code>hsl(151.11°, 89.57%, 58.63%)</code></td>
+    <td><code>#38ff9f</code></td>
+    <td><code>rgb(56, 255, 159)</code></td>
+    <td><code>hsl(151.1°, 100.0%, 61.0%)</code></td>
   </tr>
   <tr>
     <td><img src="assets/palette/dusk/circles/orange.svg" width="12"/></td>
     <td>Ember Glow</td>
-    <td><code>#f7c67f</code></td>
-    <td><code>rgb(247, 198, 127)</code></td>
-    <td><code>hsl(35.5°, 88.24%, 73.33%)</code></td>
+    <td><code>#ffaf4d</code></td>
+    <td><code>rgb(255, 175, 77)</code></td>
+    <td><code>hsl(33.0°, 100.0%, 65.1%)</code></td>
   </tr>
   <tr>
     <td><img src="assets/palette/dusk/circles/pink.svg" width="12"/></td>
     <td>Fading Rose</td>
-    <td><code>#f265b5</code></td>
-    <td><code>rgb(242, 101, 181)</code></td>
-    <td><code>hsl(325.96°, 84.43%, 67.25%)</code></td>
+    <td><code>#fb5bb6</code></td>
+    <td><code>rgb(251, 91, 182)</code></td>
+    <td><code>hsl(325.9°, 95.2%, 67.1%)</code></td>
   </tr>
   <tr>
     <td><img src="assets/palette/dusk/circles/purple.svg" width="12"/></td>
     <td>Vesper Violet</td>
-    <td><code>#a48cf2</code></td>
-    <td><code>rgb(164, 140, 242)</code></td>
-    <td><code>hsl(254.12°, 79.69%, 74.9%)</code></td>
+    <td><code>#8a69f7</code></td>
+    <td><code>rgb(138, 105, 247)</code></td>
+    <td><code>hsl(253.9°, 89.9%, 69.0%)</code></td>
   </tr>
   <tr>
     <td><img src="assets/palette/dusk/circles/red.svg" width="12"/></td>
     <td>Dusk Crimson</td>
-    <td><code>#f16c75</code></td>
-    <td><code>rgb(241, 108, 117)</code></td>
-    <td><code>hsl(355.94°, 82.61%, 68.43%)</code></td>
+    <td><code>#fb5b66</code></td>
+    <td><code>rgb(251, 91, 102)</code></td>
+    <td><code>hsl(355.9°, 95.2%, 67.1%)</code></td>
   </tr>
   <tr>
     <td><img src="assets/palette/dusk/circles/yellow.svg" width="12"/></td>
     <td>Last Light Yellow</td>
-    <td><code>#f1fc79</code></td>
-    <td><code>rgb(241, 252, 121)</code></td>
-    <td><code>hsl(65.04°, 95.62%, 73.14%)</code></td>
+    <td><code>#fff952</code></td>
+    <td><code>rgb(255, 249, 82)</code></td>
+    <td><code>hsl(57.9°, 100.0%, 66.1%)</code></td>
   </tr>
 </table>
 </details>
