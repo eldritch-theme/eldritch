@@ -309,6 +309,28 @@ The theme is available for a variety of applications and is constantly being upd
 ### 🧵 Ports
 
 <details>
+  <summary>⚙️ System</summary>
+  &nbsp;
+  <table>
+    <tr>
+      <th>Component</th>
+      <th>Theme Repository</th>
+      <th>Description</th>
+    </tr>
+    <tr>
+      <td><a href="https://gtk.org/">GTK</a></td>
+      <td><a href="https://github.com/eldritch-theme/gtk">gtk</a></td>
+      <td>GTK is a multi-platform toolkit for creating graphical user interfaces.</td>
+    </tr>
+    <tr>
+      <td><a>Icons</a></td>
+      <td><a href="https://github.com/eldritch-theme/icon-theme">icon-theme</a></td>
+      <td>Icons for the Ancient Ones!</td>
+    </tr>
+  </table>
+</details>
+
+<details>
   <summary>🌲 Environments</summary>
   &nbsp;
   <table>
