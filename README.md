@@ -327,6 +327,11 @@ The theme is available for a variety of applications and is constantly being upd
       <td><a href="https://github.com/eldritch-theme/icon-theme">icon-theme</a></td>
       <td>Icons for the Ancient Ones!</td>
     </tr>
+    <tr>
+      <td><a href="https://github.com/tsujan/Kvantum">Kvantum</a></td>
+      <td><a href="https://github.com/eldritch-theme/kvantum">kvantum</a></td>
+      <td>A Linux SVG-based theme engine for Qt</td>
+    </tr>
   </table>
 </details>
 
