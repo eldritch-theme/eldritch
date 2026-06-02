@@ -308,6 +308,24 @@ The theme is available for a variety of applications and is constantly being upd
 
 ### 🧵 Ports
 
+
+<details>
+  <summary>🪟 Window Managers</summary>
+  &nbsp;
+  <table>
+    <tr>
+      <th>Component</th>
+      <th>Theme Repository</th>
+      <th>Description</th>
+    </tr>
+    <tr>
+      <td><a href="https://i3wm.org/">i3</a></td>
+      <td><a href="https://github.com/eldritch-theme/i3">i3</a></td>
+      <td>A tiling window manager for X11</td>
+    </tr>
+  </table>
+</details>
+
 <details>
   <summary>⚙️ System</summary>
   &nbsp;
