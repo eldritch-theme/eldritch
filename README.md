@@ -61,6 +61,20 @@ The theme is available for a variety of applications and is constantly being upd
     <td><code>hsl(234.78°, 18.7%, 24.12%)</code></td>
   </tr>
   <tr>
+    <td><img src="assets/palette/cthulhu/circles/surface.svg" width="12"/></td>
+    <td>Tidal Surface</td>
+    <td><code>#454759</code></td>
+    <td><code>rgb(69, 71, 89)</code></td>
+    <td><code>hsl(235.02°, 12.4%, 30.98%)</code></td>
+  </tr>
+  <tr>
+    <td><img src="assets/palette/cthulhu/circles/overlay.svg" width="12"/></td>
+    <td>Murk Overlay</td>
+    <td><code>#5b5c66</code></td>
+    <td><code>rgb(91, 92, 102)</code></td>
+    <td><code>hsl(235.26°, 6.1%, 37.84%)</code></td>
+  </tr>
+  <tr>
     <td><img src="assets/palette/cthulhu/circles/foreground.svg" width="12"/></td>
     <td>Lighthouse White</td>
     <td><code>#ebfafa</code></td>
@@ -151,6 +165,20 @@ The theme is available for a variety of applications and is constantly being upd
     <td><code>hsl(233.68°, 20.43%, 18.24%)</code></td>
   </tr>
   <tr>
+    <td><img src="assets/palette/abyss/circles/surface.svg" width="12"/></td>
+    <td>Benthic Surface</td>
+    <td><code>#353746</code></td>
+    <td><code>rgb(53, 55, 70)</code></td>
+    <td><code>hsl(234.43°, 13.88%, 24.12%)</code></td>
+  </tr>
+  <tr>
+    <td><img src="assets/palette/abyss/circles/overlay.svg" width="12"/></td>
+    <td>Hadal Overlay</td>
+    <td><code>#474852</code></td>
+    <td><code>rgb(71, 72, 82)</code></td>
+    <td><code>hsl(235.17°, 7.32%, 30.0%)</code></td>
+  </tr>
+  <tr>
     <td><img src="assets/palette/abyss/circles/foreground.svg" width="12"/></td>
     <td>Pale Specter</td>
     <td><code>#d8e6e6</code></td>
@@ -239,6 +267,20 @@ The theme is available for a variety of applications and is constantly being upd
     <td><code>#e2e6e8</code></td>
     <td><code>rgb(226, 230, 232)</code></td>
     <td><code>hsl(200.0°, 11.5%, 89.8%)</code></td>
+  </tr>
+  <tr>
+    <td><img src="assets/palette/dusk/circles/surface.svg" width="12"/></td>
+    <td>Tidal Flat</td>
+    <td><code>#d5d9db</code></td>
+    <td><code>rgb(213, 217, 219)</code></td>
+    <td><code>hsl(205.0°, 7.69%, 84.71%)</code></td>
+  </tr>
+  <tr>
+    <td><img src="assets/palette/dusk/circles/overlay.svg" width="12"/></td>
+    <td>Dusk Haze</td>
+    <td><code>#c9cbcd</code></td>
+    <td><code>rgb(201, 203, 205)</code></td>
+    <td><code>hsl(210.0°, 3.85%, 79.61%)</code></td>
   </tr>
   <tr>
     <td><img src="assets/palette/dusk/circles/foreground.svg" width="12"/></td>

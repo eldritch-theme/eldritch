@@ -21,21 +21,30 @@ circles:
 
     # Cthulhu palette
     deploy_palette "cthulhu" \
-        background  "#212337" currentline "#323449" foreground  "#ebfafa" \
-        comment     "#7081d0" cyan        "#04d1f9" green       "#37f499" \
-        orange      "#f7c67f" pink        "#f265b5" purple      "#a48cf2" \
-        red         "#f16c75" yellow      "#f1fc79"
+        background  "#212337" currentline "#323449" \
+        surface     "#454759" overlay     "#5b5c66" \
+        foreground  "#ebfafa" comment     "#7081d0" \
+        cyan        "#04d1f9" green       "#37f499" \
+        orange      "#f7c67f" pink        "#f265b5" \
+        purple      "#a48cf2" red         "#f16c75" \
+        yellow      "#f1fc79"
 
     # Abyss palette
     deploy_palette "abyss" \
-        background  "#171928" currentline "#252738" foreground  "#d8e6e6" \
-        comment     "#506299" cyan        "#0396b3" green       "#2dcc82" \
-        orange      "#d4a666" pink        "#d154a1" purple      "#8b75d9" \
-        red         "#cc5860" yellow      "#ccd663"
+        background  "#171928" currentline "#252738" \
+        surface     "#353746" overlay     "#474852" \
+        foreground  "#d8e6e6" comment     "#506299" \
+        cyan        "#0396b3" green       "#2dcc82" \
+        orange      "#d4a666" pink        "#d154a1" \
+        purple      "#8b75d9" red         "#cc5860" \
+        yellow      "#ccd663"
 
     # Dusk palette
     deploy_palette "dusk" \
-        background  "#f0f3f4" currentline "#e2e6e8" foreground  "#1e2029" \
-        comment     "#5b73dc" cyan        "#0ad6ff" green       "#38ff9f" \
-        orange      "#ffaf4d" pink        "#fb5bb6" purple      "#8a69f7" \
-        red         "#fb5b66" yellow      "#fff952"
+        overlay     "#c9cbcd" surface     "#d5d9db" \
+        currentline "#e2e6e8" background  "#f0f3f4" \
+        foreground  "#1e2029" comment     "#5b73dc" \
+        cyan        "#0ad6ff" green       "#38ff9f" \
+        orange      "#ffaf4d" pink        "#fb5bb6" \
+        purple      "#8a69f7" red         "#fb5b66" \
+        yellow      "#fff952"
