@@ -1,0 +1,115 @@
+default: circles css
+
+circles:
+    #!/bin/sh
+    set -eu
+
+    ROOT_DIR="{{ justfile_directory() }}"
+    TEMPLATE="${ROOT_DIR}/.circle.svg"
+    OUT_BASE="${ROOT_DIR}"
+
+    [ -f "$TEMPLATE" ] || { printf 'error: missing template: %s\n' "$TEMPLATE" >&2; exit 1; }
+
+    deploy_palette() {
+        palette="$1"; shift
+        out_dir="${OUT_BASE}/${palette}/circles"
+        mkdir -p "$out_dir"
+        while [ "$#" -gt 0 ]; do
+            name="$1"; hex="$2"; shift 2
+            sed "s/\@@COLOR@@/${hex}/g" "$TEMPLATE" > "${out_dir}/${name}.svg"
+            printf 'generated %s/%s.svg\n' "${palette}/circles" "$name"
+        done
+    }
+
+    # Cthulhu palette
+    deploy_palette "cthulhu" \
+        background  "#212337" currentline "#323449" \
+        surface     "#454759" overlay     "#5b5c66" \
+        foreground  "#ebfafa" comment     "#7081d0" \
+        cyan        "#04d1f9" green       "#37f499" \
+        orange      "#f7c67f" pink        "#f265b5" \
+        purple      "#a48cf2" red         "#f16c75" \
+        yellow      "#f1fc79"
+
+    # Abyss palette
+    deploy_palette "abyss" \
+        background  "#171928" currentline "#252738" \
+        surface     "#353746" overlay     "#474852" \
+        foreground  "#d8e6e6" comment     "#506299" \
+        cyan        "#0396b3" green       "#2dcc82" \
+        orange      "#d4a666" pink        "#d154a1" \
+        purple      "#8b75d9" red         "#cc5860" \
+        yellow      "#ccd663"
+
+    # Dusk palette
+    deploy_palette "dusk" \
+        overlay     "#c9cbcd" surface     "#d5d9db" \
+        currentline "#e2e6e8" background  "#f0f3f4" \
+        foreground  "#1e2029" comment     "#5b73dc" \
+        cyan        "#0ad6ff" green       "#38ff9f" \
+        orange      "#ffaf4d" pink        "#fb5bb6" \
+        purple      "#8a69f7" red         "#fb5b66" \
+        yellow      "#fff952"
+
+css:
+    #!/bin/sh
+    set -eu
+
+    ROOT_DIR="{{ justfile_directory() }}"
+    TEMPLATE="${ROOT_DIR}/.colors.css"
+    OUT_BASE="${ROOT_DIR}"
+
+    [ -f "$TEMPLATE" ] || { printf 'error: missing template: %s\n' "$TEMPLATE" >&2; exit 1; }
+
+    deploy_palette() {
+        palette="$1"; shift
+        out_dir="${OUT_BASE}/${palette}"
+        mkdir -p "$out_dir"
+
+        tmp="$(mktemp)"
+        cp "$TEMPLATE" "$tmp"
+
+        while [ "$#" -gt 0 ]; do
+            name="$1"
+            value="$2"
+            shift 2
+
+            upper=$(printf '%s' "$name" | tr '[:lower:]' '[:upper:]')
+
+            sed -i "s|@@${upper}@@|${value}|g" "$tmp"
+        done
+
+        mv "$tmp" "${out_dir}/colors.css"
+
+        printf 'generated %s/colors.css\n' "$palette"
+    }
+
+    # Cthulhu palette
+    deploy_palette "cthulhu" \
+        background  "#212337" currentline "#323449" \
+        surface     "#454759" overlay     "#5b5c66" \
+        foreground  "#ebfafa" comment     "#7081d0" \
+        cyan        "#04d1f9" green       "#37f499" \
+        orange      "#f7c67f" pink        "#f265b5" \
+        purple      "#a48cf2" red         "#f16c75" \
+        yellow      "#f1fc79"
+
+    # Abyss palette
+    deploy_palette "abyss" \
+        background  "#171928" currentline "#252738" \
+        surface     "#353746" overlay     "#474852" \
+        foreground  "#d8e6e6" comment     "#506299" \
+        cyan        "#0396b3" green       "#2dcc82" \
+        orange      "#d4a666" pink        "#d154a1" \
+        purple      "#8b75d9" red         "#cc5860" \
+        yellow      "#ccd663"
+
+    # Dusk palette
+    deploy_palette "dusk" \
+        overlay     "#c9cbcd" surface     "#d5d9db" \
+        currentline "#e2e6e8" background  "#f0f3f4" \
+        foreground  "#1e2029" comment     "#5b73dc" \
+        cyan        "#0ad6ff" green       "#38ff9f" \
+        orange      "#ffaf4d" pink        "#fb5bb6" \
+        purple      "#8a69f7" red         "#fb5b66" \
+        yellow      "#fff952"

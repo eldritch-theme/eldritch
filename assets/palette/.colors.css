@@ -1,0 +1,13 @@
+@define-color overlay           @@OVERLAY@@;
+@define-color surface           @@SURFACE@@;
+@define-color currentline       @@CURRENTLINE@@;
+@define-color background        @@BACKGROUND@@;
+@define-color foreground        @@FOREGROUND@@;
+@define-color comment           @@COMMENT@@;
+@define-color cyan              @@CYAN@@;
+@define-color green             @@GREEN@@;
+@define-color orange            @@ORANGE@@;
+@define-color pink              @@PINK@@;
+@define-color purple            @@PURPLE@@;
+@define-color red               @@RED@@;
+@define-color yellow            @@YELLOW@@;
