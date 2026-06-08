@@ -35,7 +35,6 @@ The theme is available for a variety of applications and is constantly being upd
 
 **Eldritch** offers three palettes to suit different environments and preferences:
 
-
 <details>
 <summary>🦑 Cthulhu (Default)</summary>
 <table>
@@ -386,6 +385,11 @@ The theme is available for a variety of applications and is constantly being upd
     <tr>
       <td><a>Icons</a></td>
       <td><a href="https://github.com/eldritch-theme/icon-theme">icon-theme</a></td>
+      <td>Icons for the Ancient Ones!</td>
+    </tr>
+    <tr>
+      <td><a>Cursors</a></td>
+      <td><a href="https://github.com/eldritch-theme/cursors">cursors</a></td>
       <td>Icons for the Ancient Ones!</td>
     </tr>
     <tr>
@@ -770,7 +774,7 @@ git clone https://github.com/eldritch-theme/eldritch-repo-template your-port-nam
 cd your-port-name && rm -rf .git
 ```
 
-2. Add anything you need, replacing things in README.md as needed.
-3. Be sure to read the [SPEC.md](SPEC.md) for specific information on color usage.
-4. You can choose to host the repository in your account or request to be a contributor in the [eldritch-theme](https://github.com/eldritch-theme) organization and be approved to maintain the repository along with others under the organization.
-5. Create a pull request to update README.md in this repository to link to the newly created port.
+1. Add anything you need, replacing things in README.md as needed.
+2. Be sure to read the [SPEC.md](SPEC.md) for specific information on color usage.
+3. You can choose to host the repository in your account or request to be a contributor in the [eldritch-theme](https://github.com/eldritch-theme) organization and be approved to maintain the repository along with others under the organization.
+4. Create a pull request to update README.md in this repository to link to the newly created port.
