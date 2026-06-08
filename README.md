@@ -536,6 +536,11 @@ The theme is available for a variety of applications and is constantly being upd
       <td><a href="https://github.com/eldritch-theme/zen">zen</a></td>
       <td>Firefox based browser with a focus on privacy and customization.</td>
     </tr>
+    <tr>
+      <td><a href="https://www.google.com/chrome/index.html">Chrome</a></td>
+      <td><a href="https://github.com/eldritch-theme/chrome">chrome</a></td>
+      <td>If you must..</td>
+    </tr>
   </table>
   🙊 UserJS scripts & Browser Extensions
   <table>
