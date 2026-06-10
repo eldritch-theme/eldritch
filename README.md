@@ -762,6 +762,11 @@ The theme is available for a variety of applications and is constantly being upd
       <td><a href="https://github.com/tinted-theming/schemes">tinted-theming/schemes</a></td>
       <td>A common location to store all color scheme data for the Tinted theming project</td>
    </tr>
+   <tr>
+      <td><a href="https://yaak.app/">Yaak</a></td>
+      <td><a href="https://github.com/AndreasDellrud/yaak-eldritch">yaak-eldritch</a></td>
+      <td>A fast, privacy-first API client for REST, GraphQL, SSE, WebSocket, and gRPC – built with Tauri, Rust, and React.</td>
+   </tr>
   </table>
 </details>
 
