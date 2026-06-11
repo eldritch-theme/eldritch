@@ -602,6 +602,11 @@ New entries go on top.
       <th>Description</th>
     </tr>
     <tr>
+      <td><a href="https://micro-editor.github.io/">micro</a></td>
+      <td><a href="https://github.com/eldritch-theme/micro">micro</a></td>
+      <td>A modern and intuitive terminal-based text editor</td>
+    <tr>
+    <tr>
       <td><a href="https://fishshell.com">Fish Shell</a></td>
       <td><a href="https://github.com/eldritch-theme/fish">fish</a></td>
       <td>The user-friendly command line shell</td>
