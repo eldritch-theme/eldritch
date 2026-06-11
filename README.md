@@ -472,7 +472,12 @@ New entries go on top.
       <th>Theme Repository</th>
       <th>Description</th>
     </tr>
-  <tr>
+    <tr>
+      <td><a href="https://github.com/lxqt/qterminal/">QTerminal</a></td>
+      <td><a href="https://github.com/eldritch-theme/qterminal">qterminal</a></td>
+      <td>A lightweight Qt-based terminal emulator</td>
+    </tr>
+    <tr>
       <td><a href="https://github.com/microsoft/terminal">Windows Terminal</a></td>
       <td><a href="https://github.com/eldritch-theme/windows-terminal">windows-terminal</a></td>
       <td>The Windows Terminal is a modern, fast, efficient, powerful, and productive terminal application for users of command-line tools and shells</td>
