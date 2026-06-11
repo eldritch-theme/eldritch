@@ -414,11 +414,6 @@ New entries go on top.
       <th>Description</th>
     </tr>
     <tr>
-      <td><a href="https://gtk.org/">GTK</a></td>
-      <td><a href="https://github.com/eldritch-theme/gtk">gtk</a></td>
-      <td>GTK is a multi-platform toolkit for creating graphical user interfaces</td>
-    </tr>
-    <tr>
       <td><a href="https://omarchy.org/">Omarchy</a></td>
       <td><a href="https://github.com/eldritch-theme/omarchy">omarchy</a></td>
       <td>Beautiful, Modern & Opinionated Linux by DHH</td>
