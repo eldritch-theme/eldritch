@@ -349,7 +349,11 @@ The theme is available for a variety of applications and is constantly being upd
 
 ### 🧵 Ports
 
-<!-- Try to keep descriptions brief, and do not end them with a full stop -->
+<!--
+Try to keep descriptions brief, and do not end them with a full stop.
+
+New entries go on top.
+-->
 
 <details>
   <summary>🪟 Window Managers</summary>
@@ -410,11 +414,6 @@ The theme is available for a variety of applications and is constantly being upd
       <th>Description</th>
     </tr>
     <tr>
-      <td><a href="https://gtk.org/">GTK</a></td>
-      <td><a href="https://github.com/eldritch-theme/gtk">gtk</a></td>
-      <td>GTK is a multi-platform toolkit for creating graphical user interfaces</td>
-    </tr>
-    <tr>
       <td><a href="https://omarchy.org/">Omarchy</a></td>
       <td><a href="https://github.com/eldritch-theme/omarchy">omarchy</a></td>
       <td>Beautiful, Modern & Opinionated Linux by DHH</td>
@@ -468,7 +467,12 @@ The theme is available for a variety of applications and is constantly being upd
       <th>Theme Repository</th>
       <th>Description</th>
     </tr>
-  <tr>
+    <tr>
+      <td><a href="https://github.com/lxqt/qterminal/">QTerminal</a></td>
+      <td><a href="https://github.com/eldritch-theme/qterminal">qterminal</a></td>
+      <td>A lightweight Qt-based terminal emulator</td>
+    </tr>
+    <tr>
       <td><a href="https://github.com/microsoft/terminal">Windows Terminal</a></td>
       <td><a href="https://github.com/eldritch-theme/windows-terminal">windows-terminal</a></td>
       <td>The Windows Terminal is a modern, fast, efficient, powerful, and productive terminal application for users of command-line tools and shells</td>
@@ -598,6 +602,11 @@ The theme is available for a variety of applications and is constantly being upd
       <th>Description</th>
     </tr>
     <tr>
+      <td><a href="https://micro-editor.github.io/">micro</a></td>
+      <td><a href="https://github.com/eldritch-theme/micro">micro</a></td>
+      <td>A modern and intuitive terminal-based text editor</td>
+    <tr>
+    <tr>
       <td><a href="https://fishshell.com">Fish Shell</a></td>
       <td><a href="https://github.com/eldritch-theme/fish">fish</a></td>
       <td>The user-friendly command line shell</td>
@@ -653,7 +662,7 @@ The theme is available for a variety of applications and is constantly being upd
       <td>The minimal, blazing-fast, and infinitely customizable prompt for any shell!</td>
     </tr>
     <tr>
-      <td><a href="https://github.com/noctalia-dev/noctalia-shell">noctalia-shell</a></td>
+      <td><a href="https://github.com/noctalia-dev/noctalia">noctalia</a></td>
       <td><a href="https://github.com/eldritch-theme/noctalia">noctalia</a></td>
       <td>A sleek and minimal desktop shell thoughtfully crafted for Wayland</td>
     </tr>
@@ -765,7 +774,7 @@ The theme is available for a variety of applications and is constantly being upd
    <tr>
       <td><a href="https://yaak.app/">Yaak</a></td>
       <td><a href="https://github.com/AndreasDellrud/yaak-eldritch">yaak-eldritch</a></td>
-      <td>A fast, privacy-first API client for REST, GraphQL, SSE, WebSocket, and gRPC – built with Tauri, Rust, and React.</td>
+      <td>A fast, privacy-first API client for REST, GraphQL, SSE, WebSocket, and gRPC – built with Tauri, Rust, and React</td>
    </tr>
   </table>
 </details>
