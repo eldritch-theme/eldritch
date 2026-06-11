@@ -657,7 +657,7 @@ New entries go on top.
       <td>The minimal, blazing-fast, and infinitely customizable prompt for any shell!</td>
     </tr>
     <tr>
-      <td><a href="https://github.com/noctalia-dev/noctalia-shell">noctalia-shell</a></td>
+      <td><a href="https://github.com/noctalia-dev/noctalia">noctalia</a></td>
       <td><a href="https://github.com/eldritch-theme/noctalia">noctalia</a></td>
       <td>A sleek and minimal desktop shell thoughtfully crafted for Wayland</td>
     </tr>
