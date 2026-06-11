@@ -349,7 +349,11 @@ The theme is available for a variety of applications and is constantly being upd
 
 ### 🧵 Ports
 
-<!-- Try to keep descriptions brief, and do not end them with a full stop -->
+<!--
+Try to keep descriptions brief, and do not end them with a full stop.
+
+New entries go on top.
+-->
 
 <details>
   <summary>🪟 Window Managers</summary>
@@ -765,7 +769,7 @@ The theme is available for a variety of applications and is constantly being upd
    <tr>
       <td><a href="https://yaak.app/">Yaak</a></td>
       <td><a href="https://github.com/AndreasDellrud/yaak-eldritch">yaak-eldritch</a></td>
-      <td>A fast, privacy-first API client for REST, GraphQL, SSE, WebSocket, and gRPC – built with Tauri, Rust, and React.</td>
+      <td>A fast, privacy-first API client for REST, GraphQL, SSE, WebSocket, and gRPC – built with Tauri, Rust, and React</td>
    </tr>
   </table>
 </details>
