@@ -1,0 +1,37 @@
+[Palette]
+Name=Eldritch
+Background=#212337
+Foreground=#ebfafa
+Cursor=#37f499
+
+# black
+Color0=#21222c
+Color8=#7081d0
+
+# red
+Color1=#f9515d
+Color9=#f16c75
+
+# green
+Color2=#37f499
+Color10=#69F8B3
+
+# yellow
+Color3=#e9f941
+Color11=#f1fc79
+
+# blue
+Color4=#9071f4
+Color12=#a48cf2
+
+# magenta
+Color5=#f265b5
+Color13=#FD92CE
+
+# cyan
+Color6=#04d1f9
+Color14=#66e4fd
+
+# white
+Color7=#ebfafa
+Color15=#ffffff

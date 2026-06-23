@@ -1,0 +1,158 @@
+#!/usr/bin/env python3
+
+import sys
+import math
+import re
+import subprocess
+import shutil
+import json
+from pathlib import Path
+
+HOTSPOT_DISPLACE = 1
+
+HOTSPOT_RE = re.compile(
+    r'id=["\']hotspot["\'][^>]*d=["\']m\s+(-?[0-9.]+)[, ]\s*(-?[0-9.]+)',
+    re.IGNORECASE,
+)
+
+
+def get_hotspot(svg_path: Path) -> tuple[float, float]:
+    """Extract hotspot (x, y) from SVG's hidden #hotspot path element."""
+    text = svg_path.read_text()
+    m = HOTSPOT_RE.search(text)
+    if m:
+        return (float(m.group(1)), float(m.group(2)))
+    return (0.0, 0.0)
+
+
+def main():
+    if len(sys.argv) <= 9:
+        print(
+            "Usage: "
+            + sys.argv[0]
+            + " <svg cursor dir> <pixmap dir> <xcursor output dir> <svg cursor output dir> <hyprcursor output dir> <base size> <real size> <animation frame time> <scales>"
+        )
+        sys.exit(1)
+
+    svg_dir = Path(sys.argv[1])
+    pixmap_dir = Path(sys.argv[2])
+    xcursor_output_dir = Path(sys.argv[3])
+    svg_cursor_output_dir = Path(sys.argv[4])
+    hyprcursor_output_dir = Path(sys.argv[5])
+    nominal_size = int(sys.argv[6])
+    real_size = int(sys.argv[7])
+    delay = int(sys.argv[8])
+    scales = [int(i) for i in sys.argv[9:]]
+
+    svg_files = list(svg_dir.glob("*.svg"))
+    svg_files.sort()
+
+    processed_svgs = set()
+
+    for svg_file in svg_files:
+        if svg_file in processed_svgs:
+            continue
+        processed_svgs.add(svg_file)
+
+        basename = svg_file.stem
+        basename = re.sub(r"-[0-9_]*$", "", basename)
+
+        # Animated?
+        frames = list(svg_dir.glob(basename + "-[0-9]*.svg"))
+        frames.sort()
+        processed_svgs.update(frames)
+
+        hotspot = get_hotspot(svg_file)
+
+        # Generate xcursor
+        xcursor_config_dir = pixmap_dir / "config"
+        xcursor_config_dir.mkdir(parents=True, exist_ok=True)
+        xcursor_config_path = xcursor_config_dir / f"{basename}.config"
+        with open(xcursor_config_path, "w") as config:
+            for scale in scales:
+                size = math.floor(nominal_size * scale / 100)
+                hotspot_x = math.floor((hotspot[0] * scale + HOTSPOT_DISPLACE) / 100)
+                hotspot_y = math.floor((hotspot[1] * scale + HOTSPOT_DISPLACE) / 100)
+
+                if len(frames) == 0:
+                    print(
+                        f"{size} {hotspot_x} {hotspot_y} x{scale}/{basename}.png",
+                        file=config,
+                    )
+                else:
+                    for f in frames:
+                        t = f.stem
+                        print(
+                            f"{size} {hotspot_x} {hotspot_y} x{scale}/{t}.png {delay}",
+                            file=config,
+                        )
+
+        subprocess.run(
+            [
+                "xcursorgen",
+                "-p",
+                str(pixmap_dir),
+                str(xcursor_config_path),
+                str(xcursor_output_dir / basename),
+            ],
+            check=True,
+        )
+
+        # Generate SVG cursor (scalable format)
+        output_dir = svg_cursor_output_dir / basename
+        output_dir.mkdir(parents=True, exist_ok=True)
+        hx, hy = hotspot[0], hotspot[1]
+        with open(output_dir / "metadata.json", "w") as metadata:
+            if len(frames) == 0:
+                shutil.copyfile(svg_file, output_dir / svg_file.name)
+                json.dump(
+                    [
+                        {
+                            "filename": svg_file.name,
+                            "hotspot_x": hx,
+                            "hotspot_y": hy,
+                            "nominal_size": nominal_size,
+                        }
+                    ],
+                    metadata,
+                )
+            else:
+                lst = []
+                for f in frames:
+                    shutil.copyfile(f, output_dir / f.name)
+                    lst.append(
+                        {
+                            "filename": f.name,
+                            "hotspot_x": hx,
+                            "hotspot_y": hy,
+                            "nominal_size": nominal_size,
+                            "delay": delay,
+                        }
+                    )
+                json.dump(lst, metadata)
+
+        # Generate hyprcursor
+        output_dir = hyprcursor_output_dir / basename
+        output_dir.mkdir(parents=True, exist_ok=True)
+        hx_hl = round(hx / real_size, 4)
+        hy_hl = round(hy / real_size, 4)
+        meta = (
+            f"resize_algorithm = none\n"
+            f"hotspot_x = {hx_hl}\n"
+            f"hotspot_y = {hy_hl}\n"
+            f"nominal_size = {nominal_size / real_size}"
+        )
+        with open(output_dir / "meta.hl", "w") as meta_file:
+            if len(frames) == 0:
+                shutil.copyfile(svg_file, output_dir / svg_file.name)
+                meta += f"\ndefine_size = 0, {svg_file.name}"
+                meta_file.write(meta)
+            else:
+                for f in frames:
+                    shutil.copyfile(f, output_dir / f.name)
+                    meta += f"\ndefine_size = 0, {f.name}, {delay}"
+                meta_file.write(meta)
+
+
+if __name__ == "__main__":
+    main()

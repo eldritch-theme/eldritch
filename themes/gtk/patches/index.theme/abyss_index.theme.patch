@@ -1,0 +1,20 @@
+--- a/Eldritch-Abyss/index.theme	2026-05-28 22:22:28.889420655 -0300
++++ b/Eldritch-Abyss/index.theme	2026-05-28 22:23:26.001704361 -0300
+@@ -1,11 +1,11 @@
+ [Desktop Entry]
+ Type=X-GNOME-Metatheme
+-Name=oomox-Eldritch-Abyss
+-Comment=A partially sexual act; when a female (of any species; mostly humanoids) rubs the ears/lobes of a male Ferengi, creating sensual emotions and chemical reactions in the male (and sometimes in the female).
++Name=Eldritch-Abyss
++Comment=A theme for the Ancient Ones!
+ Encoding=UTF-8
+
+ [X-GNOME-Metatheme]
+-Name=oomox-Eldritch-Abyss
+-GtkTheme=oomox-Eldritch-Abyss
+-IconTheme=oomox-Eldritch-Abyss
+-MetacityTheme=oomox-Eldritch-Abyss
++Name=Eldritch-Abyss
++GtkTheme=Eldritch-Abyss
++IconTheme=Eldritch-Abyss
++MetacityTheme=Eldritch-Abyss

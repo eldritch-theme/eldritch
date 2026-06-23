@@ -1,0 +1,42 @@
+/**
+ * @name Eldritch
+ * @description A theme for the Ancient Ones! BetterDiscord
+ * @author jacobrreed
+ * @version 1.0.0
+ * @website https://github.com/eldritch-theme/betterdiscord
+ * @source https://raw.githubusercontent.com/eldritch-theme/betterdiscord/master/eldritch.theme.css
+*/
+
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700&display=swap");
+@import url("https://raw.githubusercontent.com/mwittrien/BetterDiscordAddons/refs/heads/master/Themes/DiscordRecolor/DiscordRecolor.css");
+
+:root {
+  --settingsicons: 0; /*  Use Settings Icons in User Settings: 1 = yes, 0 = no                           */
+
+  --accentcolor: 164, 140, 242; /*  Blurple          -  hex: #a48cf2     */
+  --accentcolor2: 242, 101, 181; /*  Boostpink        -  hex: #f265b5     */
+  --linkcolor: 4, 209, 249; /*  Link Color       -  hex: #04d1f9     */
+  --mentioncolor: 247, 198, 127; /*  Highlight Color  -  hex: #f7c67f     */
+  --successcolor: 55, 244, 153; /*  Success Color    -  hex: #37f499     */
+  --warningcolor: 241, 252, 121; /*  Warning Color    -  hex: #f1fc79     */
+  --dangercolor: 241, 108, 117; /*  Danger Color     -  hex: #f16c75     */
+
+  --textbrighter: 245, 255, 255; /*  Text Color 2     -  hex: #f5ffff     */
+  --textbright: 240, 252, 252; /*  Text Color 3     -  hex: #f0fcfc     */
+  --textbrightest: 235, 250, 250; /*  Text Color 1     -  hex: #ebfafa     */
+  --textdark: 180, 195, 195; /*  Text Color 4     -  hex: #b4c3c3     */
+  --textdarker: 125, 140, 140; /*  Text Color 5     -  hex: #7d8c8c     */
+  --textdarkest: 70, 85, 85; /*  Text Color 6     -  hex: #465555     */
+
+  --backgroundaccent: 55, 244, 153; /*  hex: #37f499  */
+  --backgroundprimary: 33, 35, 55; /*  hex: #212337  */
+  --backgroundsecondary: 29, 31, 49; /*  hex: #1d1f31  */
+  --backgroundsecondaryalt: 33, 35, 55; /*  hex: #212337  */
+  --backgroundtertiary: 50, 52, 73; /*  hex: #323449  */
+  --backgroundfloating: 50, 52, 73; /*  hex: #323449  */
+  --background-surface-highest: 50, 52, 73 !important;
+  
+  li[class^="selected"] {
+    color: rgb(55, 244, 153) !important; /*  hex: #37f499  */
+  }
+}

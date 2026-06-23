@@ -1,0 +1,23 @@
+{
+    "name": "Eldritch",
+    "tab": 
+    {
+        "background": "#212337FF",
+        "iconStyle": "default",
+        "showCloseButton": "hover",
+        "unfocusedBackground": null
+    },
+    "tabRow": 
+    {
+        "background": "#171928FF",
+        "unfocusedBackground": "#171928FF"
+    },
+    "window": 
+    {
+        "applicationTheme": "dark",
+        "experimental.rainbowFrame": false,
+        "frame": null,
+        "unfocusedFrame": null,
+        "useMica": false
+    }
+}

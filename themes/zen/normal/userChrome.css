@@ -1,0 +1,25 @@
+@media (prefers-color-scheme: dark) {
+	:root {
+		--zen-colors-primary: #323449 !important; /* idk */
+		--zen-primary-color: #a48cf2 !important; /* adressbar when focused (but thats darkened) and stuff */
+		--zen-colors-secondary: #04d1f9 !important; /* secondary */
+		--zen-colors-tertiary: #212337 !important; /* idk */
+		--zen-colors-border: #323449 !important; /* borders */
+		--toolbarbutton-icon-fill: #37f499 !important; /* icons */
+		--lwt-text-color: #a48cf2 !important; /* tab name colors */
+		--toolbar-field-color: #ebfafa !important; /* adressbar text */
+		--tab-selected-textcolor: #a48cf2 !important; /* selected tab name color */
+		--toolbar-field-focus-color: #ebfafa !important; /* adressbar text when focused */
+		--toolbar-color: #a48cf2 !important; /* idk but setting it to 000000 made icon backgrounds bright when i hovered over them */
+		--newtab-text-primary-color: #a48cf2 !important; /* idk */
+		--arrowpanel-color: #04d1f9 !important; /* ... menu text */
+		--arrowpanel-background: #212337 !important; /* ... menu background */
+		--sidebar-text-color: #04d1f9 !important; /* title of history panel and stuff like that */
+		--lwt-sidebar-text-color: #04d1f9 !important; /* text in history panel and stuff like that */
+		--lwt-sidebar-background-color: #212337 !important; /* background of history panel and stuff like that */
+		--toolbar-bgcolor: #323449 !important; /* idk */
+		--newtab-background-color: #212337 !important; /* idk */
+		--zen-themed-toolbar-bg: #212337 !important; /* idk */
+		--zen-main-browser-background: #212337 !important; /*background  */
+	}
+}

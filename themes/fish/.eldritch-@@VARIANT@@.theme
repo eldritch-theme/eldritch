@@ -1,0 +1,60 @@
+# name: 'Eldritch @@VARIANT@@'
+# url: 'https://github.com/eldritch-theme/fish'
+
+[light]
+# preferred_background: @@LIGHT_BACKGROUND@@
+fish_color_normal        @@LIGHT_FOREGROUND@@
+fish_color_command       @@LIGHT_COMMAND@@
+fish_color_param         @@LIGHT_PARAM@@
+fish_color_keyword       @@LIGHT_KEYWORD@@
+fish_color_quote         @@LIGHT_QUOTE@@
+fish_color_redirection   @@LIGHT_REDIRECTION@@
+fish_color_end           @@LIGHT_END@@
+fish_color_comment       @@LIGHT_COMMENT@@
+fish_color_error         @@LIGHT_ERROR@@
+fish_color_gray          @@LIGHT_MUTED@@
+fish_color_selection     --background=@@LIGHT_SELECTION@@
+fish_color_search_match  --background=@@LIGHT_SEARCH_MATCH@@
+fish_color_option        @@LIGHT_OPTION@@
+fish_color_operator      @@LIGHT_OPERATOR@@
+fish_color_escape        @@LIGHT_ESCAPE@@
+fish_color_autosuggestion @@LIGHT_AUTOSUGGESTION@@
+fish_color_cancel        @@LIGHT_CANCEL@@
+fish_color_cwd           @@LIGHT_CWD@@
+fish_color_user          @@LIGHT_USER@@
+fish_color_host          @@LIGHT_HOST@@
+fish_color_host_remote   @@LIGHT_HOST_REMOTE@@
+fish_color_status        @@LIGHT_STATUS@@
+fish_pager_color_progress    @@LIGHT_PAGER_PROGRESS@@
+fish_pager_color_prefix      @@LIGHT_PAGER_PREFIX@@
+fish_pager_color_completion  @@LIGHT_PAGER_COMPLETION@@
+fish_pager_color_description @@LIGHT_PAGER_DESCRIPTION@@
+
+[dark]
+# preferred_background: @@BACKGROUND@@
+fish_color_normal        @@FOREGROUND@@
+fish_color_command       @@COMMAND@@
+fish_color_param         @@PARAM@@
+fish_color_keyword       @@KEYWORD@@
+fish_color_quote         @@QUOTE@@
+fish_color_redirection   @@REDIRECTION@@
+fish_color_end           @@END@@
+fish_color_comment       @@COMMENT@@
+fish_color_error         @@ERROR@@
+fish_color_gray          @@MUTED@@
+fish_color_selection     --background=@@SELECTION@@
+fish_color_search_match  --background=@@SEARCH_MATCH@@
+fish_color_option        @@OPTION@@
+fish_color_operator      @@OPERATOR@@
+fish_color_escape        @@ESCAPE@@
+fish_color_autosuggestion @@AUTOSUGGESTION@@
+fish_color_cancel        @@CANCEL@@
+fish_color_cwd           @@CWD@@
+fish_color_user          @@USER@@
+fish_color_host          @@HOST@@
+fish_color_host_remote   @@HOST_REMOTE@@
+fish_color_status        @@STATUS@@
+fish_pager_color_progress    @@PAGER_PROGRESS@@
+fish_pager_color_prefix      @@PAGER_PREFIX@@
+fish_pager_color_completion  @@PAGER_COMPLETION@@
+fish_pager_color_description @@PAGER_DESCRIPTION@@

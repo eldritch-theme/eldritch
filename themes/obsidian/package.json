@@ -1,0 +1,7 @@
+{
+	"name": "eldritch-obsidian",
+	"version": "1.0.0",
+	"scripts": {
+		"version": "node version-bump.mjs && git add manifest.json versions.json"
+	}
+}

@@ -1,0 +1,11 @@
+--- a/Eldritch-Dusk/cinnamon/cinnamon.css	2026-05-29 01:45:46.275689162 -0300
++++ b/Eldritch-Dusk/cinnamon/cinnamon.css	2026-05-29 01:47:43.544967908 -0300
+@@ -518,7 +518,7 @@
+     padding: 3px 3px; }
+ 
+ .panel-bottom {
+-  box-shadow: 0 1px 0 0 #808389 inset; }
++  box-shadow: 0 1px 0 0 transparent inset; }
+   .panel-bottom .window-list-item-box {
+     margin-top: 1px; }
+   .panel-bottom .grouped-window-list-item-box:active, .panel-bottom .grouped-window-list-item-box:checked {

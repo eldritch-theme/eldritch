@@ -1,0 +1,24 @@
+on:
+  push:
+    branches:
+      - master
+name: Deploy Extension
+jobs:
+  deploy:
+    permissions:
+      contents: write
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Fetch latest
+        run: git pull origin master
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 20
+      - uses: phips28/gh-action-bump-version@v11.0.4
+      - run: npm ci
+      - name: Publish to Visual Studio Marketplace
+        uses: HaaLeo/publish-vscode-extension@v1
+        with:
+          pat: ${{ secrets.PAT }}
+          registryUrl: https://marketplace.visualstudio.com

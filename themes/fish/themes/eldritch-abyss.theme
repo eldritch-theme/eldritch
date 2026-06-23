@@ -1,0 +1,60 @@
+# name: 'Eldritch Abyss'
+# url: 'https://github.com/eldritch-theme/fish'
+
+[light]
+# preferred_background: f0f3f4
+fish_color_normal        1e2029
+fish_color_command       5b73dc
+fish_color_param         fb5bb6
+fish_color_keyword       8a69f7
+fish_color_quote         ffaf4d
+fish_color_redirection   fb5bb6
+fish_color_end           ffaf4d
+fish_color_comment       5b73dc
+fish_color_error         fb5b66
+fish_color_gray          c9cbcd
+fish_color_selection     --background=d5d9db
+fish_color_search_match  --background=d5d9db
+fish_color_option        8a69f7
+fish_color_operator      fb5bb6
+fish_color_escape        fb5b66
+fish_color_autosuggestion c9cbcd
+fish_color_cancel        fb5b66
+fish_color_cwd           5b73dc
+fish_color_user          5b73dc
+fish_color_host          5b73dc
+fish_color_host_remote   ffaf4d
+fish_color_status        fb5b66
+fish_pager_color_progress    c9cbcd
+fish_pager_color_prefix      fb5bb6
+fish_pager_color_completion  1e2029
+fish_pager_color_description c9cbcd
+
+[dark]
+# preferred_background: 171928
+fish_color_normal        d8e6e6
+fish_color_command       0396b3
+fish_color_param         d154a1
+fish_color_keyword       8b75d9
+fish_color_quote         ccd663
+fish_color_redirection   d154a1
+fish_color_end           d4a666
+fish_color_comment       506299
+fish_color_error         cc5860
+fish_color_gray          474852
+fish_color_selection     --background=252738
+fish_color_search_match  --background=252738
+fish_color_option        2dcc82
+fish_color_operator      d154a1
+fish_color_escape        cc5860
+fish_color_autosuggestion 474852
+fish_color_cancel        cc5860
+fish_color_cwd           ccd663
+fish_color_user          0396b3
+fish_color_host          0396b3
+fish_color_host_remote   2dcc82
+fish_color_status        cc5860
+fish_pager_color_progress    474852
+fish_pager_color_prefix      d154a1
+fish_pager_color_completion  d8e6e6
+fish_pager_color_description 474852

@@ -1,0 +1,44 @@
+--- a/Eldritch-Cthulhu/gtk-4.0/gtk.css	2026-05-28 23:11:41.967980553 -0300
++++ b/Eldritch-Cthulhu/gtk-4.0/gtk.css	2026-05-28 23:48:14.842198007 -0300
+@@ -2623,7 +2623,7 @@
+ @define-color card_bg_color #323449;
+ @define-color card_fg_color #ebfafa;
+ @define-color card_shade_color rgba(50, 52, 73, 0.07);
+-@define-color popover_bg_color #000000;
++@define-color popover_bg_color #323449;
+ @define-color popover_fg_color #e5e3cd;
+ @define-color shade_color rgba(0, 0, 0, 0.07);
+ @define-color scrollbar_outline_color rgba(235, 250, 250, 0.33);
+@@ -3087,3 +3086,32 @@
+
+
+ /* vim: set ft=css : */
++
++.image-button {
++    background-color: transparent;
++}
++
++.image-button:hover {
++    background-color: color-mix(in srgb, currentColor 10%, transparent);
++}
++
++.image-button:active,
++.image-button:checked {
++    background-color: color-mix(in srgb, currentColor 20%, transparent);
++}
++
++window:backdrop .view,
++window:backdrop scrolledwindow,
++window:backdrop viewport {
++    background-color: @view_bg_color;
++    color: @view_fg_color;
++}
++
++tooltip,
++tooltip > box,
++tooltip.background,
++tooltip.background > box {
++    background-color: #323449;
++    color: #ebfafa;
++    border-radius: 6px;
++}

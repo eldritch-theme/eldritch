@@ -1,0 +1,130 @@
+/*
+TABS
+*/
+/* non active tab text */
+.tab-header {
+  padding-top: 5px;
+  color: #04d1f9;
+  padding-bottom: 5px;
+}
+
+/* active tab text */
+.tab.active .tab-header {
+  color: #37f499 !important;
+}
+.transparent-tabbar .tab.active .tab-header .favicon:not(.svg),
+.theme-dark .tab.active .tab-header .favicon:not(.svg) {
+  filter: unset !important;
+}
+/* All tabs */
+#tabs-container .tab {
+  border-width: 1px 1px 1px 2px !important;
+  border-style: solid;
+  border-color: rgb(0, 255, 255, 0.25);
+  border-left-color: rgba(55, 244, 153, 0.25);
+  /* border-top-color: transparent; */
+}
+/* Active tab */
+#tabs-container .tab.active {
+  border-width: 1px 1px 1px 4px !important;
+  border-color: rgb(0, 255, 255);
+  border-left-color: #37f499;
+}
+#tabs-subcontainer .tab.active .tab-header {
+  padding-left: 5px !important;
+  padding-top: 5px !important;
+  padding-bottom: 5px !important;
+}
+/* Pinned tabs */
+.tab .pinned .favicon:before {
+  content: "📌";
+  font-size: 10px;
+  position: absolute;
+  top: 8px;
+  left: -1px;
+  z-index: 1;
+}
+#tabs-tabbar-container .separator hr {
+  border-color: rgb(0, 255, 255) !important;
+  opacity: unset;
+  border-left-color: #37f499;
+}
+/* Hibernated Tabs */
+#tabs-container .tab.isdiscarded .favicon:before {
+  content: "zzZ";
+  font-size: 10px;
+  position: absolute;
+  top: 8px;
+  left: -1px;
+  z-index: 1;
+  background-image: linear-gradient(
+    0deg,
+    hsla(355.94, 82.61%, 68.43%, 0.35),
+    hsla(355.94, 82.61%, 68.43%, 0.35)
+  );
+  width: 18px;
+  padding-left: 3px;
+  color: #ebfafa;
+  font-weight: bold;
+}
+#tabs-container .tab.tab-group.isdiscarded .favicon:before {
+  font-size: 9px;
+  top: 10px;
+}
+#tabs-container .tab.isdiscarded .favicon,
+#tabs-container .tab.isdiscarded:hover .favicon {
+  filter: none !important;
+}
+/* background for tab bar */
+#tabs-tabbar-container {
+  background-color: #292e42 !important;
+}
+/*
+END OF TABS
+*/
+
+/* Title bar */
+#browser:not(.address-top) > #header {
+  box-shadow: none !important;
+}
+
+/* TOOLBAR */
+/* affects all toolbar buttons */
+.ToolbarButton-Button {
+  color: #04d1f9 !important;
+}
+.button-toolbar button:hover {
+  background-color: #323449 !important;
+  border-color: rgb(0, 255, 255);
+  border-bottom-color: #37f499 !important;
+  border-width: 1px 1px 2px 1px !important;
+  border-style: solid;
+  border-radius: 5px !important;
+}
+.toolbar-extensions .button-toolbar button:hover {
+  background-color: #323449 !important;
+  border-color: rgb(0, 255, 255);
+  border-bottom-color: #37f499 !important;
+  border-width: 1px 1px 2px 1px !important;
+  border-style: solid;
+  border-radius: 5px !important;
+}
+.bookmark-bar {
+  background-color: #292e42 !important;
+}
+.bookmark-bar button {
+  background-color: #292e42 !important;
+}
+.bookmark-bar button:hover {
+  background-color: #323449 !important;
+  border-color: rgb(0, 255, 255);
+  border-bottom-color: #37f499 !important;
+  border-width: 1px 1px 2px 1px !important;
+  border-style: solid;
+  border-radius: 5px !important;
+}
+
+/* SIDE PANEL */
+#panels-container.left .panel {
+  background-color: #171928 !important;
+}

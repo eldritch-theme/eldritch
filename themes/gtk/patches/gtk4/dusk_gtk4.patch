@@ -1,0 +1,44 @@
+--- a/Eldritch-Dusk/gtk-4.0/gtk.css	2026-05-29 00:11:59.222289891 -0300
++++ a/Eldritch-Dusk/gtk-4.0/gtk.css	2026-05-29 00:19:16.397244649 -0300
+@@ -2623,7 +2623,7 @@
+ @define-color card_bg_color #e2e6e8;
+ @define-color card_fg_color #1e2029;
+ @define-color card_shade_color rgba(226, 230, 232, 0.07);
+-@define-color popover_bg_color #000000;
++@define-color popover_bg_color #e2e6e8;
+ @define-color popover_fg_color #e5e3cd;
+ @define-color shade_color rgba(0, 0, 0, 0.07);
+ @define-color scrollbar_outline_color rgba(30, 32, 41, 0.33);
+@@ -3087,3 +3087,32 @@
+ 
+ 
+ /* vim: set ft=css : */
++
++.image-button {
++    background-color: transparent;
++}
++
++.image-button:hover {
++    background-color: color-mix(in srgb, currentColor 10%, transparent);
++}
++
++.image-button:active,
++.image-button:checked {
++    background-color: color-mix(in srgb, currentColor 20%, transparent);
++}
++
++window:backdrop .view,
++window:backdrop scrolledwindow,
++window:backdrop viewport {
++    background-color: @view_bg_color;
++    color: @view_fg_color;
++}
++
++tooltip,
++tooltip > box,
++tooltip.background,
++tooltip.background > box {
++    background-color: #e2e6e8;
++    color: #1e2029;
++    border-radius: 6px;
++}

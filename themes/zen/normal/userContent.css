@@ -1,0 +1,13 @@
+@media (prefers-color-scheme: dark) {
+  /* variables and styles specific to about:newtab and about:home */
+  @-moz-document url("about:newtab"), url("about:home") {
+    :root {
+      --newtab-background-color: #212337 !important;
+      --newtab-background-color-secondary: #323449 !important;
+      --newtab-element-hover-color: #323449 !important;
+      --newtab-text-primary-color: #ebfafa !important;
+      --newtab-wordmark-color: #ebfafa !important;
+      --newtab-primary-action-background: #a48cf2 !important;
+    }
+  }
+}

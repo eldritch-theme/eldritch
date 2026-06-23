@@ -1,0 +1,26 @@
+/**
+ * @name Eldritch
+ * @description A theme for the Ancient Ones! BetterDiscord
+ * @author jacobrreed
+ * @version 1.0.0
+ * @website https://github.com/eldritch-theme/betterdiscord
+ * @source https://raw.githubusercontent.com/eldritch-theme/betterdiscord/master/eldritch-transparent.theme.css
+*/
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+@import url('https://xcruxiex.github.io/themes/themes-cores/neutron8.css');
+
+:root {
+  --backgroundColor: rgba(33, 35, 55, 0.75);
+  --backgroundImage: transparent;
+  --backgroundSize: cover;
+  --backgroundPosition: center;
+  --backgroundRepeat: no-repeat;
+  --backgroundBlur: 100px;
+  --themeColor1: #37F499;
+  --themeColor2: #04D1F9;
+  --customFont: Roboto;
+  --backgroundCode: rgba(0 0 0 1);
+  --backgroundName: rgba(0 0 0 1);
+}
+
+

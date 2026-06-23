@@ -1,0 +1,65 @@
+[colors.primary]
+background = "@@BACKGROUND@@"
+foreground = "@@FOREGROUND@@"
+dim_foreground = "@@COMMENT@@"
+bright_foreground = "@@FOREGROUND@@"
+
+[colors.cursor]
+text = "@@BACKGROUND@@"
+cursor = "@@CURSOR_ACCENT@@"
+
+[colors.vi_mode_cursor]
+text = "@@BACKGROUND@@"
+cursor = "@@VI_CURSOR_ACCENT@@"
+
+[colors.search.matches]
+foreground = "@@BACKGROUND@@"
+background = "@@COMMENT@@"
+
+[colors.search.focused_match]
+foreground = "@@BACKGROUND@@"
+background = "@@SEARCH_MATCH_BG@@"
+
+[colors.footer_bar]
+foreground = "@@BACKGROUND@@"
+background = "@@COMMENT@@"
+
+[colors.hints.start]
+foreground = "@@BACKGROUND@@"
+background = "@@HINT_BG@@"
+
+[colors.hints.end]
+foreground = "@@BACKGROUND@@"
+background = "@@COMMENT@@"
+
+[colors.selection]
+text = "@@BACKGROUND@@"
+background = "@@SELECTION_BG@@"
+
+[colors.normal]
+black = "@@BLACK@@"
+red = "@@RED@@"
+green = "@@GREEN@@"
+yellow = "@@YELLOW@@"
+blue = "@@COMMENT@@"
+magenta = "@@PURPLE@@"
+cyan = "@@CYAN@@"
+white = "@@WHITE@@"
+
+[colors.bright]
+black = "@@BRIGHT_BLACK@@"
+red = "@@BRIGHT_RED@@"
+green = "@@BRIGHT_GREEN@@"
+yellow = "@@BRIGHT_YELLOW@@"
+blue = "@@BRIGHT_COMMENT@@"
+magenta = "@@BRIGHT_PURPLE@@"
+cyan = "@@BRIGHT_CYAN@@"
+white = "@@BRIGHT_WHITE@@"
+
+[[colors.indexed_colors]]
+index = 16
+color = "@@CURSOR_ACCENT@@"
+
+[[colors.indexed_colors]]
+index = 17
+color = "@@CURSOR_ACCENT@@"

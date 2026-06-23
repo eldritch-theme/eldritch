@@ -1,0 +1,54 @@
+{
+  "manifest_version": 2,
+  "name": "Eldritch theme",
+  "version": "1.0",
+  "browser_specific_settings": {
+    "gecko": {
+      "id": "jacob.russell.reed@gmail.com",
+      "strict_min_version": "60.0"
+    }
+  },
+  "description": "Eldritch theme",
+  "icons": {
+    "200": "logo.png"
+  },
+  "theme": {
+    "colors": {
+      "button_background_active": "#212337",
+      "button_background_hover": "#04d1f9",
+      "frame": "#212337",
+      "icons": "#ebfafa",
+      "icons_attention": "#37f499",
+      "ntp_background": "#212337",
+      "ntp_text": "#ebfafa",
+      "popup": "#212337",
+      "popup_border": "#a48cf2",
+      "popup_highlight": "#323449",
+      "popup_highlight_text": "#ebfafa",
+      "popup_text": "#ebfafa",
+      "sidebar": "#212337",
+      "sidebar_border": "#04d1f9",
+      "sidebar_highlight": "#323449",
+      "sidebar_highlight_text": "#ebfafa",
+      "sidebar_text": "#ebfafa",
+      "tab_background_separator": "#04d1f9",
+      "tab_background_text": "#c7cad2",
+      "tab_line": "#37f499",
+      "tab_loading": "#04d1f9",
+      "tab_selected": "#323449",
+      "tab_text": "#ebfafa",
+      "toolbar": "#323449",
+      "toolbar_bottom_separator": "#323449",
+      "toolbar_field": "#323449",
+      "toolbar_field_border": "#04d1f9",
+      "toolbar_field_border_focus": "#37f499",
+      "toolbar_field_highlight": "#04d1f9",
+      "toolbar_field_highlight_text": "#ebfafa",
+      "toolbar_field_separator": "#04d1f9",
+      "toolbar_field_text": "#ebfafa",
+      "toolbar_text": "#ebfafa",
+      "toolbar_top_separator": "#212337",
+      "toolbar_vertical_separator": "#04d1f9"
+    }
+  }
+}

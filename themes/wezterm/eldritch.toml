@@ -1,0 +1,82 @@
+[colors]
+ansi = [
+    '#212337',
+    '#f16c75',
+    '#37f499',
+    '#f7c67f',
+    '#a48cf2',
+    '#f265b5',
+    '#04d1f9',
+    '#ebfafa',
+]
+background = '#212337'
+brights = [
+    '#323449',
+    '#f9515d',
+    '#37f499',
+    '#e9f941',
+    '#9071f4',
+    '#f265b5',
+    '#66e4fd',
+    '#FFFFFF',
+]
+compose_cursor = '#f7c67f'
+cursor_bg = '#37f499'
+cursor_border = '#04d1f9'
+cursor_fg = '#212337'
+foreground = '#ebfafa'
+scrollbar_thumb = '#37f499'
+selection_bg = 'rgba(26.666668% 27.843138% 35.294117% 50%)'
+selection_fg = 'rgba(0% 0% 0% 0%)'
+split = '#a48cf2'
+
+[colors.indexed]
+
+[colors.tab_bar]
+background = '#212337'
+
+[colors.tab_bar.active_tab]
+bg_color = '#37f499'
+fg_color = '#212337'
+intensity = 'Normal'
+italic = false
+strikethrough = false
+underline = 'None'
+
+[colors.tab_bar.inactive_tab]
+bg_color = '#212337'
+fg_color = '#04d1f9'
+intensity = 'Normal'
+italic = false
+strikethrough = false
+underline = 'None'
+
+[colors.tab_bar.inactive_tab_hover]
+bg_color = '#37f499'
+fg_color = '#212337'
+intensity = 'Normal'
+italic = true
+strikethrough = false
+underline = 'None'
+
+[colors.tab_bar.new_tab]
+bg_color = '#212337'
+fg_color = '#ebfafa'
+intensity = 'Normal'
+italic = false
+strikethrough = false
+underline = 'None'
+
+[colors.tab_bar.new_tab_hover]
+bg_color = '#37f499'
+fg_color = '#ebfafa'
+intensity = 'Normal'
+italic = true
+strikethrough = false
+underline = 'None'
+
+[metadata]
+aliases = []
+author = 'jacobrreed'
+name = 'Eldritch'
+origin_url = 'https://github.com/eldritch-theme/eldritch/ports/terminal/wezterm'

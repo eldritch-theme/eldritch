@@ -1,0 +1,124 @@
+#!/usr/bin/env python3
+
+"""Generate colored cursor SVGs from a palette and source SVGs.
+
+Usage: generate-cursors <palette.json> [accents...]
+
+Reads source SVGs from src/svgs/, replaces color placeholders
+(#FF0000=inner/accent, #00FF00=border/base, #0000FF=special),
+and writes themed SVGs to svgs/ directory.
+"""
+
+import json
+import os
+import re
+import sys
+from pathlib import Path
+
+
+def parse_hotspot(svg_path: Path) -> tuple[float, float] | None:
+    """Extract hotspot (x, y) from SVG's hidden #hotspot path."""
+    text = svg_path.read_text()
+    m = re.search(r'id="hotspot"[^>]*d="m\s+(-?[0-9.]+)[, ]\s*(-?[0-9.]+)', text, re.IGNORECASE)
+    if m:
+        return (float(m.group(1)), float(m.group(2)))
+    return None
+
+
+def main():
+    if len(sys.argv) < 2:
+        print(f"Usage: {sys.argv[0]} <palette.json> [accents...]")
+        print("  If no accents given, all palette accents are used.")
+        sys.exit(1)
+
+    palette_path = Path(sys.argv[1])
+    wanted_accents = sys.argv[2:] or None
+
+    with open(palette_path) as f:
+        palette = json.load(f)
+
+    base = palette["base"].lstrip("#").lower()
+    text = palette["text"].lstrip("#").lower()
+    accents = palette["accents"]
+    special_map = palette.get("special_map", {})
+
+    # Normalize accent hexes
+    accent_hexes = {k: v.lstrip("#").lower() for k, v in accents.items()}
+
+    svg_dir = Path("src/svgs")
+    out_dir = Path("svgs")
+
+    # Determine which accents to build
+    to_build = []
+    if wanted_accents:
+        for a in wanted_accents:
+            if a not in accent_hexes:
+                print(f"[WARN] Accent '{a}' not in palette; skipping")
+            else:
+                to_build.append(a)
+    else:
+        to_build = list(accent_hexes.keys())
+
+    svg_files = sorted(svg_dir.glob("*.svg"))
+
+    def display_name(accent: str) -> str:
+        return " ".join(word.capitalize() for word in accent.replace("-", " ").split())
+
+    for accent in to_build:
+        theme = f"eldritch-{accent}-cursors"
+        theme_dir = out_dir / theme
+        theme_dir.mkdir(parents=True, exist_ok=True)
+
+        inner = accent_hexes[accent]
+        border = base
+
+        # When accent equals base or text, swap colors for legibility
+        accent_hex = accent_hexes[accent]
+        if accent_hex == base:
+            inner = base
+            border = text
+        elif accent_hex == text:
+            inner = text
+            border = base
+
+        for svg_file in svg_files:
+            content = svg_file.read_text()
+
+            # Determine special color for this cursor file
+            special = border  # default: same as border
+            cursor_name = svg_file.stem
+            if cursor_name in special_map:
+                spec_name = special_map[cursor_name]
+                if spec_name in accent_hexes:
+                    special = accent_hexes[spec_name]
+
+            content = content.replace("FF0000", inner)
+            content = content.replace("00FF00", border)
+            content = content.replace("0000FF", special)
+
+            (theme_dir / svg_file.name).write_text(content)
+
+        # Generate index.theme
+        label = palette["label"]
+        comment = palette.get("comment", "Cursor theme")
+        idx = theme_dir / "index.theme"
+        idx.write_text(
+            f"[Icon Theme]\n"
+            f"Name={label} {display_name(accent)}\n"
+            f"Comment={comment}\n"
+        )
+
+        # Generate manifest.hl
+        manifest = theme_dir / "manifest.hl"
+        manifest.write_text(
+            f"name = {label} {display_name(accent)}\n"
+            f"description = {comment}\n"
+            'version = "v1.0.0"\n'
+            "cursors_directory = hyprcursors\n"
+        )
+
+        print(f"[INFO] Generated {theme} ({len(svg_files)} cursors)")
+
+
+if __name__ == "__main__":
+    main()

@@ -1,0 +1,5 @@
+themes/**
+
+!themes/justfile
+!themes/*.sed
+!themes/.Eldritch**

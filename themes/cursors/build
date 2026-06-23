@@ -1,0 +1,66 @@
+#!/usr/bin/env bash
+set -euo pipefail
+
+SCRIPT_DIR="$(dirname "$0")"
+SRC_DIR="$SCRIPT_DIR/src"
+SVGS_DIR="$SCRIPT_DIR/svgs"
+OUT_DIR="$SCRIPT_DIR/dist"
+PNG_DIR="$SCRIPT_DIR/pngs"
+HL_DIR="$SCRIPT_DIR/hl"
+
+AUTHORS="$SCRIPT_DIR/AUTHORS"
+ACCENTS=""
+
+while getopts "p:a:" option; do
+  case $option in
+  p) PALETTE="$OPTARG" ;;
+  a) ACCENTS="$OPTARG" ;;
+  \?) echo "Usage: $0 -p <palette.json> [-a 'accent1 accent2 ...']"; exit 1 ;;
+  esac
+done
+
+if [[ -z "${PALETTE:-}" ]]; then
+  echo "[ERROR] Required: -p <palette.json>"
+  exit 1
+fi
+
+PALETTE="$(realpath "$PALETTE")"
+echo "[INFO] Palette: $PALETTE"
+echo "[INFO] Accents: ${ACCENTS:-all}"
+
+# Step 1: Generate colored SVGs from palette
+echo "[INFO] Generating colored SVGs..."
+if [[ -n "$ACCENTS" ]]; then
+  "$SCRIPT_DIR/scripts/generate-cursors" "$PALETTE" $ACCENTS
+else
+  "$SCRIPT_DIR/scripts/generate-cursors" "$PALETTE"
+fi
+
+# Step 2: Determine which themes were generated
+THEMES=$(ls -d "$SVGS_DIR"/eldritch-*-cursors 2>/dev/null || true)
+if [[ -z "$THEMES" ]]; then
+  echo "[ERROR] No themes generated in $SVGS_DIR/"
+  exit 1
+fi
+
+# Step 3: Build xcursor + hyprcursor + scalable SVG formats
+for theme_src_path in $THEMES; do
+  theme_name=$(basename "$theme_src_path")
+  echo "[INFO] Building $theme_name..."
+
+  theme_out_dir="$OUT_DIR/$theme_name"
+  theme_png_dir="$PNG_DIR/$theme_name"
+  theme_hl_dir="$HL_DIR/$theme_name"
+
+  "$SCRIPT_DIR/scripts/build-cursors" \
+    "$theme_src_path" \
+    "$theme_png_dir" \
+    "$theme_hl_dir" \
+    "$theme_out_dir"
+
+  cp -f "$AUTHORS" "$theme_out_dir" 2>/dev/null || true
+  cp -f "$theme_src_path/index.theme" "$theme_out_dir"
+  cp -f "$theme_src_path/manifest.hl" "$theme_out_dir"
+done
+
+echo "[INFO] Done! Themes in $OUT_DIR/"

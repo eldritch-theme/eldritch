@@ -1,0 +1,33 @@
+{
+  "manifest_version": 3,
+  "name": "Eldritch Chrome Theme - @@VARIANT@@",
+  "description": "A theme for the Ancient Ones! - @@VARIANT@@",
+  "version": "1.0.0",
+  "icons": {
+    "16": "images/icon16.png",
+    "48": "images/icon48.png",
+    "128": "images/icon128.png"
+  },
+  "theme": {
+    "colors": {
+      "frame": @@BACKGROUND@@,
+      "frame_inactive": @@BACKGROUND@@,
+      "frame_incognito": @@CURRENTLINE@@,
+      "frame_incognito_inactive": @@OVERLAY@@,
+      "bookmark_text": @@FOREGROUND@@,
+      "tab_background_text": @@FOREGROUND@@,
+      "tab_background_text_inactive": @@COMMENT@@,
+      "tab_background_text_incognito": @@FOREGROUND@@,
+      "tab_background_text_incognito_inactive": @@COMMENT@@,
+      "tab_text": @@FOREGROUND@@,
+      "toolbar": @@SURFACE@@,
+      "toolbar_button_icon": @@ICON_ACCENT@@,
+      "omnibox_text": @@FOREGROUND@@,
+      "omnibox_background": @@BACKGROUND@@,
+      "ntp_background": @@SURFACE@@,
+      "ntp_link": @@TEXT_ACCENT@@,
+      "ntp_text": @@FOREGROUND@@,
+      "button_background": @@BACKGROUND@@
+    }
+  }
+}

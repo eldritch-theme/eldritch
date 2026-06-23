@@ -1,4 +1,5 @@
 # 🎨 Color Specification
+
 <p>A reference for how to use the <strong>Eldritch</strong> palette across implementations</p>
 
 The circles below represent the three palettes: 🦑 **Cthulhu**, 🌀 **Abyss**, 🌅 **Dusk** in that order.

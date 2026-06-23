@@ -1,0 +1,48 @@
+# Eldritch Theme for Micro
+# https://github.com/eldritch-theme/eldritch
+
+color-link default "@@FOREGROUND@@,@@BACKGROUND@@"
+color-link comment "@@COMMENT@@"
+color-link selection "@@FOREGROUND@@,@@CURRENT_LINE@@"
+color-link hlsearch "@@BACKGROUND@@,@@ORANGE@@"
+
+color-link identifier "@@RED@@"
+color-link identifier.class "@@ORANGE@@"
+color-link identifier.var "@@RED@@"
+
+color-link constant "@@GREEN@@"
+color-link constant.number "@@ORANGE@@"
+color-link constant.string "@@YELLOW@@"
+
+color-link symbol "@@PINK@@"
+color-link symbol.brackets "@@FOREGROUND@@"
+color-link symbol.tag "@@CYAN@@"
+
+color-link type "@@ORANGE@@"
+color-link type.keyword "@@GREEN@@"
+
+color-link special "@@PINK@@"
+color-link statement "@@PURPLE@@"
+color-link preproc "@@PINK@@"
+
+color-link underlined "@@CYAN@@"
+color-link error "bold @@RED@@"
+color-link todo "bold @@GREEN@@"
+
+color-link diff-added "@@GREEN@@"
+color-link diff-modified "@@COMMENT@@"
+color-link diff-deleted "@@RED@@"
+
+color-link gutter-error "@@RED@@"
+color-link gutter-warning "@@YELLOW@@"
+
+color-link scrollbar "@@COMMENT@@"
+color-link statusline "@@FOREGROUND@@,@@SURFACE@@"
+color-link tabbar "@@FOREGROUND@@,@@SURFACE@@"
+color-link indent-char "@@CURRENT_LINE@@"
+color-link line-number "@@OVERLAY@@"
+color-link current-line-number "@@COMMENT@@"
+
+color-link cursor-line "@@CURRENT_LINE@@"
+color-link color-column "@@CURRENT_LINE@@"
+color-link type.extended "default"

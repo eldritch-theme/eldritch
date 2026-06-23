@@ -1,0 +1,28 @@
+template_kvc := "./.Eldritch-@@VARIANT@@.kvconfig"
+template_svg := "./.Eldritch-@@VARIANT@@.svg"
+
+variants := "Cthulhu Abyss Dusk"
+
+default: build optimize
+
+build:
+    @for variant in {{variants}}; do \
+        mkdir -p "Eldritch-$variant"; \
+        sed -f "$variant.sed" "{{template_kvc}}" \
+            > "Eldritch-$variant/Eldritch-$variant.kvconfig"; \
+        sed -f "$variant.sed" "{{template_svg}}" \
+            > "Eldritch-$variant/Eldritch-$variant.svg"; \
+        echo "Generated $variant"; \
+    done
+
+optimize:
+    @for variant in {{variants}}; do \
+        scour \
+            --enable-comment-stripping \
+            --protect-ids-noninkscape \
+            --indent=none \
+            -i "Eldritch-$variant/Eldritch-$variant.svg" \
+            -o "Eldritch-$variant/Eldritch-$variant.svg.tmp"; \
+        mv "Eldritch-$variant/Eldritch-$variant.svg.tmp" \
+           "Eldritch-$variant/Eldritch-$variant.svg"; \
+    done

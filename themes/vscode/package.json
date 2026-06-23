@@ -1,0 +1,35 @@
+{
+  "name": "eldritch",
+  "displayName": "Eldritch",
+  "description": "A theme for the Ancient Ones!",
+  "version": "1.1.1",
+  "publisher": "Eldritch",
+  "icon": "logo.png",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/eldritch-theme/eldritch"
+  },
+  "engines": {
+    "vscode": "^1.87.0"
+  },
+  "categories": [
+    "Themes"
+  ],
+  "contributes": {
+    "themes": [
+      {
+        "label": "Eldritch",
+        "uiTheme": "vs-dark",
+        "path": "./themes/eldritch.json"
+      },
+      {
+        "label": "Eldritch Dark",
+        "uiTheme": "vs-dark",
+        "path": "./themes/eldritch-dark.json"
+      }
+    ]
+  },
+  "scripts": {
+    "bp": "npm version patch && vsce package && vsce publish"
+  }
+}

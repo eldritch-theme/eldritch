@@ -1,0 +1,43 @@
+default: write
+
+_deploy_palette VARIANT \
+    background currentline \
+    surface overlay \
+    foreground comment \
+    text_accent icon_accent:
+    sed \
+        -e "s/@@BACKGROUND@@/{{background}}/g" \
+        -e "s/@@CURRENTLINE@@/{{currentline}}/g" \
+        -e "s/@@SURFACE@@/{{surface}}/g" \
+        -e "s/@@OVERLAY@@/{{overlay}}/g" \
+        -e "s/@@FOREGROUND@@/{{foreground}}/g" \
+        -e "s/@@COMMENT@@/{{comment}}/g" \
+        -e "s/@@TEXT_ACCENT@@/{{text_accent}}/g" \
+        -e "s/@@ICON_ACCENT@@/{{icon_accent}}/g" \
+        -e "s/@@VARIANT@@/\u{{VARIANT}}/g" \
+        .manifest.json > themes/{{VARIANT}}/manifest.json
+
+write:
+    # Cthulhu palette
+    just _deploy_palette "cthulhu" \
+        "[33, 35, 55]"    "[50, 52, 73]" \
+        "[69, 71, 89]"    "[91, 92, 102]" \
+        "[235, 250, 250]" "[112, 129, 208]" \
+        "[4, 209, 249]"   "[55, 244, 153]"
+
+    # Abyss palette
+    just _deploy_palette "abyss" \
+        "[23, 25, 40]"    "[37, 39, 56]" \
+        "[53, 55, 70]"    "[71, 72, 82]" \
+        "[216, 230, 230]" "[80, 98, 153]" \
+        "[3, 150, 179]"   "[45, 204, 130]"
+
+    # Dusk palette
+    just _deploy_palette "dusk" \
+        "[240, 243, 244]" "[226, 230, 232]" \
+        "[213, 217, 219]" "[201, 203, 205]" \
+        "[30, 32, 41]"    "[91, 115, 220]" \
+        "[138, 105, 247]"  "[91, 115, 220]"
+
+optimize:
+    oxipng --opt max --alpha --strip all --recursive themes

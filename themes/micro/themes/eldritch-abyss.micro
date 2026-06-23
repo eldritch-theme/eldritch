@@ -1,0 +1,48 @@
+# Eldritch Theme for Micro
+# https://github.com/eldritch-theme/eldritch
+
+color-link default "#d8e6e6,#171928"
+color-link comment "#506299"
+color-link selection "#d8e6e6,#252738"
+color-link hlsearch "#171928,#d4a666"
+
+color-link identifier "#cc5860"
+color-link identifier.class "#d4a666"
+color-link identifier.var "#cc5860"
+
+color-link constant "#2dcc82"
+color-link constant.number "#d4a666"
+color-link constant.string "#ccd663"
+
+color-link symbol "#d154a1"
+color-link symbol.brackets "#d8e6e6"
+color-link symbol.tag "#0396b3"
+
+color-link type "#d4a666"
+color-link type.keyword "#2dcc82"
+
+color-link special "#d154a1"
+color-link statement "#8b75d9"
+color-link preproc "#d154a1"
+
+color-link underlined "#0396b3"
+color-link error "bold #cc5860"
+color-link todo "bold #2dcc82"
+
+color-link diff-added "#2dcc82"
+color-link diff-modified "#506299"
+color-link diff-deleted "#cc5860"
+
+color-link gutter-error "#cc5860"
+color-link gutter-warning "#ccd663"
+
+color-link scrollbar "#506299"
+color-link statusline "#d8e6e6,#353746"
+color-link tabbar "#d8e6e6,#353746"
+color-link indent-char "#252738"
+color-link line-number "#474852"
+color-link current-line-number "#506299"
+
+color-link cursor-line "#252738"
+color-link color-column "#252738"
+color-link type.extended "default"

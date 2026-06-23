@@ -1,0 +1,60 @@
+# name: 'Eldritch Cthulhu'
+# url: 'https://github.com/eldritch-theme/fish'
+
+[light]
+# preferred_background: f0f3f4
+fish_color_normal        1e2029
+fish_color_command       5b73dc
+fish_color_param         fb5bb6
+fish_color_keyword       8a69f7
+fish_color_quote         ffaf4d
+fish_color_redirection   fb5bb6
+fish_color_end           ffaf4d
+fish_color_comment       5b73dc
+fish_color_error         fb5b66
+fish_color_gray          c9cbcd
+fish_color_selection     --background=d5d9db
+fish_color_search_match  --background=d5d9db
+fish_color_option        8a69f7
+fish_color_operator      fb5bb6
+fish_color_escape        fb5b66
+fish_color_autosuggestion c9cbcd
+fish_color_cancel        fb5b66
+fish_color_cwd           5b73dc
+fish_color_user          5b73dc
+fish_color_host          5b73dc
+fish_color_host_remote   ffaf4d
+fish_color_status        fb5b66
+fish_pager_color_progress    c9cbcd
+fish_pager_color_prefix      fb5bb6
+fish_pager_color_completion  1e2029
+fish_pager_color_description c9cbcd
+
+[dark]
+# preferred_background: 212337
+fish_color_normal        ebfafa
+fish_color_command       04d1f9
+fish_color_param         f265b5
+fish_color_keyword       a48cf2
+fish_color_quote         f1fc79
+fish_color_redirection   f265b5
+fish_color_end           f7c67f
+fish_color_comment       7081d0
+fish_color_error         f16c75
+fish_color_gray          5b5c66
+fish_color_selection     --background=323449
+fish_color_search_match  --background=323449
+fish_color_option        37f499
+fish_color_operator      f265b5
+fish_color_escape        f16c75
+fish_color_autosuggestion 5b5c66
+fish_color_cancel        f16c75
+fish_color_cwd           f1fc79
+fish_color_user          04d1f9
+fish_color_host          04d1f9
+fish_color_host_remote   37f499
+fish_color_status        f16c75
+fish_pager_color_progress    5b5c66
+fish_pager_color_prefix      f265b5
+fish_pager_color_completion  ebfafa
+fish_pager_color_description 5b5c66
