@@ -350,7 +350,9 @@ The theme is available for a variety of applications and is constantly being upd
 ### 🧵 Ports
 
 <!--
-Try to keep descriptions brief, and do not end them with a full stop.
+Try to keep descriptions brief, do not use emojis within them, and do not end them with a full stop.
+
+If the repository is not hosted in the organization, prepend your username to the port's repository name (e.g. user/port).
 
 New entries go on top.
 -->
@@ -405,23 +407,6 @@ New entries go on top.
 </details>
 
 <details>
-  <summary>🌲 Environments</summary>
-  &nbsp;
-  <table>
-    <tr>
-      <th>Environment</th>
-      <th>Theme Repository</th>
-      <th>Description</th>
-    </tr>
-    <tr>
-      <td><a href="https://omarchy.org/">Omarchy</a></td>
-      <td><a href="https://github.com/eldritch-theme/omarchy">omarchy</a></td>
-      <td>Beautiful, Modern & Opinionated Linux by DHH</td>
-    </tr>
-  </table>
-</details>
-
-<details>
   <summary>🗒️ IDEs</summary>
   &nbsp;
   <table>
@@ -442,17 +427,17 @@ New entries go on top.
     </tr>
     <tr>
       <td><a href="https://www.gnu.org/software/emacs/">Emacs</a></td>
-      <td><a href="https://github.com/Saboti/eldritch.emacs">eldritch.emacs</a></td>
+      <td><a href="https://github.com/Saboti/eldritch.emacs">Saboti/eldritch.emacs</a></td>
       <td>An extensible, customizable, free/libre text editor — and more</td>
     </tr>
     <tr>
       <td><a href="https://github.com/helix-editor/helix">Helix</a></td>
-      <td><a href="https://github.com/A-kly/eldritch-helix">eldritch-helix</a></td>
+      <td><a href="https://github.com/A-kly/eldritch-helix">A-kly/eldritch-helix</a></td>
       <td>A post-modern modal text editor</td>
     </tr>
     <tr>
       <td><a href="https://zed.dev/">Zed</a></td>
-      <td><a href="https://github.com/edheltzel/eldritch-zed">eldritch-zed</a></td>
+      <td><a href="https://github.com/edheltzel/eldritch-zed">edheltzel/eldritch-zed</a></td>
       <td>Zed is a minimal code editor crafted for speed and collaboration with humans and AI</td>
     </tr>
   </table>
@@ -509,7 +494,7 @@ New entries go on top.
     </tr>
     <tr>
       <td><a href="https://termux.dev">Termux</a></td>
-      <td><a href="https://github.com/system32149/eldritch-termux">eldritch-termux</a></td>
+      <td><a href="https://github.com/system32149/eldritch-termux">system32149/eldritch-termux</a></td>
       <td>Termux is a terminal emulator and GNU/Linux environment application for Android OS</td>
      </tr>
     <tr>
@@ -602,6 +587,11 @@ New entries go on top.
       <th>Description</th>
     </tr>
     <tr>
+      <td><a href="https://github.com/starship/starship">starship</a></td>
+      <td><a href="https://github.com/eldritch-theme/starship">starship</a></td>
+      <td>The minimal, blazing-fast, and infinitely customizable prompt for any shell!</td>
+    </tr>
+    <tr>
       <td><a href="https://micro-editor.github.io/">micro</a></td>
       <td><a href="https://github.com/eldritch-theme/micro">micro</a></td>
       <td>A modern and intuitive terminal-based text editor</td>
@@ -655,11 +645,6 @@ New entries go on top.
       <td><a href="https://github.com/fastfetch-cli/fastfetch">fastfetch</a></td>
       <td><a href="https://github.com/eldritch-theme/fastfetch">fastfetch</a></td>
       <td>Fastfetch is a neofetch-like tool for fetching system information and displaying them in a pretty way</td>
-    </tr>
-    <tr>
-      <td><a href="https://github.com/starship/starship">starship</a></td>
-      <td><a href="https://github.com/2xandrade/eldritch-spaceship">starship</a></td>
-      <td>The minimal, blazing-fast, and infinitely customizable prompt for any shell!</td>
     </tr>
     <tr>
       <td><a href="https://github.com/noctalia-dev/noctalia">noctalia</a></td>
@@ -773,7 +758,7 @@ New entries go on top.
    </tr>
    <tr>
       <td><a href="https://yaak.app/">Yaak</a></td>
-      <td><a href="https://github.com/AndreasDellrud/yaak-eldritch">yaak-eldritch</a></td>
+      <td><a href="https://github.com/AndreasDellrud/yaak-eldritch">AndreasDellrud/yaak-eldritch</a></td>
       <td>A fast, privacy-first API client for REST, GraphQL, SSE, WebSocket, and gRPC – built with Tauri, Rust, and React</td>
    </tr>
   </table>
