@@ -717,6 +717,11 @@ New entries go on top.
       <th>Description</th>
     </tr>
     <tr>
+      <td><a href="https://music.youtube.com/">YouTube Music</a></td>
+      <td><a href="https://github.com/eldritch-theme/youtube-music">youtube-music</a></td>
+      <td>Music world dedicated to you</td>
+    </tr>
+    <tr>
       <td><a href="https://spicetify.app">Spicetify</a></td>
       <td><a href="https://github.com/eldritch-theme/spicetify">spicetify</a></td>
       <td>The powerful CLI that takes control of the Spotify client</td>
