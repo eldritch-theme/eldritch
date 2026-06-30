@@ -401,12 +401,22 @@ New entries go on top.
     <tr>
       <td><a>Cursors</a></td>
       <td><a href="https://github.com/eldritch-theme/cursors">cursors</a></td>
-      <td>Icons for the Ancient Ones!</td>
+      <td>Cursors for the Ancient Ones!</td>
     </tr>
     <tr>
       <td><a href="https://github.com/tsujan/Kvantum">Kvantum</a></td>
       <td><a href="https://github.com/eldritch-theme/kvantum">kvantum</a></td>
       <td>A Linux SVG-based theme engine for Qt</td>
+    </tr>
+    <tr>
+      <td><a href="https://sourceforge.net/projects/refind/">rEFInd</a></td>
+      <td><a href="https://github.com/eldritch-theme/refind">refind</a></td>
+      <td>rEFInd is a popular boot manager for UEFI and EFI based machines</td>
+    </tr>
+    <tr>
+      <td><a href="https://www.gnu.org/software/grub/">GRUB</a></td>
+      <td><a href="https://github.com/eldritch-theme/grub">grub</a></td>
+      <td>GNU GRUB is a Multiboot boot loader</td>
     </tr>
   </table>
 </details>
@@ -660,27 +670,6 @@ New entries go on top.
       <td><a href="https://github.com/sst/opencode">opencode</a></td>
       <td><a href="https://github.com/eldritch-theme/opencode">opencode</a></td>
       <td>The open source AI coding agent</td>
-    </tr>
-  </table>
-</details>
-
-<details>
-  <summary>🥾 Boot Managers / Loaders</summary>
-  &nbsp;
-  <table>
-    <tr>
-      <th>Application</th>
-      <th>Theme Repository</th>
-    </tr>
-    <tr>
-      <td><a href="https://sourceforge.net/projects/refind/">rEFInd</a></td>
-      <td><a href="https://github.com/eldritch-theme/refind">refind</a></td>
-      <td>rEFInd is a popular boot manager for UEFI and EFI based machines</td>
-    </tr>
-    <tr>
-      <td><a href="https://www.gnu.org/software/grub/">Grub</a></td>
-      <td><a href="https://github.com/eldritch-theme/grub">grub</a></td>
-      <td>GNU GRUB is a Multiboot boot loader</td>
     </tr>
   </table>
 </details>
