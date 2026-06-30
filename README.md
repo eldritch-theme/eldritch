@@ -384,6 +384,11 @@ New entries go on top.
       <th>Description</th>
     </tr>
     <tr>
+      <td><a href="https://github.com/sddm/sddm">SDDM</a></td>
+      <td><a href="https://github.com/uiriansan/SilentSDDM">uiriansan/SilentSDDM</a></td>
+      <td>QML based X11 and Wayland display manager</td>
+    </tr>
+    <tr>
       <td><a href="https://gtk.org/">GTK</a></td>
       <td><a href="https://github.com/eldritch-theme/gtk">gtk</a></td>
       <td>GTK is a multi-platform toolkit for creating graphical user interfaces</td>
