@@ -358,71 +358,7 @@ New entries go on top.
 -->
 
 <details>
-  <summary>🪟 Window Managers</summary>
-  &nbsp;
-  <table>
-    <tr>
-      <th>Component</th>
-      <th>Theme Repository</th>
-      <th>Description</th>
-    </tr>
-    <tr>
-      <td><a href="https://i3wm.org/">i3</a></td>
-      <td><a href="https://github.com/eldritch-theme/i3">i3</a></td>
-      <td>A tiling window manager for X11</td>
-    </tr>
-  </table>
-</details>
-
-<details>
-  <summary>⚙️ System</summary>
-  &nbsp;
-  <table>
-    <tr>
-      <th>Component</th>
-      <th>Theme Repository</th>
-      <th>Description</th>
-    </tr>
-    <tr>
-      <td><a href="https://github.com/sddm/sddm">SDDM</a></td>
-      <td><a href="https://github.com/uiriansan/SilentSDDM">uiriansan/SilentSDDM</a></td>
-      <td>QML based X11 and Wayland display manager</td>
-    </tr>
-    <tr>
-      <td><a href="https://gtk.org/">GTK</a></td>
-      <td><a href="https://github.com/eldritch-theme/gtk">gtk</a></td>
-      <td>GTK is a multi-platform toolkit for creating graphical user interfaces</td>
-    </tr>
-    <tr>
-      <td><a>Icons</a></td>
-      <td><a href="https://github.com/eldritch-theme/icon-theme">icon-theme</a></td>
-      <td>Icons for the Ancient Ones!</td>
-    </tr>
-    <tr>
-      <td><a>Cursors</a></td>
-      <td><a href="https://github.com/eldritch-theme/cursors">cursors</a></td>
-      <td>Cursors for the Ancient Ones!</td>
-    </tr>
-    <tr>
-      <td><a href="https://github.com/tsujan/Kvantum">Kvantum</a></td>
-      <td><a href="https://github.com/eldritch-theme/kvantum">kvantum</a></td>
-      <td>A Linux SVG-based theme engine for Qt</td>
-    </tr>
-    <tr>
-      <td><a href="https://sourceforge.net/projects/refind/">rEFInd</a></td>
-      <td><a href="https://github.com/eldritch-theme/refind">refind</a></td>
-      <td>rEFInd is a popular boot manager for UEFI and EFI based machines</td>
-    </tr>
-    <tr>
-      <td><a href="https://www.gnu.org/software/grub/">GRUB</a></td>
-      <td><a href="https://github.com/eldritch-theme/grub">grub</a></td>
-      <td>GNU GRUB is a Multiboot boot loader</td>
-    </tr>
-  </table>
-</details>
-
-<details>
-  <summary>🗒️ IDEs</summary>
+  <summary>🗒️ Development</summary>
   &nbsp;
   <table>
     <tr>
@@ -438,7 +374,7 @@ New entries go on top.
     <tr>
       <td><a href="https://neovim.io">NeoVim</a></td>
       <td><a href="https://github.com/eldritch-theme/eldritch.nvim">eldritch.nvim</a></td>
-      <td>NeoVim is a hyperextensible Vim-based text editor</td>
+      <td>A hyperextensible Vim-based text editor</td>
     </tr>
     <tr>
       <td><a href="https://www.gnu.org/software/emacs/">Emacs</a></td>
@@ -453,7 +389,7 @@ New entries go on top.
     <tr>
       <td><a href="https://zed.dev/">Zed</a></td>
       <td><a href="https://github.com/edheltzel/eldritch-zed">edheltzel/eldritch-zed</a></td>
-      <td>Zed is a minimal code editor crafted for speed and collaboration with humans and AI</td>
+      <td>A minimal code editor crafted for speed and collaboration with humans and AI</td>
     </tr>
   </table>
 </details>
@@ -468,19 +404,19 @@ New entries go on top.
       <th>Description</th>
     </tr>
     <tr>
-      <td><a href="https://github.com/lxqt/qterminal/">QTerminal</a></td>
-      <td><a href="https://github.com/eldritch-theme/qterminal">qterminal</a></td>
-      <td>A lightweight Qt-based terminal emulator</td>
+      <td><a href="https://github.com/alacritty/alacritty">Alacritty</a></td>
+      <td><a href="https://github.com/eldritch-theme/alacritty">Alacritty</a></td>
+      <td>A fast, cross-platform, OpenGL terminal emulator</td>
     </tr>
     <tr>
-      <td><a href="https://github.com/microsoft/terminal">Windows Terminal</a></td>
-      <td><a href="https://github.com/eldritch-theme/windows-terminal">windows-terminal</a></td>
-      <td>The Windows Terminal is a modern, fast, efficient, powerful, and productive terminal application for users of command-line tools and shells</td>
+      <td><a href="https://ghostty.org/">Ghostty</a></td>
+      <td><a href="https://github.com/eldritch-theme/ghostty">ghostty</a></td>
+      <td>A fast, feature-rich, cross-platform terminal emulator using platform-native UI and GPU acceleration</td>
     </tr>
     <tr>
-      <td><a href="https://wezterm.org/">Wezterm</a></td>
-      <td><a href="https://github.com/eldritch-theme/wezterm">wezterm</a></td>
-      <td>WezTerm is a powerful cross-platform terminal emulator and multiplexer written by @wez and implemented in Rust</td>
+      <td><a href="https://iterm2.com">iTerm2</a></td>
+      <td><a href="https://github.com/eldritch-theme/iterm2">iTerm2</a></td>
+      <td>A replacement for Terminal and the successor to iTerm</td>
     </tr>
     <tr>
       <td><a href="https://sw.kovidgoyal.net/kitty/">Kitty</a></td>
@@ -488,34 +424,116 @@ New entries go on top.
       <td>The fast, feature-rich, GPU based terminal emulator</td>
     </tr>
     <tr>
-      <td><a href="https://ghostty.org/">Ghostty</a></td>
-      <td><a href="https://github.com/eldritch-theme/ghostty">ghostty</a></td>
-      <td>Ghostty is a fast, feature-rich, and cross-platform terminal emulator that uses platform-native UI and GPU acceleration</td>
+      <td><a href="https://gitlab.gnome.org/chergert/ptyxis">Ptyxis</a></td>
+      <td><a href="https://github.com/eldritch-theme/ptyxis">ptyxis</a></td>
+      <td>A terminal for a container-oriented desktop</td>
     </tr>
     <tr>
-      <td><a href="https://warp.dev">Warp</a></td>
-      <td><a href="https://github.com/eldritch-theme/warp">warp</a></td>
-      <td>Warp is the terminal reimagined with AI and collaborative tools for better productivity</td>
-    </tr>
-    <tr>
-      <td><a href="https://iterm2.com">iTerm2</a></td>
-      <td><a href="https://github.com/eldritch-theme/iterm2">iTerm2</a></td>
-      <td>iTerm2 is a replacement for Terminal and the successor to iTerm</td>
-    </tr>
-    <tr>
-      <td><a href="https://github.com/alacritty/alacritty">Alacritty</a></td>
-      <td><a href="https://github.com/eldritch-theme/alacritty">Alacritty</a></td>
-      <td>A fast, cross-platform, OpenGL terminal emulator</td>
+      <td><a href="https://github.com/lxqt/qterminal/">QTerminal</a></td>
+      <td><a href="https://github.com/eldritch-theme/qterminal">qterminal</a></td>
+      <td>A lightweight Qt-based terminal emulator</td>
     </tr>
     <tr>
       <td><a href="https://termux.dev">Termux</a></td>
       <td><a href="https://github.com/system32149/eldritch-termux">system32149/eldritch-termux</a></td>
-      <td>Termux is a terminal emulator and GNU/Linux environment application for Android OS</td>
-     </tr>
+      <td>A terminal emulator and GNU/Linux environment for Android OS</td>
+    </tr>
     <tr>
-      <td><a href="https://gitlab.gnome.org/chergert/ptyxis">Ptyxis</a></td>
-      <td><a href="https://github.com/eldritch-theme/ptyxis">ptyxis</a></td>
-      <td>A terminal for a container-oriented desktop</td>
+      <td><a href="https://warp.dev">Warp</a></td>
+      <td><a href="https://github.com/eldritch-theme/warp">warp</a></td>
+      <td>The terminal reimagined with AI and collaborative tools</td>
+    </tr>
+    <tr>
+      <td><a href="https://wezterm.org/">WezTerm</a></td>
+      <td><a href="https://github.com/eldritch-theme/wezterm">wezterm</a></td>
+      <td>A powerful cross-platform terminal emulator and multiplexer written in Rust</td>
+    </tr>
+    <tr>
+      <td><a href="https://github.com/microsoft/terminal">Windows Terminal</a></td>
+      <td><a href="https://github.com/eldritch-theme/windows-terminal">windows-terminal</a></td>
+      <td>A modern, fast, efficient, and productive terminal application</td>
+    </tr>
+  </table>
+</details>
+
+<details>
+  <summary>🐚 Shell & CLI</summary>
+  &nbsp;
+  <table>
+    <tr>
+      <th>Application</th>
+      <th>Theme Repository</th>
+      <th>Description</th>
+    </tr>
+    <tr>
+      <td><a href="https://github.com/sharkdp/bat">Bat</a></td>
+      <td><a href="https://github.com/eldritch-theme/bat">bat</a></td>
+      <td>A cat clone with syntax highlighting and git integration</td>
+    </tr>
+    <tr>
+      <td><a href="https://github.com/aristocratos/btop">btop</a></td>
+      <td><a href="https://github.com/eldritch-theme/btop">btop</a></td>
+      <td>Resource monitor for processor, memory, disks, network and processes</td>
+    </tr>
+    <tr>
+      <td><a href="https://github.com/karlstav/cava">Cava</a></td>
+      <td><a href="https://github.com/eldritch-theme/cava">cava</a></td>
+      <td>Cross-platform Audio Visualizer</td>
+    </tr>
+    <tr>
+      <td><a href="https://github.com/fastfetch-cli/fastfetch">fastfetch</a></td>
+      <td><a href="https://github.com/eldritch-theme/fastfetch">fastfetch</a></td>
+      <td>A neofetch-like tool for fetching system information</td>
+    </tr>
+    <tr>
+      <td><a href="https://fishshell.com">Fish Shell</a></td>
+      <td><a href="https://github.com/eldritch-theme/fish">fish</a></td>
+      <td>The user-friendly command line shell</td>
+    </tr>
+    <tr>
+      <td><a href="https://junegunn.github.io/fzf/">FZF</a></td>
+      <td><a href="https://github.com/eldritch-theme/fzf">fzf</a></td>
+      <td>A command-line fuzzy finder</td>
+    </tr>
+    <tr>
+      <td><a href="https://github.com/lsd-rs/lsd">LSD</a></td>
+      <td><a href="https://github.com/eldritch-theme/lsd">lsd</a></td>
+      <td>A rewrite of GNU <code>ls</code> with colors, icons, tree-view, and more</td>
+    </tr>
+    <tr>
+      <td><a href="https://micro-editor.github.io/">micro</a></td>
+      <td><a href="https://github.com/eldritch-theme/micro">micro</a></td>
+      <td>A modern and intuitive terminal-based text editor</td>
+    </tr>
+    <tr>
+      <td><a href="https://github.com/noctalia-dev/noctalia">noctalia</a></td>
+      <td><a href="https://github.com/eldritch-theme/noctalia">noctalia</a></td>
+      <td>A sleek and minimal desktop shell crafted for Wayland</td>
+    </tr>
+    <tr>
+      <td><a href="https://github.com/dylanaraps/neofetch">neofetch</a></td>
+      <td><a href="https://github.com/eldritch-theme/neofetch">neofetch</a></td>
+      <td><b>(Archived)</b> Displays OS, software and hardware info in a visually pleasing way</td>
+    </tr>
+    <tr>
+      <td><a href="https://github.com/sst/opencode">opencode</a></td>
+      <td><a href="https://github.com/eldritch-theme/opencode">opencode</a></td>
+      <td>The open source AI coding agent</td>
+    </tr>
+    <tr>
+      <td><a href="https://github.com/sindresorhus/pure">Pure Prompt</a></td>
+      <td><a href="https://github.com/eldritch-theme/pure-prompt">pure-prompt</a></td>
+      <td>Pretty, minimal and fast ZSH prompt</td>
+    </tr>
+    <tr>
+      <td><a href="https://spaceship-prompt.sh">Spaceship Prompt</a></td>
+      <td><a href="https://github.com/eldritch-theme/spaceship">spaceship</a></td>
+      <td>Minimalistic, powerful and extremely customizable Zsh prompt</td>
+    </tr>
+    <tr>
+      <td><a href="https://github.com/starship/starship">Starship</a></td>
+      <td><a href="https://github.com/eldritch-theme/starship">starship</a></td>
+      <td>The minimal, blazing-fast, and infinitely customizable prompt for any shell</td>
     </tr>
   </table>
 </details>
@@ -530,30 +548,31 @@ New entries go on top.
       <th>Description</th>
     </tr>
     <tr>
-      <td><a href="https://vivaldi.com">Vivaldi</a></td>
-      <td><a href="https://github.com/eldritch-theme/vivaldi">vivaldi</a></td>
-      <td>A Chromium based browser focused on security and high levels of customization</td>
-    </tr>
-    <tr>
-      <td><a href="https://www.mozilla.org/en-US/firefox/">Firefox</a></td>
-      <td><a href="https://github.com/eldritch-theme/firefox">firefox</a></td>
-      <td>No shady privacy policies or back doors for advertisers. Just a lightning fast browser that doesn’t sell you out</td>
-    </tr>
-    <tr>
-      <td><a href="https://zen-browser.app/">Zen</a></td>
-      <td><a href="https://github.com/eldritch-theme/zen">zen</a></td>
-      <td>Firefox based browser with a focus on privacy and customization.</td>
-    </tr>
-    <tr>
       <td><a href="https://www.google.com/chrome/index.html">Chrome</a></td>
       <td><a href="https://github.com/eldritch-theme/chrome">chrome</a></td>
       <td>If you must..</td>
     </tr>
+    <tr>
+      <td><a href="https://www.mozilla.org/en-US/firefox/">Firefox</a></td>
+      <td><a href="https://github.com/eldritch-theme/firefox">firefox</a></td>
+      <td>No shady privacy policies or back doors for advertisers</td>
+    </tr>
+    <tr>
+      <td><a href="https://vivaldi.com">Vivaldi</a></td>
+      <td><a href="https://github.com/eldritch-theme/vivaldi">vivaldi</a></td>
+      <td>A Chromium based browser focused on security and customization</td>
+    </tr>
+    <tr>
+      <td><a href="https://zen-browser.app/">Zen</a></td>
+      <td><a href="https://github.com/eldritch-theme/zen">zen</a></td>
+      <td>Firefox based browser with a focus on privacy and customization</td>
+    </tr>
   </table>
-  🙊 UserJS scripts & Browser Extensions
+  &nbsp;
+  Extensions & UserScripts
   <table>
     <tr>
-      <th>Site</th>
+      <th>Application</th>
       <th>Theme Repository</th>
       <th>Description</th>
     </tr>
@@ -565,18 +584,18 @@ New entries go on top.
     <tr>
       <td><a href="http://kagi.com">Kagi</a></td>
       <td><a href="https://github.com/eldritch-theme/kagi">kagi</a></td>
-      <td>Kagi is a paid service because we want to show you high quality, unbiased search results that are in your best interest</td>
+      <td>A paid search service with high quality, unbiased results</td>
     </tr>
     <tr>
       <td><a href="https://tridactyl.xyz/">Tridactyl</a></td>
       <td><a href="https://github.com/eldritch-theme/tridactyl">tridactyl</a></td>
-      <td>Replace Firefox's default control mechanism with one modelled on the one true editor, Vim</td>
+      <td>Replace Firefox's default control mechanism with one modelled on Vim</td>
     </tr>
   </table>
 </details>
 
 <details>
-  <summary>🗒️ Note Taking</summary>
+  <summary>⚙️ System</summary>
   &nbsp;
   <table>
     <tr>
@@ -585,91 +604,44 @@ New entries go on top.
       <th>Description</th>
     </tr>
     <tr>
-      <td><a href="https://obsidian.md">Obsidian</a></td>
-      <td><a href="https://github.com/eldritch-theme/obsidian">obsidian</a></td>
-      <td>Obsidian is the private and flexible writing app that adapts to the way you think</td>
-    </tr>
-  </table>
-</details>
-
-<details>
-  <summary>🐚 Shell & CLI Applications</summary>
-  &nbsp;
-  <table>
-    <tr>
-      <th>Application</th>
-      <th>Theme Repository</th>
-      <th>Description</th>
+      <td><a>Cursors</a></td>
+      <td><a href="https://github.com/eldritch-theme/cursors">cursors</a></td>
+      <td>Cursors for the Ancient Ones!</td>
     </tr>
     <tr>
-      <td><a href="https://github.com/starship/starship">starship</a></td>
-      <td><a href="https://github.com/eldritch-theme/starship">starship</a></td>
-      <td>The minimal, blazing-fast, and infinitely customizable prompt for any shell!</td>
+      <td><a href="https://www.gnu.org/software/grub/">GRUB</a></td>
+      <td><a href="https://github.com/eldritch-theme/grub">grub</a></td>
+      <td>GNU GRUB is a Multiboot boot loader</td>
     </tr>
     <tr>
-      <td><a href="https://micro-editor.github.io/">micro</a></td>
-      <td><a href="https://github.com/eldritch-theme/micro">micro</a></td>
-      <td>A modern and intuitive terminal-based text editor</td>
-    <tr>
-    <tr>
-      <td><a href="https://fishshell.com">Fish Shell</a></td>
-      <td><a href="https://github.com/eldritch-theme/fish">fish</a></td>
-      <td>The user-friendly command line shell</td>
-    <tr>
-      <td><a href="https://github.com/sindresorhus/pure">Pure Prompt</a></td>
-      <td><a href="https://github.com/eldritch-theme/pure-prompt">pure-prompt</a></td>
-      <td>Pretty, minimal and fast ZSH prompt</td>
+      <td><a href="https://gtk.org/">GTK</a></td>
+      <td><a href="https://github.com/eldritch-theme/gtk">gtk</a></td>
+      <td>A multi-platform toolkit for creating graphical user interfaces</td>
     </tr>
     <tr>
-      <td><a href="https://spaceship-prompt.sh">Spaceship Prompt</a></td>
-      <td><a href="https://github.com/eldritch-theme/spaceship">spaceship</a></td>
-      <td>Minimalistic, powerful and extremely customizable Zsh prompt</td>
+      <td><a>Icons</a></td>
+      <td><a href="https://github.com/eldritch-theme/icon-theme">icon-theme</a></td>
+      <td>Icons for the Ancient Ones!</td>
     </tr>
     <tr>
-      <td><a href="https://junegunn.github.io/fzf/">FZF</a></td>
-      <td><a href="https://github.com/eldritch-theme/fzf">fzf</a></td>
-      <td>A command-line fuzzy finder</td>
+      <td><a href="https://i3wm.org/">i3</a></td>
+      <td><a href="https://github.com/eldritch-theme/i3">i3</a></td>
+      <td>A tiling window manager for X11</td>
     </tr>
     <tr>
-      <td><a href="https://github.com/karlstav/cava">Cava</a></td>
-      <td><a href="https://github.com/eldritch-theme/cava">cava</a></td>
-      <td>Cross-platform Audio Visualizer</td>
+      <td><a href="https://github.com/tsujan/Kvantum">Kvantum</a></td>
+      <td><a href="https://github.com/eldritch-theme/kvantum">kvantum</a></td>
+      <td>A Linux SVG-based theme engine for Qt</td>
     </tr>
     <tr>
-      <td><a href="https://github.com/sharkdp/bat">Bat</a></td>
-      <td><a href="https://github.com/eldritch-theme/bat">bat</a></td>
-      <td>A cat clone with syntax highlighting and git integration</td>
+      <td><a href="https://sourceforge.net/projects/refind/">rEFInd</a></td>
+      <td><a href="https://github.com/eldritch-theme/refind">refind</a></td>
+      <td>A popular boot manager for UEFI and EFI based machines</td>
     </tr>
     <tr>
-      <td><a href="https://github.com/lsd-rs/lsd">LSD</a></td>
-      <td><a href="https://github.com/eldritch-theme/lsd">lsd</a></td>
-      <td>A rewrite of GNU <code>ls</code> with lots of added features like colors, icons, tree-view, more formatting options etc.</td>
-    </tr>
-    <tr>
-      <td><a href="https://github.com/aristocratos/btop">btop</a></td>
-      <td><a href="https://github.com/eldritch-theme/btop">btop</a></td>
-      <td>Resource monitor that shows usage and stats for processor, memory, disks, network and processes</td>
-    </tr>
-    <tr>
-      <td><a href="https://github.com/dylanaraps/neofetch">neofetch</a></td>
-      <td><a href="https://github.com/eldritch-theme/neofetch">neofetch</a></td>
-      <td><b>(Archived)</b> Neofetch displays information about your operating system, software and hardware in an aesthetic and visually
-        pleasing way</td>
-    </tr>
-    <tr>
-      <td><a href="https://github.com/fastfetch-cli/fastfetch">fastfetch</a></td>
-      <td><a href="https://github.com/eldritch-theme/fastfetch">fastfetch</a></td>
-      <td>Fastfetch is a neofetch-like tool for fetching system information and displaying them in a pretty way</td>
-    </tr>
-    <tr>
-      <td><a href="https://github.com/noctalia-dev/noctalia">noctalia</a></td>
-      <td><a href="https://github.com/eldritch-theme/noctalia">noctalia</a></td>
-      <td>A sleek and minimal desktop shell thoughtfully crafted for Wayland</td>
-    </tr>
-    <tr>
-      <td><a href="https://github.com/sst/opencode">opencode</a></td>
-      <td><a href="https://github.com/eldritch-theme/opencode">opencode</a></td>
-      <td>The open source AI coding agent</td>
+      <td><a href="https://github.com/sddm/sddm">SDDM</a></td>
+      <td><a href="https://github.com/uiriansan/SilentSDDM">uiriansan/SilentSDDM</a></td>
+      <td>QML based X11 and Wayland display manager</td>
     </tr>
   </table>
 </details>
@@ -684,19 +656,19 @@ New entries go on top.
       <th>Description</th>
     </tr>
     <tr>
-      <td><a href="https://slack.com">Slack</a></td>
-      <td><a href="https://github.com/eldritch-theme/slack">slack</a></td>
-      <td>Slack is a messaging app for business that connects people to the information they need</td>
-    </tr>
-    <tr>
       <td><a href="https://discord.com/">Discord</a></td>
       <td><a href="https://github.com/eldritch-theme/discord">discord</a></td>
-      <td>Discord is a platform for voice, video, and text chat with friends, gamers, and communities</td>
+      <td>A platform for voice, video, and text chat with friends, gamers, and communities</td>
+    </tr>
+    <tr>
+      <td><a href="https://slack.com">Slack</a></td>
+      <td><a href="https://github.com/eldritch-theme/slack">slack</a></td>
+      <td>A messaging app for business that connects people to the information they need</td>
     </tr>
     <tr>
       <td><a href="https://www.thunderbird.net/">Thunderbird</a></td>
       <td><a href="https://github.com/eldritch-theme/thunderbird">thunderbird</a></td>
-      <td>Meet Thunderbird, the email and productivity app that maximizes your freedoms</td>
+      <td>The email and productivity app that maximizes your freedoms</td>
     </tr>
   </table>
 </details>
@@ -711,14 +683,41 @@ New entries go on top.
       <th>Description</th>
     </tr>
     <tr>
+      <td><a href="https://spicetify.app">Spicetify</a></td>
+      <td><a href="https://github.com/eldritch-theme/spicetify">spicetify</a></td>
+      <td>The powerful CLI that takes control of the Spotify client</td>
+    </tr>
+    <tr>
       <td><a href="https://music.youtube.com/">YouTube Music</a></td>
       <td><a href="https://github.com/eldritch-theme/youtube-music">youtube-music</a></td>
       <td>Music world dedicated to you</td>
     </tr>
+  </table>
+</details>
+
+<details>
+  <summary>📋 Productivity</summary>
+  &nbsp;
+  <table>
     <tr>
-      <td><a href="https://spicetify.app">Spicetify</a></td>
-      <td><a href="https://github.com/eldritch-theme/spicetify">spicetify</a></td>
-      <td>The powerful CLI that takes control of the Spotify client</td>
+      <th>Application</th>
+      <th>Theme Repository</th>
+      <th>Description</th>
+    </tr>
+    <tr>
+      <td><a href="https://www.blender.org/">Blender</a></td>
+      <td><a href="https://github.com/eldritch-theme/blender">blender</a></td>
+      <td>Free and Open Source 3D creation suite</td>
+    </tr>
+    <tr>
+      <td><a href="https://obsidian.md">Obsidian</a></td>
+      <td><a href="https://github.com/eldritch-theme/obsidian">obsidian</a></td>
+      <td>A private and flexible writing app that adapts to the way you think</td>
+    </tr>
+    <tr>
+      <td><a href="https://yaak.app/">Yaak</a></td>
+      <td><a href="https://github.com/AndreasDellrud/yaak-eldritch">AndreasDellrud/yaak-eldritch</a></td>
+      <td>A fast, privacy-first API client for REST, GraphQL, SSE, WebSocket, and gRPC</td>
     </tr>
   </table>
 </details>
@@ -733,33 +732,30 @@ New entries go on top.
       <th>Description</th>
     </tr>
     <tr>
+      <td>base16 and base24</td>
+      <td><a href="https://github.com/tinted-theming/schemes">tinted-theming/schemes</a></td>
+      <td>Color scheme data for the Tinted Theming project</td>
+    </tr>
+    <tr>
       <td><a href="https://github.com/anuraghazra/github-readme-stats">GitHub Readme Stats</a></td>
       <td><a href="https://github.com/eldritch-theme/github-readme-stats">github-readme-stats</a></td>
       <td>Dynamically generated stats for your GitHub readmes</td>
     </tr>
-   <tr>
-   <td><a href="https://github.com/Jas-SinghFSU/HyprPanel">HyprPanel</a></td>
+    <tr>
+      <td><a href="https://github.com/Jas-SinghFSU/HyprPanel">HyprPanel</a></td>
       <td><a href="https://github.com/DWarez/eldritch-hyprpanel">DWarez/eldritch-hyprpanel</a></td>
       <td><b>(Archived)</b> A Bar/Panel for Hyprland with extensive customizability</td>
-   </tr>
-   <tr>
-   <td><a href="https://github.com/abenz1267/walker">Walker</a></td>
+    </tr>
+    <tr>
+      <td><a href="https://github.com/abenz1267/walker">Walker</a></td>
       <td><a href="https://github.com/eldritch-theme/walker">walker</a></td>
-      <td>Multi-Purpose Launcher with a lot of features. Highly Customizable and fast</td>
-   </tr>
-   <td>Wallpapers</td>
+      <td>Multi-Purpose Launcher with a lot of features</td>
+    </tr>
+    <tr>
+      <td>Wallpapers</td>
       <td><a href="https://github.com/eldritch-theme/wallpapers">wallpapers</a></td>
       <td>Wallpapers for the Ancient Ones!</td>
-   </tr>
-   <td>base16 and base24</td>
-      <td><a href="https://github.com/tinted-theming/schemes">tinted-theming/schemes</a></td>
-      <td>A common location to store all color scheme data for the Tinted theming project</td>
-   </tr>
-   <tr>
-      <td><a href="https://yaak.app/">Yaak</a></td>
-      <td><a href="https://github.com/AndreasDellrud/yaak-eldritch">AndreasDellrud/yaak-eldritch</a></td>
-      <td>A fast, privacy-first API client for REST, GraphQL, SSE, WebSocket, and gRPC – built with Tauri, Rust, and React</td>
-   </tr>
+    </tr>
   </table>
 </details>
 
