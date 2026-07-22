@@ -35,7 +35,7 @@ The theme is available for a variety of applications and is constantly being upd
 
 **Eldritch** offers three palettes to suit different environments and preferences:
 
-<details>
+  <details open>
 <summary>🦑 Cthulhu (Default)</summary>
 <table>
   <tr>
@@ -139,7 +139,7 @@ The theme is available for a variety of applications and is constantly being upd
 </table>
 </details>
 
-<details>
+  <details open>
 <summary>🌀 Abyss (Darker)</summary>
 <table>
   <tr>
@@ -243,7 +243,7 @@ The theme is available for a variety of applications and is constantly being upd
 </table>
 </details>
 
-<details>
+  <details open>
 <summary>🌅 Dusk (Light)</summary>
 <table>
   <tr>
@@ -357,7 +357,7 @@ If the repository is not hosted in the organization, prepend your username to th
 New entries go on top.
 -->
 
-<details>
+  <details open>
   <summary>🗒️ Development</summary>
   &nbsp;
   <table>
@@ -394,7 +394,7 @@ New entries go on top.
   </table>
 </details>
 
-<details>
+  <details open>
   <summary>🖥️ Terminals</summary>
   &nbsp;
   <table>
@@ -456,7 +456,7 @@ New entries go on top.
   </table>
 </details>
 
-<details>
+  <details open>
   <summary>🐚 Shell & CLI</summary>
   &nbsp;
   <table>
@@ -538,7 +538,7 @@ New entries go on top.
   </table>
 </details>
 
-<details>
+  <details open>
   <summary>🌐 Browsers</summary>
   &nbsp;
   <table>
@@ -594,7 +594,7 @@ New entries go on top.
   </table>
 </details>
 
-<details>
+  <details open>
   <summary>⚙️ System</summary>
   &nbsp;
   <table>
@@ -646,7 +646,7 @@ New entries go on top.
   </table>
 </details>
 
-<details>
+  <details open>
   <summary>💬 Communication</summary>
   &nbsp;
   <table>
@@ -673,7 +673,7 @@ New entries go on top.
   </table>
 </details>
 
-<details>
+  <details open>
   <summary>🎧 Music</summary>
   &nbsp;
   <table>
@@ -695,7 +695,7 @@ New entries go on top.
   </table>
 </details>
 
-<details>
+  <details open>
   <summary>📋 Productivity</summary>
   &nbsp;
   <table>
@@ -722,7 +722,7 @@ New entries go on top.
   </table>
 </details>
 
-<details>
+  <details open>
   <summary>🤷 Misc</summary>
   &nbsp;
   <table>
