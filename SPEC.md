@@ -78,11 +78,11 @@ The circles below represent the three palettes: 🦑 **Cthulhu**, 🌀 **Abyss**
   </tr>
   <tr>
     <td>Links, URLs</td>
-    <td><code>cyan</code> · 🌅 <code>comment</code></td>
+    <td><code>cyan</code></td>
     <td>
       <img src="assets/palette/cthulhu/circles/cyan.svg" width="14"/>
       <img src="assets/palette/abyss/circles/cyan.svg" width="14"/>
-      <img src="assets/palette/dusk/circles/comment.svg" width="14"/>
+      <img src="assets/palette/dusk/circles/cyan.svg" width="14"/>
     </td>
   </tr>
   <tr>
@@ -125,20 +125,20 @@ These are the recommended semantic mappings for code highlighting. They apply eq
   </tr>
   <tr>
     <td>Numbers, constants</td>
-    <td><code>red</code> · 🌅 <code>purple</code></td>
+    <td><code>red</code></td>
     <td>
       <img src="assets/palette/cthulhu/circles/red.svg" width="14"/>
       <img src="assets/palette/abyss/circles/red.svg" width="14"/>
-      <img src="assets/palette/dusk/circles/purple.svg" width="14"/>
+      <img src="assets/palette/dusk/circles/red.svg" width="14"/>
     </td>
   </tr>
   <tr>
     <td>Characters, special literals</td>
-    <td><code>orange</code> · 🌅 <code>pink</code></td>
+    <td><code>orange</code></td>
     <td>
       <img src="assets/palette/cthulhu/circles/orange.svg" width="14"/>
       <img src="assets/palette/abyss/circles/orange.svg" width="14"/>
-      <img src="assets/palette/dusk/circles/pink.svg" width="14"/>
+      <img src="assets/palette/dusk/circles/orange.svg" width="14"/>
     </td>
   </tr>
   <tr>
@@ -152,11 +152,11 @@ These are the recommended semantic mappings for code highlighting. They apply eq
   </tr>
   <tr>
     <td>Keywords, operators, statements</td>
-    <td><code>green</code> · 🌅 <code>purple</code></td>
+    <td><code>green</code> · 🌅 <code>red</code></td>
     <td>
       <img src="assets/palette/cthulhu/circles/green.svg" width="14"/>
       <img src="assets/palette/abyss/circles/green.svg" width="14"/>
-      <img src="assets/palette/dusk/circles/purple.svg" width="14"/>
+      <img src="assets/palette/dusk/circles/red.svg" width="14"/>
     </td>
   </tr>
   <tr>
@@ -170,20 +170,20 @@ These are the recommended semantic mappings for code highlighting. They apply eq
   </tr>
   <tr>
     <td>Functions, methods</td>
-    <td><code>pink</code> · 🌅 <code>purple</code></td>
+    <td><code>pink</code></td>
     <td>
       <img src="assets/palette/cthulhu/circles/pink.svg" width="14"/>
       <img src="assets/palette/abyss/circles/pink.svg" width="14"/>
-      <img src="assets/palette/dusk/circles/purple.svg" width="14"/>
+      <img src="assets/palette/dusk/circles/pink.svg" width="14"/>
     </td>
   </tr>
   <tr>
     <td>Built-in functions, identifiers</td>
-    <td><code>cyan</code> · 🌅 <code>comment</code></td>
+    <td><code>cyan</code></td>
     <td>
       <img src="assets/palette/cthulhu/circles/cyan.svg" width="14"/>
       <img src="assets/palette/abyss/circles/cyan.svg" width="14"/>
-      <img src="assets/palette/dusk/circles/comment.svg" width="14"/>
+      <img src="assets/palette/dusk/circles/cyan.svg" width="14"/>
     </td>
   </tr>
   <tr>
@@ -215,11 +215,11 @@ These are the recommended semantic mappings for code highlighting. They apply eq
   </tr>
   <tr>
     <td>Tags (HTML/XML/JSX)</td>
-    <td><code>cyan</code> · 🌅 <code>comment</code></td>
+    <td><code>cyan</code></td>
     <td>
       <img src="assets/palette/cthulhu/circles/cyan.svg" width="14"/>
       <img src="assets/palette/abyss/circles/cyan.svg" width="14"/>
-      <img src="assets/palette/dusk/circles/comment.svg" width="14"/>
+      <img src="assets/palette/dusk/circles/cyan.svg" width="14"/>
     </td>
   </tr>
   <tr>
@@ -278,11 +278,11 @@ These are the recommended semantic mappings for code highlighting. They apply eq
   </tr>
   <tr>
     <td>Info, hints, diagnostics</td>
-    <td><code>cyan</code> · 🌅 <code>purple</code></td>
+    <td><code>cyan</code></td>
     <td>
       <img src="assets/palette/cthulhu/circles/cyan.svg" width="14"/>
       <img src="assets/palette/abyss/circles/cyan.svg" width="14"/>
-      <img src="assets/palette/dusk/circles/purple.svg" width="14"/>
+      <img src="assets/palette/dusk/circles/cyan.svg" width="14"/>
     </td>
   </tr>
   <tr>
@@ -305,11 +305,11 @@ These are the recommended semantic mappings for code highlighting. They apply eq
   </tr>
   <tr>
     <td>Focus / active borders</td>
-    <td><code>green</code> · 🌅 <code>purple</code></td>
+    <td><code>green</code></td>
     <td>
       <img src="assets/palette/cthulhu/circles/green.svg" width="14"/>
       <img src="assets/palette/abyss/circles/green.svg" width="14"/>
-      <img src="assets/palette/dusk/circles/purple.svg" width="14"/>
+      <img src="assets/palette/dusk/circles/green.svg" width="14"/>
     </td>
   </tr>
   <tr>
@@ -413,11 +413,11 @@ These are the recommended semantic mappings for code highlighting. They apply eq
   </tr>
   <tr>
     <td>Diff inline text</td>
-    <td><code>cyan</code> · 🌅 <code>purple</code></td>
+    <td><code>cyan</code></td>
     <td>
       <img src="assets/palette/cthulhu/circles/cyan.svg" width="14"/>
       <img src="assets/palette/abyss/circles/cyan.svg" width="14"/>
-      <img src="assets/palette/dusk/circles/purple.svg" width="14"/>
+      <img src="assets/palette/dusk/circles/cyan.svg" width="14"/>
     </td>
   </tr>
 </table>
