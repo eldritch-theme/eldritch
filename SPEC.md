@@ -152,11 +152,11 @@ These are the recommended semantic mappings for code highlighting. They apply eq
   </tr>
   <tr>
     <td>Keywords, operators, statements</td>
-    <td><code>green</code> · 🌅 <code>red</code></td>
+    <td><code>green</code> · 🌅 <code>pink</code></td>
     <td>
       <img src="assets/palette/cthulhu/circles/green.svg" width="14"/>
       <img src="assets/palette/abyss/circles/green.svg" width="14"/>
-      <img src="assets/palette/dusk/circles/red.svg" width="14"/>
+      <img src="assets/palette/dusk/circles/pink.svg" width="14"/>
     </td>
   </tr>
   <tr>
@@ -551,8 +551,8 @@ A quick reference for when to reach for each accent color:
       <img src="assets/palette/abyss/circles/cyan.svg" width="14"/>
       <img src="assets/palette/dusk/circles/cyan.svg" width="14"/>
     </td>
-    <td>Links, variables, built-ins, operators, types · 🌅 decorative use only (borders, icons); prefer <code>comment</code> for text roles</td>
-    <td>Errors, destructive actions · 🌅 foreground text on light surfaces</td>
+    <td>Links, variables, built-ins, operators, types</td>
+    <td>Errors, destructive actions</td>
   </tr>
   <tr>
     <td><strong>Green</strong></td>
@@ -572,7 +572,7 @@ A quick reference for when to reach for each accent color:
       <img src="assets/palette/dusk/circles/yellow.svg" width="14"/>
     </td>
     <td>Strings, warnings, markup · 🌅 decorative use only (backgrounds, icons); prefer <code>orange</code> for all text roles</td>
-    <td>Errors · 🌅 any foreground text on light surfaces</td>
+    <td>Errors · 🌅 foreground text on light surfaces</td>
   </tr>
   <tr>
     <td><strong>Orange</strong></td>
