@@ -152,11 +152,11 @@ These are the recommended semantic mappings for code highlighting. They apply eq
   </tr>
   <tr>
     <td>Keywords, operators, statements</td>
-    <td><code>green</code> · 🌅 <code>red</code></td>
+    <td><code>green</code> · 🌅 <code>pink</code></td>
     <td>
       <img src="assets/palette/cthulhu/circles/green.svg" width="14"/>
       <img src="assets/palette/abyss/circles/green.svg" width="14"/>
-      <img src="assets/palette/dusk/circles/red.svg" width="14"/>
+      <img src="assets/palette/dusk/circles/pink.svg" width="14"/>
     </td>
   </tr>
   <tr>
