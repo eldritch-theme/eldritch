@@ -367,6 +367,11 @@ New entries go on top.
       <th>Description</th>
     </tr>
     <tr>
+      <td><a href="https://sourcegit-scm.github.io">SourceGit</a></td>
+      <td><a href="https://github.com/sourcegit-scm/sourcegit-theme">sourcegit-scm/sourcegit-theme</a></td>
+      <td>Windows/macOS/Linux GUI client for GIT users</td>
+    </tr>
+    <tr>
       <td><a href="https://code.visualstudio.com">Visual Studio Code</a></td>
       <td><a href="https://github.com/eldritch-theme/vscode">vscode</a></td>
       <td>A highly popular Electron based IDE by Microsoft</td>
