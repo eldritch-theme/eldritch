@@ -932,14 +932,9 @@ New entries go on top.
 
 ### Contributing
 
-1. Clone [template repository](https://github.com/eldritch-theme/eldritch-repo-template).
-
-```
-git clone https://github.com/eldritch-theme/eldritch-repo-template your-port-name
-cd your-port-name && rm -rf .git
-```
-
-1. Add anything you need, replacing things in README.md as needed.
-2. Be sure to read the [SPEC.md](SPEC.md) for specific information on color usage.
-3. You can choose to host the repository in your account or request to be a contributor in the [eldritch-theme](https://github.com/eldritch-theme) organization and be approved to maintain the repository along with others under the organization.
-4. Create a pull request to update README.md in this repository to link to the newly created port.
+1. Create a repository using [eldritch-repo-template](https://github.com/eldritch-theme/eldritch-repo-template) as the template.
+2. Add anything you need, replacing things in the template's `README.md` as needed.
+3. Be sure to read the [SPEC](SPEC.md) in this repository for specific information on color usage.
+4. Choose where to host the repository: either in your own account or under the [eldritch-theme](https://github.com/eldritch-theme) organization.
+5. If you want to host it under the organization, request to become a contributor and, once approved, maintain the repository there along with the other contributors.
+6. Create a pull request to update `README.md` in this repository with a link to the newly created port.
