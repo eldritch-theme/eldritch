@@ -882,6 +882,11 @@ New entries go on top.
       <th>Description</th>
     </tr>
     <tr>
+      <td><a href="https://github.com/PapirusDevelopmentTeam/papirus-folders">papirus-folders</a></td>
+      <td><a href="https://github.com/eldritch-theme/papirus-folders">papirus-folders</a></td>
+      <td>a script that lets you change the colors of folders in Papirus icon theme</td>
+    </tr>
+    <tr>
       <td>base16 and base24</td>
       <td>
         <a href="https://github.com/tinted-theming/schemes"
