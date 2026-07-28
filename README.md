@@ -725,6 +725,11 @@ New entries go on top.
       <th>Description</th>
     </tr>
     <tr>
+      <td><a href="https://qt5ct.sourceforge.io/">qt5ct</a></td>
+      <td><a href="https://github.com/eldritch-theme/qt5ct">qt5ct</a></td>
+      <td>This program allows users to configure Qt5 settings (theme, font, icons, etc.) under DE/WM without Qt integration</td>
+    </tr>
+    <tr>
       <td><a>Cursors</a></td>
       <td><a href="https://github.com/eldritch-theme/cursors">cursors</a></td>
       <td>Cursors for the Ancient Ones!</td>
