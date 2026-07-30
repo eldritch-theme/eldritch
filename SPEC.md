@@ -233,11 +233,11 @@ These are the recommended semantic mappings for code highlighting. They apply eq
   </tr>
   <tr>
     <td>Comments</td>
-    <td><code>comment</code></td>
+    <td><code>comment</code> · 🌅 <code>purple</code></td>
     <td>
       <img src="assets/palette/cthulhu/circles/comment.svg" width="14"/>
       <img src="assets/palette/abyss/circles/comment.svg" width="14"/>
-      <img src="assets/palette/dusk/circles/comment.svg" width="14"/>
+      <img src="assets/palette/dusk/circles/purple.svg" width="14"/>
     </td>
   </tr>
 </table>
@@ -350,11 +350,11 @@ These are the recommended semantic mappings for code highlighting. They apply eq
   </tr>
   <tr>
     <td>Modified lines / files</td>
-    <td><code>comment</code></td>
+    <td><code>orange</code></td>
     <td>
-      <img src="assets/palette/cthulhu/circles/comment.svg" width="14"/>
-      <img src="assets/palette/abyss/circles/comment.svg" width="14"/>
-      <img src="assets/palette/dusk/circles/comment.svg" width="14"/>
+      <img src="assets/palette/cthulhu/circles/orange.svg" width="14"/>
+      <img src="assets/palette/abyss/circles/orange.svg" width="14"/>
+      <img src="assets/palette/dusk/circles/orange.svg" width="14"/>
     </td>
   </tr>
   <tr>
@@ -404,11 +404,11 @@ These are the recommended semantic mappings for code highlighting. They apply eq
   </tr>
   <tr>
     <td>Changed line background</td>
-    <td><code>yellow</code> <strong>(15–25% opacity)</strong> · 🌅 <code>orange</code> <strong>(15–25% opacity)</strong></td>
+    <td><code>yellow</code> <strong>(15–25% opacity)</strong></td>
     <td>
       <img src="assets/palette/cthulhu/circles/yellow.svg" width="14"/>
       <img src="assets/palette/abyss/circles/yellow.svg" width="14"/>
-      <img src="assets/palette/dusk/circles/orange.svg" width="14"/>
+      <img src="assets/palette/dusk/circles/yellow.svg" width="14"/>
     </td>
   </tr>
   <tr>
@@ -561,7 +561,7 @@ A quick reference for when to reach for each accent color:
       <img src="assets/palette/abyss/circles/green.svg" width="14"/>
       <img src="assets/palette/dusk/circles/green.svg" width="14"/>
     </td>
-    <td>Success, additions, keywords, borders · 🌅 decorative use only (diff backgrounds at opacity, icons); prefer <code>orange</code> or <code>purple</code> for text roles</td>
+    <td>Success, additions, keywords, borders · 🌅 decorative use only (diff backgrounds at opacity, icons); prefer <code>pink</code> or <code>purple</code> for text roles</td>
     <td>Errors, warnings · 🌅 foreground text on light surfaces</td>
   </tr>
   <tr>
