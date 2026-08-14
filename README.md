@@ -421,6 +421,15 @@ New entries go on top.
       <th>Description</th>
     </tr>
     <tr>
+      <td><a href="https://github.com/omartelo/lich">lich</a></td>
+      <td>
+        <a href="https://github.com/omartelo/eldritch-lich"
+          >omartelo/eldritch-lich</a
+        >
+      </td>
+      <td>A desktop harness that runs coding agents side by side</td>
+    </tr>
+    <tr>
       <td><a href="https://sourcegit-scm.github.io">SourceGit</a></td>
       <td><a href="https://github.com/sourcegit-scm/sourcegit-theme">sourcegit-scm/sourcegit-theme</a></td>
       <td>Windows/macOS/Linux GUI client for GIT users</td>
