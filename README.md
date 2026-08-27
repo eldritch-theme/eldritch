@@ -673,8 +673,8 @@ New entries go on top.
       <th>Description</th>
     </tr>
     <tr>
-      <td><a href="https://www.google.com/chrome/index.html">Chrome</a></td>
-      <td><a href="https://github.com/eldritch-theme/chrome">chrome</a></td>
+      <td><a href="https://www.google.com/chrome/index.html">Chrome/Chromium Browsers</a></td>
+      <td><a href="https://github.com/eldritch-theme/chromium">chromium</a></td>
       <td>If you must..</td>
     </tr>
     <tr>
