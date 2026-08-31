@@ -481,8 +481,7 @@ New entries go on top.
         <tr>
       <td><a href="https://www.jetbrains.com/">IntelliJ JetBrains</a></td>
       <td>
-        <a href="[https://github.com/edheltzel/eldritch-zed](https://github.com/eldritch-theme/intellij)"
-          >intellij</a
+        <a href="https://github.com/eldritch-theme/intellij">intellij</a
         >
       </td> 
       <td>
