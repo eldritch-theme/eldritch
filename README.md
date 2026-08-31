@@ -472,12 +472,24 @@ New entries go on top.
         <a href="https://github.com/edheltzel/eldritch-zed"
           >edheltzel/eldritch-zed</a
         >
-      </td>
+      </td> 
       <td>
         A minimal code editor crafted for speed and collaboration with humans
         and AI
       </td>
     </tr>
+        <tr>
+      <td><a href="https://www.jetbrains.com/">IntelliJ JetBrains</a></td>
+      <td>
+        <a href="[https://github.com/edheltzel/eldritch-zed](https://github.com/eldritch-theme/intellij)"
+          >intellij</a
+        >
+      </td> 
+      <td>
+        IntelliJ JetBrains IDEs
+      </td>
+    </tr>
+    
   </table>
 </details>
 
