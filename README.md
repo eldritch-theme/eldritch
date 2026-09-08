@@ -584,6 +584,11 @@ New entries go on top.
       <th>Description</th>
     </tr>
     <tr>
+      <td><a href="https://github.com/tmux/tmux">tmux</a></td>
+      <td><a href="https://github.com/eldritch-theme/tmux">tmux</a></td>
+      <td>A terminal multiplexer</td>
+    </tr>
+    <tr>
       <td><a href="https://github.com/sharkdp/bat">Bat</a></td>
       <td><a href="https://github.com/eldritch-theme/bat">bat</a></td>
       <td>A cat clone with syntax highlighting and git integration</td>
