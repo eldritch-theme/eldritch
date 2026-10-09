@@ -750,6 +750,11 @@ New entries go on top.
       <th>Description</th>
     </tr>
     <tr>
+      <td><a href="https://mangowm.github.io/">mangowm</a></td>
+      <td><a href="https://github.com/eldritch-theme/mango">mango</a></td>
+      <td>Practical and Powerful wayland compositor (dwm but wayland)</td>
+    </tr>
+    <tr>
       <td><a href="https://github.com/lassekongo83/adw-gtk3">adw-gtk3</a></td>
       <td><a href="https://github.com/eldritch-theme/adw">adw</a></td>
       <td>The theme from libadwaita ported to GTK-3</td>
