@@ -421,6 +421,11 @@ New entries go on top.
       <th>Description</th>
     </tr>
     <tr>
+      <td><a href="https://gitcomet.dev/">GitComet</a></td>
+      <td><a href="https://github.com/Auto-Explore/GitComet">Auto-Explore/GitComet</a></td>
+      <td>GitComet is fastest open source user interface for GIT workflows</td>
+    </tr>
+    <tr>
       <td><a href="https://github.com/omartelo/lich">lich</a></td>
       <td>
         <a href="https://github.com/omartelo/eldritch-lich"
